@@ -4,7 +4,7 @@
 
 `Projeto: Desenvolvimento de uma Aplicação Interativa`
 
-`Eixo 2 - 2023/1 `
+`Eixo 2 - 2023/1`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
