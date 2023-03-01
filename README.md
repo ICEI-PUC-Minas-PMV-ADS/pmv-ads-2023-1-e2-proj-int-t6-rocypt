@@ -12,7 +12,7 @@
 
 ## Integrantes
 
-* Brendon 
+* Brendon Guimarães Antunes 
 * Bruno Victor de Oliveira Flavio
 * Daniella Souza de Oliveira
 * Eryc 
