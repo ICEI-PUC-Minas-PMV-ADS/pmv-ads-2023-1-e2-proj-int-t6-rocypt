@@ -6,7 +6,9 @@
 
 `Eixo 2 - 2023/1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+<p>O projeto em questão visa atender à crescente demanda de usuários que buscam uma forma prática e segura de armazenar suas senhas. Com a popularidade cada vez maior do uso da internet e de serviços online, é comum que as pessoas precisem criar diversas contas e senhas diferentes para acessá-los.</p>
+<p>No entanto, muitos usuários enfrentam o desafio de gerenciar e lembrar de todas essas senhas, o que pode levar a problemas de segurança, como o uso de senhas fracas ou a reutilização de senhas em vários serviços.</p>
+<p>Com o objetivo de solucionar esse problema, o projeto propõe uma plataforma que permita aos usuários armazenar todas as suas senhas de forma segura e prática. Por meio dessa plataforma, os usuários poderão criar uma conta única e segura para armazenar todas as suas senhas, sem precisar se preocupar em lembrar de várias senhas diferentes.</p>
 
 ## Integrantes
 
