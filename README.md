@@ -15,7 +15,7 @@
 * Brendon Guimarães Antunes 
 * Bruno Victor de Oliveira Flavio
 * Daniella Souza de Oliveira
-* Eryc 
+* Eryc Lisboa Silva 
 * Iugor Sette Pereira
 * Ricardo Moreira Siqueira Junior
 
