@@ -10,10 +10,12 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
+* Brendon 
+* Bruno Victor de Oliveira Flavio
+* Daniella Souza de Oliveira
+* Eryc 
 * Iugor Sette Pereira
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Ricardo Moreira Siqueira Junior
 
 ## Orientador
 
