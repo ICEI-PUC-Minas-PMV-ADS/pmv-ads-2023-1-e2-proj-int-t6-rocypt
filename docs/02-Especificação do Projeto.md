@@ -103,5 +103,5 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 > - [Diagrams](https://app.diagrams.net/)
 
 ### Rascunho
-![image](https://user-images.githubusercontent.com/81201021/223875303-09590942-3e9e-4faf-9797-6a71a2371271.png)
+![image](https://user-images.githubusercontent.com/81201021/224038961-4bc3df5b-71bf-4859-bcff-ac00c424fe88.png)
 
