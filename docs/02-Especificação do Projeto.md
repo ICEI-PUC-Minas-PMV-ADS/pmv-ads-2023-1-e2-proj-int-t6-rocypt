@@ -2,9 +2,12 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+Muitos usuários têm dificuldade em gerenciar suas senhas e acabam utilizando a mesma senha em várias contas, o que pode colocar a segurança em risco. Além disso, as senhas são frequentemente esquecidas, o que pode causar a perda de acesso à conta e exigir a criação de novas senhas, que podem ser difíceis de lembrar.
+ 
+Criar um sistema de salvar senhas para usuários que permita que eles armazenem todas as suas senhas de maneira segura e fácil de acessar. Esse sistema pode ser um aplicativo de navegador que criptografa as senhas do usuário e as armazena em um cofre seguro na nuvem ou no dispositivo do usuário. O sistema também pode incluir recursos de gerenciamento de senha, como geradores de senhas seguros e lembretes de senha expirada.
+ 
+Com um sistema de salvar senha, os usuários podem gerenciar suas senhas de maneira mais eficaz e segura, sem a necessidade de memorizar ou reutilizar. Isso pode ajudar a proteger suas informações pessoais e financeiras de hackers e outros cibercriminosos. Além disso, os usuários podem economizar tempo ao não precisar redefinir senhas esquecidas ou criar novas senhas seguras a cada vez que se inscreverem em um novo serviço online.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
 
