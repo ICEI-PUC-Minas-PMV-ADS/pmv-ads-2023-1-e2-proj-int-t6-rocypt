@@ -10,12 +10,9 @@ Sem dúvida a evolução tecnológica traz consigo inúmeros benefícios como au
  
 Um ambiente virtual seguro visa evitar qualquer invasão e roubo de informações confidenciais. Assim, em conjunto com todo o arcabouço tecnológico de segurança digital, exige-se a utilização de senhas de acesso que devem ser redefinidas frequentemente e atendam a regras específicas de aceitabilidade.
  
- - Segurança
- 
+
 Infelizmente, a maioria de nós tem uma quantidade de contas de armazenamento de dados pessoais tão grande que fica quase impossível lembrar de todas as senhas. Logo, uma solução simples é a utilização de um gerenciador de senhas. 
- 
- - Memória
- 
+  
 Assim, o usuário precisaria apenas trazer à memória uma única credencial (login e senha), uma vez que o sistema guardaria os dados dos mais variados acessos.
 
 ## Problema
