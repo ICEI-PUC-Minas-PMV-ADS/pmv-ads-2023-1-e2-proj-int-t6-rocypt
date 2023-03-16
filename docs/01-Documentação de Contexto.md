@@ -16,17 +16,15 @@ Infelizmente, a maioria de nós tem uma quantidade de contas de armazenamento de
 Assim, o usuário precisaria apenas trazer à memória uma única credencial (login e senha), uma vez que o sistema guardaria os dados dos mais variados acessos.
 
 ## Problema
+Muitos usuários têm dificuldade em gerenciar suas senhas e acabam utilizando a mesma senha em várias contas, o que pode colocar a segurança em risco. Além disso, as senhas são frequentemente esquecidas, o que pode causar a perda de acesso à conta e exigir a criação de novas senhas, que podem ser difíceis de lembrar.
+
+Com um sistema de salvar senha, os usuários podem gerenciar suas senhas de maneira mais eficaz e segura, sem a necessidade de memorizar ou reutilizar. Isso pode ajudar a proteger suas informações pessoais e financeiras de hackers e outros cibercriminosos. Além disso, os usuários podem economizar tempo ao não precisar redefinir senhas esquecidas ou criar novas senhas seguras a cada vez que se inscreverem em um novo serviço online.
 
 Pelo exposto, o problema que se busca resolver com este projeto é a manuseabilidade das senhas de segurança de acesso, onde elas serão armazenadas em uma única plataforma evitando assim esquecimentos, perda de tempo com redefinições desnecessárias, bem como a utilização de uma única senha para todos os acessos.
 
 ## Objetivos
 
-Muitos usuários têm dificuldade em gerenciar suas senhas e acabam utilizando a mesma senha em várias contas, o que pode colocar a segurança em risco. Além disso, as senhas são frequentemente esquecidas, o que pode causar a perda de acesso à conta e exigir a criação de novas senhas, que podem ser difíceis de lembrar.
-
 Criar um sistema de salvar senhas para usuários que permita que eles armazenem todas as suas senhas de maneira segura e fácil de acessar. Esse sistema pode ser um aplicativo de navegador que criptografa as senhas do usuário e as armazena em um cofre seguro na nuvem ou no dispositivo do usuário. O sistema também pode incluir recursos de gerenciamento de senha, como geradores de senhas seguros e lembretes de senha expirada.
- 
-Com um sistema de salvar senha, os usuários podem gerenciar suas senhas de maneira mais eficaz e segura, sem a necessidade de memorizar ou reutilizar. Isso pode ajudar a proteger suas informações pessoais e financeiras de hackers e outros cibercriminosos. Além disso, os usuários podem economizar tempo ao não precisar redefinir senhas esquecidas ou criar novas senhas seguras a cada vez que se inscreverem em um novo serviço online.
-
 
 ## Justificativa
 
