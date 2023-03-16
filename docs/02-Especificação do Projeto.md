@@ -51,30 +51,28 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O usuário poderá se registrar no site | ALTA | 
+|RF-002| O usuário deve ser capaz de gerenciar perfis  | ALTA |
+|RF-003| O sistema precisa ser capaz de permitir que o usuário troque a senha master | ALTA |
+|RF-004| O usuário deve ser capaz de gerenciar campos personalizados em cada perfil | MÉDIA |
+|RF-005| O sistema deve fornecer um gerador de senhas | BAIXA |
+|RF-006| O usuário deve ser capaz de gerenciar plataformas em cada perfil | ALTA |
+|RF-007| O usuário deve ser capaz de efetuar login no site | ALTA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku) | ALTA | 
+|RNF-002| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada |  ALTA | 
+|RNF-003| O site deve ter bom nível de contraste entre os elementos da tela em conformidade |MÉDIA |
+|RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) | ALTA |
+|RNF-005| O site deve ter criptografia para as senhas dos usuários cadastrados (bcrypt) | ALTA |
+|RNF-006| O site deve contar com cookies de login para segurança de sessão (jsonwebtoken) | ALTA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+
+
 
 ## Restrições
 
@@ -82,15 +80,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|RE-01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 19/03/2023 |
+|RE-02| O aplicativo deve se restringir às tecnologias básicas da Web no Backend |
+|RE-03| A equipe não pode subcontratar o desenvolvimento do trabalho |
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
