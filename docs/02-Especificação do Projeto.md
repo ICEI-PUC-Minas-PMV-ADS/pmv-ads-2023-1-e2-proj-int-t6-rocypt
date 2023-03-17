@@ -11,19 +11,137 @@ Com um sistema de salvar senha, os usuários podem gerenciar suas senhas de mane
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Seguem abaixo as personas. Todas foram elaboradas com base no público-alvo do projeto e nos vários problemas vivenciados por ele a serem solucionados pelo aplicativo. 
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+**Anderson Oliveira**
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
+**Idade:**  43 anos
+
+**Nível de instrução:** graduado 
+
+**Ocupação:** analista de eventos 
+
+**Usa a internet para trabalhar?** Sim
+
+**Acessa a internet através de qual dispositivo?**
+- Celular (pessoal)
+- Computador (da empresa)
+
+**Tipo de aplicativos em que tem conta:**
+- Redes sociais: Facebook, Instagram, Linkedin, Twitter, Whatsapp. 
+- Canvas e sites que oferecem ferramentas de apoio profissional
+
+**História:** faz divulgação de eventos por meio das redes sociais, utilizando vários perfis em sites distintos, o que lhe rende uma lista longa de senhas para criar e administrar. 
+
+**Frustrações:** ter que criar diferentes senhas e não ter um modo eficiente de armazená-las e administrá-las depois.
+
+**Motivação:** encontrar um modo de gerar e administrar senhas criadas em função dos diferentes sites que utiliza no trabalho.
+
+
+
+**Alexandra de Souza Maroca**
+
+**Idade:** 67 anos
+
+**Nível de instrução:** ensino médio
+
+**Ocupação:** aposentada
+**Usa a internet para trabalhar?** Não
+
+**Acessa a internet através de qual dispositivo?**
+- Celular (pessoal)
+- Computador (pessoal)
+
+**Tipo de aplicativos em que tem conta:**
+- Redes sociais: Facebook, Instagram, Whatsapp.
+- Outros: páginas de supermercados e lojas em que faz compras
+
+**História:** É aposentada e gosta de fazer compras onlines em sites diferentes e novos, o que requer a criação de vários perfis, muitas vezes, com senhas e usuários diferentes, que ela não consegue decorar.
+
+**Frustrações:** Com frequência, esquece-se das próprias senhas e precisa fazer processos de recuperação das mesmas, algo que ela considera complicado
+
+**Motivação:** Ter um modo para recuperar as senhas, porém sem fazer os processos de recuperação de senha dos sites.
+
+
+
+**Eleonora Silva Campos**
+
+**Idade:** 36 anos
+
+**Nível de instrução:** pós-graduada
+
+**Ocupação:** analista de marketing
+**Usa a internet para trabalhar?** Sim
+
+**Acessa a internet através de qual dispositivo?**
+- Celular (pessoal)
+- Computador (da empresa)
+- Tablet (pessoal)
+
+**Tipo de aplicativos em que tem conta:**
+- Redes sociais: Facebook, Instagram, Linkedin, Twitter, Whatsapp.
+- Outros: redes sociais menores de segmentos específicos.
+
+**História:** Trabalha com marketing digital e precisa acessar cotidianamente várias redes sociais para gerenciar publicações. Muitas vezes, utiliza computadores diferentes dentro de sua empresa e mais de uma conta, precisando de um local organizado e de fácil acesso para guardar suas senhas.
+
+**Frustrações:** Ter que administrar uma infinidade de senhas ligadas a contas diferentes do trabalho, não tendo um modo eficiente de organizá-las.
+
+**Motivação:** Encontrar um modo eficiente para armazenar e organizar múltiplas senhas de diversas contas profissionais.
+
+
+
+**Tais Lopes Schneider**
+
+**Idade:** 26 anos
+
+**Nível de instrução:** graduanda
+
+**Ocupação:** estudante de ensino superior
+**Usa a internet para trabalhar?** Sim
+
+**Acessa a internet através de qual dispositivo?**
+- Celular (pessoal)
+- Computador (pessoal)
+- Tablet (pessoal)
+
+**Tipo de aplicativos em que tem conta:**
+- Redes sociais: Facebook, Instagram, Linkedin, Twitter, Whatsapp.
+- Sites de revistas, jornais e outros semelhantes.
+
+**História:** Usa a internet cotidianamente e é a “especialista da família” em resolver situações que envolvam cadastros e problemas de informática. Por isso, precisa gerenciar, além de diferentes senhas dos parentes, dados específicos deles.
+
+**Frustrações:** Ter que, toda vez que entra num site que requer dados pessoais, como documentos, precisar solicitar a alguém essas informações, em vez de tê-las separadas num único local.
+
+**Motivação:** - Ter um local em que possa armazenar, além de senhas, dados específicos que são utilizados naquele site. 
+
+
+
+**William Sabino**
+
+**Idade:** 34 anos
+
+**Nível de instrução:** graduado
+
+**Ocupação:** jornalista
+**Usa a internet para trabalhar?** Sim
+
+**Acessa a internet através de qual dispositivo?**
+- Celular (pessoal)
+- Computador (pessoal)
+- Computador (da empresa)
+
+**Tipo de aplicativos em que tem conta:**
+- Redes sociais: Linkedin, Twitter (para seguir perfis públicos) e Whatsapp.
+- Portais de notícias como Uol, Estadão, Folha, Pública etc.
+
+**História:** Usa a internet cotidianamente para trabalhar, tendo contas em vários sites. Contudo, preocupa-se profundamente com a própria segurança digital, não gostando de automatizar senhas em sites diversos, sobretudo ao usar o computador da empresa.
+
+**Frustrações:** Ter que automatizar as senhas em vários sites (com dispositivos e graus de segurança diversos), no computador da empresa, para ter eficiência em seu trabalho cotidiano.
+
+**Motivação:** Ter um local, fora da memória de seu computador de trabalho, para armazenar suas senhas e, depois, conseguir editá-las nesse mesmo local.
+
+
 >
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
