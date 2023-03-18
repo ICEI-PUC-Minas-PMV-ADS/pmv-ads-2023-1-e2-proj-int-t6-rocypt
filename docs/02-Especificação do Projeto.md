@@ -15,6 +15,7 @@ Seguem abaixo as personas. Todas foram elaboradas com base no público-alvo do p
 
 **Anderson Oliveira**
 
+<img src="https://user-images.githubusercontent.com/81201021/226125832-d541f902-7c90-4891-bef3-95f02706bdf7.jpeg" width="450" height="350">
 **Idade:**  43 anos
 
 **Nível de instrução:** graduado 
@@ -41,6 +42,8 @@ Seguem abaixo as personas. Todas foram elaboradas com base no público-alvo do p
 
 **Alexandra de Souza Maroca**
 
+<img src="https://user-images.githubusercontent.com/81201021/226125839-a3030d7b-5d96-4239-b529-fc051d8be86d.jpeg" width="450" height="350">
+
 **Idade:** 67 anos
 
 **Nível de instrução:** ensino médio
@@ -65,6 +68,8 @@ Seguem abaixo as personas. Todas foram elaboradas com base no público-alvo do p
 
 
 **Eleonora Silva Campos**
+
+<img src="https://user-images.githubusercontent.com/81201021/226125858-0b3ac6e7-15c6-435a-a5bc-b00e99a0470b.jpeg" width="450" height="350">
 
 **Idade:** 36 anos
 
@@ -92,6 +97,8 @@ Seguem abaixo as personas. Todas foram elaboradas com base no público-alvo do p
 
 **Tais Lopes Schneider**
 
+<img src="https://user-images.githubusercontent.com/81201021/226125851-4f5d7192-1e2a-426e-a938-02586972bc1d.jpeg" width="450" height="350">
+
 **Idade:** 26 anos
 
 **Nível de instrução:** graduanda
@@ -117,6 +124,8 @@ Seguem abaixo as personas. Todas foram elaboradas com base no público-alvo do p
 
 
 **William Sabino**
+
+<img src="https://user-images.githubusercontent.com/81201021/226125868-4d480814-1db6-4321-98f5-4ab26943574e.jpeg" width="450" height="350">
 
 **Idade:** 34 anos
 
