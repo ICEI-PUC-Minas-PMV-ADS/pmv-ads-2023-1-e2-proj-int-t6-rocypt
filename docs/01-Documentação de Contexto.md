@@ -36,4 +36,8 @@ Nesse mesmo diapasão, não se recomenda utilizar o próprio navegador para salv
 
 ## Público-Alvo
 
-Todas as pessoas possam ter dificuldade de memorização de seus logins e senhas, se beneficiará de um gerenciador de senhas.
+O público-alvo desse tipo de aplicativo pode incluir aqueles que se preocupam com a segurança on-line e buscam uma solução prática e eficiente para gerenciar suas senhas, bem como profissionais de TI, empresários e indivíduos que lidam com informações sensíveis em seu dia-a-dia.
+
+O aplicativo gerenciador de senhas é direcionado a um público amplo, que valoriza a segurança on-line e busca uma solução eficaz para gerenciar suas senhas de forma segura e prática.
+
+Em resumo, todas as pessoas possam ter dificuldade de memorização de seus logins e senhas, se beneficiará de um gerenciador de senhas.
