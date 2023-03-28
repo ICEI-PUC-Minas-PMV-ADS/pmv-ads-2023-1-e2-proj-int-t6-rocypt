@@ -39,22 +39,24 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+- `Scrum Master`: Iugor Sette Pereira
+- `Product Owner`: Bruno Victor de Oliveira Flavio
+- `Equipe de Desenvolvimento`: Eryc Lisboa Silva e Ricardo Moreira Siqueira Junior
+- `Equipe de Design`: Daniella Souza de Oliveira e Brendon Guimarães Antunes
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+O gerenciamento do projeto é baseado no método Scrum, o grupo utiliza o Github (Projects) para acompanhar o andamento do projeto, execução de tarefas e o status de desenvolvimeno do projeto.
  
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+O gerenciamento das tarefas está divido no Github da seguinte forma:
+
+![rocypt](https://user-images.githubusercontent.com/111783703/228103998-a39b93ab-55c4-4a39-b9b3-4f67f147a480.PNG)
+
+- `Backlog`: Recebe as tarefas a serem trabalhadas e representa o Product Backlog. 
+- `All`: Representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
+- `In Progress`: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
+- `Test`: Checagem de Qualidade. Quando as tarefas são concluídas, elas são movidas para o “Done”.
+- `Done`: Nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
 ### Ferramentas
 
@@ -72,6 +74,6 @@ necessidades da nossa solução.
 
 Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
  
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
+> **Ferramentas que auxiliarão no gerenciamento**: 
 > - [Slack](https://slack.com/)
 > - [Github](https://github.com/)
