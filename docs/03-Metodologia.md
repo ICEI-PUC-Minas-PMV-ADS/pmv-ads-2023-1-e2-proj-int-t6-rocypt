@@ -23,6 +23,8 @@ etiquetas:
 
 - `documentation`: melhorias ou acréscimos à documentação
 - `bug`: uma funcionalidade encontra-se com problemas
+- `task`: uma tarefa está sendo feita
+- `developer`: uma funcionalida precisa ser criada
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
@@ -56,14 +58,14 @@ O gerenciamento das tarefas está divido no Github da seguinte forma:
 - `All`: Representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
 - `In Progress`: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
 - `Test`: Checagem de Qualidade. Quando as tarefas são concluídas, elas são movidas para o “Done”.
-- `Done`: Nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+- `Done`: Nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para serem entregues ao usuário. Não há mais edições ou revisões necessárias, ela está agendada e pronta para a ação.
 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
+- Visual Studio Code
+- Microsft Teams
 - Ferramentas de desenho de tela (_wireframing_)
 
 O editor de código foi escolhido porque ele possui uma integração com o
@@ -75,5 +77,6 @@ necessidades da nossa solução.
 Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
  
 > **Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
 > - [Github](https://github.com/)
+> - [Visual Studio Code](https://code.visualstudio.com/)
+> - [Microsoft Teams](www.microsoft.com/pt-br/microsoft-teams/group-chat-software)
