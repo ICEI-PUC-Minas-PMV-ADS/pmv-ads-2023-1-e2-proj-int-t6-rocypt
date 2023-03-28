@@ -50,7 +50,7 @@ O gerenciamento do projeto é baseado no método Scrum, o grupo utiliza o Github
  
 O gerenciamento das tarefas está divido no Github da seguinte forma:
 
-![rocypt](https://user-images.githubusercontent.com/111783703/228103998-a39b93ab-55c4-4a39-b9b3-4f67f147a480.PNG)
+![rocypt](https://user-images.githubusercontent.com/111783703/228105602-e881b879-cf5e-426c-88e7-44e91f67817e.PNG)
 
 - `Backlog`: Recebe as tarefas a serem trabalhadas e representa o Product Backlog. 
 - `All`: Representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
