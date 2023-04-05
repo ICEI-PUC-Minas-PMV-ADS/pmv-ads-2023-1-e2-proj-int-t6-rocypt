@@ -2,24 +2,82 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+# Objetivos do teste: 
 
-Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o(s) requisito(s) associado(s) a cada um deles está(ão) correto(s) - de acordo com o que foi definido na seção "2 - Especificação do Projeto". 
+- Garantir que a aplicação web esteja funcionando corretamente em diferentes navegadores e dispositivos.
 
-Por exemplo:
- 
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
-|:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
-| Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
-|Critério de Êxito | - O cadastro foi realizado com sucesso. |
-|  	|  	|
-| Caso de Teste 	| CT-02 – Efetuar login	|
-|Requisito Associado | RF-00Y	- A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail. |
-| Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
-|Critério de Êxito | - O login foi realizado com sucesso. |
+- Verificar se todas as funcionalidades estão operando corretamente.
+
+- Assegurar que a aplicação seja fácil de usar e de navegar para os usuários. 
+
+# Escopo do teste: 
+
+| Testar a aplicação web em diferentes navegadores |
+|-------------------------------------------------|
+| Chorme |
+| Firefox |
+| Safari |
+
+| Verificar a compatibilidade com diferentes dispositivos. |
+|--------------------------------------------------------|
+| Descktop |
+| SmartPhone |
+
+| Testar todas as funcionalidades da aplicação |
+|---------------------------------------------|
+| formulários |
+| botões |
+| links |
+| menus |
+| etc... |
+
+*Testar a usabilidade da aplicação, incluindo a navegação e a experiência do usuário.*
+
+# Estratégia de teste: 
+
+Teste de unidade: verificação das funções individuais da aplicação web.
+
+Teste de integração: verificação da integração entre as diferentes partes da aplicação.
+
+Teste de sistema: verificação da aplicação como um todo, em diferentes navegadores e dispositivos.
+
+Teste de usabilidade: verificação da usabilidade e da experiência do usuário.
+
+Teste de desempenho: verificação do desempenho da aplicação em condições normais e de pico de uso.
+
+Teste de segurança: verificação da segurança da aplicação e dos dados dos usuários. 
+
+Plano de teste:
+
+Preparação do ambiente de teste (instalação dos navegadores, dispositivos, ferramentas de teste, etc.).
+
+Definição dos casos de teste, incluindo a descrição, os dados de entrada e os resultados esperados.
+
+Execução dos casos de teste em diferentes navegadores e dispositivos. 
+
+Análise dos resultados dos testes e registro das falhas encontradas. 
+
+Correção das falhas encontradas e reexecução dos casos de teste afetados. 
+
+Verificação da correção das falhas e registro das correções realizadas. 
+
+Teste de aceitação pelo usuário final. 
+
+Documentação dos resultados dos testes e da correção das falhas. 
+
+Recursos necessários: 
+
+Navegadores (Chrome, Firefox, Safari, Internet Explorer, etc.). 
+
+Ferramenta de teste (NodeJS). 
+
+Dispositivos (desktop, tablet, smartphone).
+
+Equipe de testes.
+
+
+
+
 
  
 > **Links Úteis**:
