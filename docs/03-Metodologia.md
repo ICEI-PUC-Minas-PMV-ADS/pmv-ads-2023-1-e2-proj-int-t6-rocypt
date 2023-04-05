@@ -42,7 +42,7 @@ etiquetas:
 O gerenciamento do projeto é baseado no método Scrum, o grupo utiliza o Github (Projects) para acompanhar o andamento do projeto, execução de tarefas e o status de desenvolvimeno do projeto.
  
 O gerenciamento das tarefas está divido no Github da seguinte forma:
-
+(a imagem não nescessariamente representa a sua situação atual)
 ![rocypt](https://user-images.githubusercontent.com/111783703/228105602-e881b879-cf5e-426c-88e7-44e91f67817e.PNG)
 
 - `Backlog`: Recebe as tarefas a serem trabalhadas e representa o Product Backlog. 
@@ -59,10 +59,10 @@ As ferramentas empregadas no projeto são:
 - Microsft Teams
 - Figma (_wireframing_)
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
+O Visual Studio Code foi escolhido porque ele possui uma integração com o
+Github, simples de se usar. O Microsft Teams possuem
 integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
+diagramas utilizamos o Figma por melhor captar as
 necessidades da nossa solução.
 
 Ferramentas empregadas no desenvolvimento do projeto:
