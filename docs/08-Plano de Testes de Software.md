@@ -12,42 +12,37 @@
 
 # Escopo do teste: 
 
-| Testar a aplicação web em diferentes navegadores |
+#### **Testar a aplicação web em diferentes navegadores:**
 |-------------------------------------------------|
-| Chorme |
-| Firefox |
-| Safari |
+| - Chorme |
+| - Firefox |
+| - Safari |
 
-| Verificar a compatibilidade com diferentes dispositivos. |
+#### **Verificar a compatibilidade com diferentes dispositivos:**
 |--------------------------------------------------------|
-| Descktop |
-| SmartPhone |
+| - Desktop |
+| - SmartPhone |
 
-| Testar todas as funcionalidades da aplicação |
+#### **Testar todas as funcionalidades da aplicação:**
 |---------------------------------------------|
-| formulários |
-| botões |
-| links |
-| menus |
-| etc... |
+| - formulários |
+| - botões |
+| - links |
+| - menus |
+| - etc... |
 
 *Testar a usabilidade da aplicação, incluindo a navegação e a experiência do usuário.*
 
 # Estratégia de teste: 
 
-Teste de unidade: verificação das funções individuais da aplicação web.
+- **Teste de unidade:** verificação das funções individuais da aplicação web.
+- **Teste de integração:** verificação da integração entre as diferentes partes da aplicação.
+- **Teste de sistema:** verificação da aplicação como um todo, em diferentes navegadores e dispositivos.
+- **Teste de usabilidade:** verificação da usabilidade e da experiência do usuário.
+- **Teste de desempenho:** verificação do desempenho da aplicação em condições normais e de pico de uso.
+- **Teste de segurança:** verificação da segurança da aplicação e dos dados dos usuários. 
 
-Teste de integração: verificação da integração entre as diferentes partes da aplicação.
-
-Teste de sistema: verificação da aplicação como um todo, em diferentes navegadores e dispositivos.
-
-Teste de usabilidade: verificação da usabilidade e da experiência do usuário.
-
-Teste de desempenho: verificação do desempenho da aplicação em condições normais e de pico de uso.
-
-Teste de segurança: verificação da segurança da aplicação e dos dados dos usuários. 
-
-Plano de teste:
+# Plano de teste:
 
 Preparação do ambiente de teste (instalação dos navegadores, dispositivos, ferramentas de teste, etc.).
 
