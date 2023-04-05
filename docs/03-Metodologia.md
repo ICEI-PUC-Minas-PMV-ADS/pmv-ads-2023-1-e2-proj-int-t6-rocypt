@@ -42,7 +42,7 @@ etiquetas:
 O gerenciamento do projeto é baseado no método Scrum, o grupo utiliza o Github (Projects) para acompanhar o andamento do projeto, execução de tarefas e o status de desenvolvimeno do projeto.
  
 O gerenciamento das tarefas está divido no Github da seguinte forma:
-(a imagem não nescessariamente representa a sua situação atual)
+- _(a imagem não nescessariamente representa a sua situação atual)_
 ![rocypt](https://user-images.githubusercontent.com/111783703/228105602-e881b879-cf5e-426c-88e7-44e91f67817e.PNG)
 
 - `Backlog`: Recebe as tarefas a serem trabalhadas e representa o Product Backlog. 
