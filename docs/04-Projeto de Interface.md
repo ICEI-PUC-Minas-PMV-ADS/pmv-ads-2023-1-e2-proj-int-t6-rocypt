@@ -29,19 +29,19 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 ![Tela de Cadastro](https://user-images.githubusercontent.com/106103247/230146718-19cdbbba-2ead-44b9-8757-1bb7acbf2246.png)
 
 ## Tela de Login
-![Tela de Login](https://user-images.githubusercontent.com/106103247/230146855-023e8b04-ab52-4c73-8426-97f9cde0da24.png)
+![Tela de Login](https://user-images.githubusercontent.com/106103247/230494011-d3527cb8-9535-4af2-9f19-17b3230c698e.png)
 
 ## Gerenciador de Senhas
 ![Gerenciador de Senha](https://user-images.githubusercontent.com/106103247/230147093-933a3fa8-a351-47a8-b4ec-b201e624d611.png)
 
 ## Gerenciador de Senhas - Adicionar Senha
-![Gerenciador de Senha - Adicionar Senha](https://user-images.githubusercontent.com/106103247/230147162-8f01b8c7-bd7c-4065-a045-58cd0d34543f.png)
+![Gerenciador de Senha - Adicionar Senha](https://user-images.githubusercontent.com/106103247/230494058-b6477779-0380-458f-919d-bc43f314e192.png)
 
 ## Gerenciador de Senhas - Editar Senha
-![Gerenciador de Senha - Editar Senha](https://user-images.githubusercontent.com/106103247/230147302-bd23371b-d85c-41e9-887a-43a562a6f729.png)
+![Gerenciador de Senha - Editar Senha](https://user-images.githubusercontent.com/106103247/230494084-7de40cf0-0e96-4ba6-920f-3e57738a6878.png)
 
 ## Gerenciador de Senhas - Deletar Senha
-![Gerenciador de Senha - Deletar Senha](https://user-images.githubusercontent.com/106103247/230147446-d96a71b3-c70f-4c64-a452-1286b635fba4.png)
+![Gerenciador de Senha - Deletar Senha](https://user-images.githubusercontent.com/106103247/230494117-35277345-ba61-43ec-9e0c-2559c7687cbe.png)
 
 ## Gerenciador de Senhas - Adicionar Novo Grupo
 ![Gerenciador de Senha - Ad novo Grupo](https://user-images.githubusercontent.com/106103247/230147590-79c80ff8-6ce5-4f24-a596-4509f845fee3.png)
