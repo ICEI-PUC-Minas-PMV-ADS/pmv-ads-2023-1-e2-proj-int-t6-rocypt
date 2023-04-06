@@ -13,24 +13,27 @@
 # Escopo do teste: 
 
 #### **Testar a aplicação web em diferentes navegadores:**
-| - Chorme |
+|          |
 |----------|
-| - Firefox |
-| - Safari |
+| ![](https://github.com/alrra/browser-logos/blob/main/src/chrome/chrome_32x32.png) |
+| Firefox |
+| Safari |
 
 #### **Verificar a compatibilidade com diferentes dispositivos:**
 
-| - Desktop |
+|           |
 |-----------|
-| - SmartPhone |
+| Desktop |
+| SmartPhone |
 
 #### **Testar todas as funcionalidades da aplicação:**
-| - formulários |
+|               |
 |---------------|
-| - botões |
-| - links |
-| - menus |
-| - etc... |
+| formulários |
+| botões |
+| links |
+| menus |
+| etc... |
 
 *Testar a usabilidade da aplicação, incluindo a navegação e a experiência do usuário.*
 
@@ -45,15 +48,15 @@
 
 # Plano de teste:
 
-Preparação do ambiente de teste (instalação dos navegadores, dispositivos, ferramentas de teste, etc.).
+- Preparação do ambiente de teste (instalação dos navegadores, dispositivos, ferramentas de teste, etc.).
 
-Definição dos casos de teste, incluindo a descrição, os dados de entrada e os resultados esperados.
+- Definição dos casos de teste, incluindo a descrição, os dados de entrada e os resultados esperados.
 
-Execução dos casos de teste em diferentes navegadores e dispositivos. 
+- Execução dos casos de teste em diferentes navegadores e dispositivos. 
 
-Análise dos resultados dos testes e registro das falhas encontradas. 
+- Análise dos resultados dos testes e registro das falhas encontradas. 
 
-Correção das falhas encontradas e reexecução dos casos de teste afetados. 
+- Correção das falhas encontradas e reexecução dos casos de teste afetados. 
 
 Verificação da correção das falhas e registro das correções realizadas. 
 
@@ -75,7 +78,7 @@ Equipe de testes.
 
 
 
- 
+
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
 > - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
