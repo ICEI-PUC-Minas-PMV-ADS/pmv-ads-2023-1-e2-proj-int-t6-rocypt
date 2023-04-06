@@ -13,27 +13,23 @@
 # Escopo do teste: 
 
 #### **Testar a aplicação web em diferentes navegadores:**
-|          |
-|----------|
-| ![](https://github.com/alrra/browser-logos/blob/main/src/chrome/chrome_32x32.png) |
-| Firefox |
-| Safari |
+
+![](https://github.com/alrra/browser-logos/blob/main/src/chrome/chrome_32x32.png) - Chrome
+![](https://github.com/alrra/browser-logos/blob/main/src/firefox/firefox_32x32.png) - Firefox 
+![](https://github.com/alrra/browser-logos/blob/main/src/safari/safari_32x32.png) - Safari
 
 #### **Verificar a compatibilidade com diferentes dispositivos:**
 
-|           |
-|-----------|
-| Desktop |
-| SmartPhone |
+- Desktop 🖥️
+- SmartPhone 📱
 
 #### **Testar todas as funcionalidades da aplicação:**
-|               |
-|---------------|
-| formulários |
-| botões |
-| links |
-| menus |
-| etc... |
+
+- formulários
+- botões
+- links
+- menus
+- etc...
 
 *Testar a usabilidade da aplicação, incluindo a navegação e a experiência do usuário.*
 
@@ -58,21 +54,18 @@
 
 - Correção das falhas encontradas e reexecução dos casos de teste afetados. 
 
-Verificação da correção das falhas e registro das correções realizadas. 
+- Verificação da correção das falhas e registro das correções realizadas. 
 
-Teste de aceitação pelo usuário final. 
+- Teste de aceitação pelo usuário final. 
 
-Documentação dos resultados dos testes e da correção das falhas. 
+- Documentação dos resultados dos testes e da correção das falhas. 
 
-Recursos necessários: 
+# Recursos necessários: 
 
-Navegadores (Chrome, Firefox, Safari, Internet Explorer, etc.). 
-
-Ferramenta de teste (NodeJS). 
-
-Dispositivos (desktop, tablet, smartphone).
-
-Equipe de testes.
+- Navegadores (Chrome, Firefox, Safari). 
+- Ferramenta de teste (NodeJS). 
+- Dispositivos (desktop, smartphone).
+- Equipe de testes.
 
 
 
