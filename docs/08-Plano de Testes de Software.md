@@ -13,19 +13,20 @@
 # Escopo do teste: 
 
 #### **Testar a aplicação web em diferentes navegadores:**
-|-------------------------------------------------|
 | - Chorme |
+|----------|
 | - Firefox |
 | - Safari |
 
 #### **Verificar a compatibilidade com diferentes dispositivos:**
-|--------------------------------------------------------|
+
 | - Desktop |
+|-----------|
 | - SmartPhone |
 
 #### **Testar todas as funcionalidades da aplicação:**
-|---------------------------------------------|
 | - formulários |
+|---------------|
 | - botões |
 | - links |
 | - menus |
