@@ -26,7 +26,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 ![Homepage](https://user-images.githubusercontent.com/106103247/230146613-ae9478fd-9e6b-4b3e-bbdd-3ce354a64437.png)
 
 ## Tela de Cadastro
-![Tela de Cadastro](https://user-images.githubusercontent.com/106103247/230146718-19cdbbba-2ead-44b9-8757-1bb7acbf2246.png)
+![Tela de Cadastro](https://user-images.githubusercontent.com/106103247/230495056-b2fc9812-a953-4458-8f46-51147ad084fa.png)
 
 ## Tela de Login
 ![Tela de Login](https://user-images.githubusercontent.com/106103247/230494011-d3527cb8-9535-4af2-9f19-17b3230c698e.png)
