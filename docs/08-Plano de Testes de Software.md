@@ -14,9 +14,11 @@
 
 #### **Testar a aplicação web em diferentes navegadores:**
 
-![](https://github.com/alrra/browser-logos/blob/main/src/chrome/chrome_32x32.png) - Chrome
-![](https://github.com/alrra/browser-logos/blob/main/src/firefox/firefox_32x32.png) - Firefox 
-![](https://github.com/alrra/browser-logos/blob/main/src/safari/safari_32x32.png) - Safari
+- ![](https://github.com/alrra/browser-logos/blob/main/src/chrome/chrome_32x32.png) - Chrome
+
+- ![](https://github.com/alrra/browser-logos/blob/main/src/firefox/firefox_32x32.png) - Firefox 
+
+- ![](https://github.com/alrra/browser-logos/blob/main/src/safari/safari_32x32.png) - Safari
 
 #### **Verificar a compatibilidade com diferentes dispositivos:**
 

@@ -1,12 +1,18 @@
 # Plano de Testes de Usabilidade
+Nosso plano de testes de usabilidade consiste em: 
 
-Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
+- Avaliar a facilidade de uso da aplicação: Verificar se os usuários conseguem realizar tarefas com facilidade e sem dificuldades.
 
-Um plano de teste de usabilidade deverá conter: o detalhamento dos objetivos (em função dos requisitos levantados/implementados), dos critérios que serão utilizados para a seleção dos participantes, dos procedimentos a serem adotados pelos condutores de teste (por exemplo: os testes serão presenciais ou remotos? o método será observação direta, medição ou avaliação?), das tarefas a serem executadas, dos dados a serem coletados (quantidade de cliques, número de erros, tempo etc.), a ordem de execução das tarefas e das etapas da sessão de teste, recursos demandados, métricas coletadas etc.
+- Identificar problemas de usabilidade: Como áreas confusas ou problemas de navegação.
 
-Para cada voluntário do teste, é fundamental coletar e apresentar todos os dados/métricas previamente definidos, mas não se esqueça: atendendo à LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível, que permita identificar o voluntário, deverá ser apresentado).
+- Verificar a eficácia da aplicação: É importante garantir que a aplicação esteja cumprindo suas funções e objetivos. Avaliar a eficácia da aplicação em realizar tarefas e atingir seus objetivos.
 
-As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
+- Testar a compatibilidade com diferentes dispositivos: Com o uso de diferentes dispositivos, como smartphones, tablets e computadores, é importante testar a compatibilidade da aplicação em diferentes dispositivos e tamanhos de tela.
+
+- Avaliar a acessibilidade: A acessibilidade é fundamental para garantir que todos os usuários possam acessar e usar a aplicação, independentemente de possíveis limitações. O objetivo é avaliar a acessibilidade da aplicação para usuários com necessidades especiais.
+
+- Coletar feedback dos usuários: Ao coletar feedback dos usuários durante o teste e identificar pontos fortes e fracos da aplicação, além de oportunidades de melhorias.
+
 
 > **Links Úteis**:
 > - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
