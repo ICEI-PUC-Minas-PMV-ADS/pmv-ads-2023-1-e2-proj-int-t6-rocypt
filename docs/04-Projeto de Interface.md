@@ -31,6 +31,18 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 ## Tela de Login
 ![Tela de Login](https://user-images.githubusercontent.com/106103247/230494011-d3527cb8-9535-4af2-9f19-17b3230c698e.png)
 
+## Recuperar Senha
+![Recuperar Senha](https://user-images.githubusercontent.com/106103247/230726839-dc87d20f-c41d-4f20-b8f7-d3810ae090b6.png)
+
+## Recuperar Senha - Envio de código
+![Recuperar Senha - Envio de Código](https://user-images.githubusercontent.com/106103247/230726843-0ebc2701-a071-464d-88f4-a1ffed89f1b8.png)
+
+## Recuperar Senha - Redefinição de Senha Master
+![Recuperar Senha - Redefinição de Senha M](https://user-images.githubusercontent.com/106103247/230726849-9486d154-98ca-4f13-9632-dc3e0ced7be0.png)
+
+## Recuperar Senha - Êxito
+![Recuperar Senha - Êxito](https://user-images.githubusercontent.com/106103247/230726854-1be92846-0437-4e91-a9ce-025d5f79eab1.png)
+
 ## Gerenciador de Senhas
 ![Gerenciador de Senha](https://user-images.githubusercontent.com/106103247/230147093-933a3fa8-a351-47a8-b4ec-b201e624d611.png)
 
