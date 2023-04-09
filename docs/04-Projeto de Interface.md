@@ -11,7 +11,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 Segue o diagrama de fluxo, explicitando os caminhos possíveis a serem perseguidos pelo usuário dentro do site.
 
-![Exemplo de Diagrama de Fluxo](img/diagramafluxo2.jpg)
+![Diagrama de Fluxo](img/Diagrama de fluxo.png)
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
 
