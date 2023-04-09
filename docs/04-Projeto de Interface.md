@@ -11,9 +11,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 Segue o diagrama de fluxo, explicitando os caminhos possíveis a serem perseguidos pelo usuário dentro do site.
 
-![Diagrama de Fluxo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t6-rocypt/blob/6153b38dc14de04916332cc562acaab18262f8ac/docs/img/Diagrama%20de%20fluxo.png))
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
+![Diagrama de Fluxo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t6-rocypt/blob/6153b38dc14de04916332cc562acaab18262f8ac/docs/img/Diagrama%20de%20fluxo.png)
 
 > **Links Úteis**:
 > - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
