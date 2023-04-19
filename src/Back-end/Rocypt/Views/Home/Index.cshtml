@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Pagina Inicial";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Projeto Teste Rocypt</h1>
+    @if (User.Identity.IsAuthenticated)
+    {
+        <p>Bem-vindo @User.Identity.Name</p>
+    }
+
+    <p>Sistema de gerenciamento de senhas.</p>
+</div>
