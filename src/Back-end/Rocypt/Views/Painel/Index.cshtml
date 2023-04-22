@@ -1,0 +1,53 @@
+﻿@model List<UsuarioModel>
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Pagina Inicial";
+}
+<div class="container">
+    <div class="main-text">
+<p class="main-welcome">Seja bem vindo(a), @User.Identity.Name</p>
+    <h1 class="main-title">Você esta logado! O sistema esta funcionando perfeitamente!</h1>
+        <div class="btn-home">
+                  <a asp-controller="Painel" asp-action="Deslogar"><button class="btn-style" onclick="location.href=''">Sair</button></a>
+
+</div>
+
+        <h1 class="display-4">Registrados</h1>
+
+        <table id="table-contatos" class="display" style="width:100%">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Senha(Encrypt)</th>
+                    <th scope="col">Data de registro</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Any())
+                {
+                    foreach (var registro in Model)
+                    {
+                        <tr>
+                            <th scope="row">@registro.Id</th>
+                            <td>@registro.Name</td>
+                            <td>@registro.Email</td>
+                            <td>@registro.Password</td>
+                            <td>@registro.RegistrationDate</td>
+                            <td>
+                                <div class="btn-group" role="group">
+                                    <a role="button" asp-action="Apagar" asp-controller="Painel" asp-route-id="@registro.Id" class="btn btn-danger">Apagar</a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr class="odd"><td valign="top" colspan="5">Nenhum contato encontrado</td></tr>
+                }
+            </tbody>
+        </table>
+            </div>

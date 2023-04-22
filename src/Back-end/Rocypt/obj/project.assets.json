@@ -4422,11 +4422,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projeto Faculdade\\Rocypt\\Rocypt\\Rocypt.csproj",
+      "projectUniqueName": "C:\\faculdade\\pmv-ads-2023-1-e2-proj-int-t6-rocypt\\src\\Back-end\\Rocypt\\Rocypt.csproj",
       "projectName": "Rocypt",
-      "projectPath": "D:\\Projeto Faculdade\\Rocypt\\Rocypt\\Rocypt.csproj",
+      "projectPath": "C:\\faculdade\\pmv-ads-2023-1-e2-proj-int-t6-rocypt\\src\\Back-end\\Rocypt\\Rocypt.csproj",
       "packagesPath": "C:\\Users\\Brend\\.nuget\\packages\\",
-      "outputPath": "D:\\Projeto Faculdade\\Rocypt\\Rocypt\\obj\\",
+      "outputPath": "C:\\faculdade\\pmv-ads-2023-1-e2-proj-int-t6-rocypt\\src\\Back-end\\Rocypt\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files\\Microsoft Visual Studio\\Shared\\NuGetPackages"

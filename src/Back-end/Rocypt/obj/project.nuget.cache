@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nq4dqvaMZk+xggwwAmiwkXHGs0yfRxotBK+a/N8LxgozJEovwonBgDeS9IcgIQGIbolgLYiIxgOFbYQAr7veOA==",
+  "dgSpecHash": "g558zZFCGse1N/gtma3YUESZyplvxNUdcBepcQD4XJ6gaqCkw39uI7CyJT4xK359O2UX/3W17RoppGwf6MwMiQ==",
   "success": true,
-  "projectFilePath": "D:\\Projeto Faculdade\\Rocypt\\Rocypt\\Rocypt.csproj",
+  "projectFilePath": "C:\\faculdade\\pmv-ads-2023-1-e2-proj-int-t6-rocypt\\src\\Back-end\\Rocypt\\Rocypt.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Brend\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Brend\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -1,0 +1,43 @@
+﻿@model UsuarioModel
+@{
+	Layout = "_LayoutCadastro";
+	ViewData["Title"] = "Pagina de Registro";
+}
+
+@if (TempData["MensagemSucesso"] != null)
+{
+	<div class="alert alert-success d-flex align-items-center" role="alert">
+		<svg class="bi flex-shrink-0 me-2" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill" /></svg>
+		<div>
+			@TempData["MensagemSucesso"]
+		</div>
+		<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+	</div>
+}
+@if (TempData["MensagemErro"] != null)
+{
+	<div class="alert alert-danger" role="alert">
+		<button type="button" class="btn btn-danger btn-sm close-alert" data-bs-dismiss="alert" arial-label="Close">x</button>
+		@TempData["MensagemErro"]
+	</div>
+}
+
+<div class="window">
+	<h1 class="main-title">Cadastro...</h1>
+	<form class="user-data" asp-controller="Registro" asp-action="Criar" method="post">
+		<label class="input-label for="email">Nome</label>
+		<input class="user-input" placeholder="João Paulo Silva" type="text" asp-for="Name" id="email" required="required">
+		<label class="input-label for="email">Email</label>
+		<input class="user-input" placeholder="•••••••••@@example.com" type="text" asp-for="Email" id="email" required="required">
+		<label class="input-label" for="password">Senha Master</label>
+		<input class="user-input" placeholder="•••••••••" type="password" asp-for="Password" id="password" required="required">
+		<label class="input-label" for="password">Confirme a Senha Master</label>
+		<input class="user-input" placeholder="•••••••••" type="password" id="password" required="required">
+
+		<div class="links">
+			<a asp-controller="Login" asp-action="Index">Já está cadastrado? Faça login</a>
+		</div>
+		<div class="btn-functions">
+			<button class="btn-style" id="entrar">Cadastrar</button>
+		</div>
+	</form>

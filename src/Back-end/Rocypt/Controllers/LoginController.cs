@@ -20,17 +20,13 @@ namespace Rocypt.Controllers
 
         public IActionResult Index()
         {
+            if (User.Identity.IsAuthenticated) return RedirectToAction("Index", "Painel");
             return View();
         }
 
-        public IActionResult RedefinirSenha() { 
-            return View();
-        }
-
-        public IActionResult Sair()
+        public IActionResult RedefinirSenha()
         {
-            HttpContext.SignOutAsync();
-            return RedirectToAction("Index", "Login");
+            return View();
         }
 
         [HttpPost]
@@ -60,14 +56,15 @@ namespace Rocypt.Controllers
                                 IsPersistent = true
                             };
                             HttpContext.SignInAsync(principal, props);
-                            return RedirectToAction("Index", "Home");
+                            return RedirectToAction("Index", "Painel");
                         }
                         TempData["MensagemErro"] = $"Usuário e/ou senha inválido(s). Por favor, tente novamente.";
                     }
+                    TempData["MensagemErro"] = $"Usuário e/ou senha inválido(s). Por favor, tente novamente.";
                 }
                 return View("Index");
             }
-            catch (Exception erro)
+            catch (Exception error)
             {
                 TempData["MesagemErro"] = $"Ops, não conseguimos realizar seu login, tente novamente.";
                 return RedirectToAction("Index");
@@ -85,8 +82,8 @@ namespace Rocypt.Controllers
                     if (usuario != null)
                     {
                         string novaSenha = usuario.GerarNovaSenha();
-                        string mensagem = $"Sua nova senha é: {novaSenha}";
-                        bool emailEnviado = _email.Enviar(usuario.Email, "Sistema de Contatos - Nova Senha", mensagem);
+                        string mensagem = $"<div><h3>Olá {usuario.Name},</h3>\nSua nova senha é: {novaSenha}</div>";
+                        bool emailEnviado = _email.Enviar(usuario.Email, "🔑Rocypt - Nova Senha🔑", mensagem);
                         if (emailEnviado)
                         {
                             _usuarioRepositorio.AtualizarSenha(usuario);
@@ -102,7 +99,7 @@ namespace Rocypt.Controllers
                 }
                 return View();
             }
-            catch (Exception erro)
+            catch (Exception error)
             {
                 TempData["MesagemErro"] = $"Ops, não conseguimos realizar seu login, tente novamente.";
                 return RedirectToAction("Index");

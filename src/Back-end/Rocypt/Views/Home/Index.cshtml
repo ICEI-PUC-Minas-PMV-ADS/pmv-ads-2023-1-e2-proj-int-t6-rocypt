@@ -1,13 +1,13 @@
 ﻿@{
+    Layout = "_Layout";
     ViewData["Title"] = "Pagina Inicial";
 }
-
-<div class="text-center">
-    <h1 class="display-4">Projeto Teste Rocypt</h1>
-    @if (User.Identity.IsAuthenticated)
-    {
-        <p>Bem-vindo @User.Identity.Name</p>
-    }
-
-    <p>Sistema de gerenciamento de senhas.</p>
-</div>
+            <div class="container">
+                    <div class="main-text">
+<p class="main-welcome">Seja bem vindo(a)...</p>
+    <h1 class="main-title">Proteja suas senhas, proteja sua vida digital.</h1>
+        <div class="btn-home">
+                           <button class="btn-style" id="Comece" onclick="location.href='/Registro'">Comece já</button>
+                            <button class="btn-style" onclick="location.href='/Login'">Login</button>
+                                            </div>
+            </div>
