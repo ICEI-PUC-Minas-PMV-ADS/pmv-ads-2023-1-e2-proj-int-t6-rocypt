@@ -14,16 +14,14 @@
 		<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 	</div>
 }
-@if (TempData["MensagemErro"] != null)
-{
-	<div class="alert alert-danger" role="alert">
-		<button type="button" class="btn btn-danger btn-sm close-alert" data-bs-dismiss="alert" arial-label="Close">x</button>
-		@TempData["MensagemErro"]
-	</div>
-}
-
 <div class="window">
 	<h1 class="main-title">Cadastro...</h1>
+	@if (TempData["MensagemErro"] != null)
+	{
+		<div role="alert">
+			@TempData["MensagemErro"]
+		</div>
+	}
 	<form class="user-data" asp-controller="Registro" asp-action="Criar" method="post">
 		<label class="input-label for="email">Nome</label>
 		<input class="user-input" placeholder="João Paulo Silva" type="text" asp-for="Name" id="email" required="required">
@@ -33,7 +31,6 @@
 		<input class="user-input" placeholder="•••••••••" type="password" asp-for="Password" id="password" required="required">
 		<label class="input-label" for="password">Confirme a Senha Master</label>
 		<input class="user-input" placeholder="•••••••••" type="password" id="password" required="required">
-
 		<div class="links">
 			<a asp-controller="Login" asp-action="Index">Já está cadastrado? Faça login</a>
 		</div>

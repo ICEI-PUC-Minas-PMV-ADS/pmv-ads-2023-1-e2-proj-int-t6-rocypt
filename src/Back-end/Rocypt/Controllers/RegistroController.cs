@@ -24,6 +24,11 @@ namespace Rocypt.Controllers
 			{
 				if (ModelState.IsValid)
 				{
+					if(_usuarioRepositorio.BuscarPorLogin(usuario.Email) != null)
+					{
+                        TempData["MensagemErro"] = "Este email já esta cadastrado.";
+						RedirectToAction("Index", "Registro");
+                    } else
 					usuario = _usuarioRepositorio.Adicionar(usuario);
 					TempData["MensagemSucesso"] = "Usuario Cadastrado com sucesso.";
 					return RedirectToAction("Index", "Home");
