@@ -16,7 +16,7 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 ## Projeto da Base de Dados
 
-![image](https://user-images.githubusercontent.com/81201021/230219886-63f15ae4-e599-4d1c-927e-6ddcebaa858a.png)
+![image](https://user-images.githubusercontent.com/81201021/234123759-b3f49526-c92e-4714-8868-dfbcddbd9d06.png)
 
 ## Tecnologias Utilizadas
 
