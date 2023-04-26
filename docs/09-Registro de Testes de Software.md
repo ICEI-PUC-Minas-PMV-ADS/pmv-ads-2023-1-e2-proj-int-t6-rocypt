@@ -3,9 +3,9 @@
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
 
 ## Teste em diferentes navegadores
-> - [Google](https://www.google.com/chrome/)
-> - [Firefox](https://www.mozilla.org/pt-BR/firefox/new/)
-> - [Safari](https://www.apple.com/br/safari/)
+ - [Google](https://www.google.com/chrome/)
+ - [Firefox](https://www.mozilla.org/pt-BR/firefox/new/)
+ - [Safari](https://www.apple.com/br/safari/)
 
 ## Teste em diferentes dispositivos
 - PC
