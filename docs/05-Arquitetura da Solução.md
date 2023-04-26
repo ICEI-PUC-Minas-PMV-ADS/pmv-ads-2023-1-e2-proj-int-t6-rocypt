@@ -12,11 +12,11 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 ## Modelo ER (Projeto Conceitual)
 
-![image](https://user-images.githubusercontent.com/81201021/230219760-0500d5d1-6ea7-45eb-a693-0052fab9b966.png)
+![image](https://user-images.githubusercontent.com/81201021/234122282-161768ee-ac10-4c16-8fe9-48283f0bb7fe.png)
 
 ## Projeto da Base de Dados
 
-![image](https://user-images.githubusercontent.com/81201021/230219886-63f15ae4-e599-4d1c-927e-6ddcebaa858a.png)
+![image](https://user-images.githubusercontent.com/81201021/234123759-b3f49526-c92e-4714-8868-dfbcddbd9d06.png)
 
 ## Tecnologias Utilizadas
 

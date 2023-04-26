@@ -20,17 +20,17 @@
 
 - ![](https://github.com/alrra/browser-logos/blob/main/src/safari/safari_32x32.png) - Safari
 
-#### **Verificar a compatibilidade com diferentes dispositivos:**
+#### **Verificar a compatibilidade em diferentes dispositivos:**
 
 - Desktop 🖥️
 - SmartPhone 📱
 
 #### **Testar todas as funcionalidades da aplicação:**
 
-- formulários
-- botões
-- links
-- menus
+- Formulários
+- Botões
+- Links
+- Menus
 - etc...
 
 *Testar a usabilidade da aplicação, incluindo a navegação e a experiência do usuário.*
@@ -47,19 +47,12 @@
 # Plano de teste:
 
 - Preparação do ambiente de teste (instalação dos navegadores, dispositivos, ferramentas de teste, etc.).
-
 - Definição dos casos de teste, incluindo a descrição, os dados de entrada e os resultados esperados.
-
 - Execução dos casos de teste em diferentes navegadores e dispositivos. 
-
 - Análise dos resultados dos testes e registro das falhas encontradas. 
-
 - Correção das falhas encontradas e reexecução dos casos de teste afetados. 
-
 - Verificação da correção das falhas e registro das correções realizadas. 
-
 - Teste de aceitação pelo usuário final. 
-
 - Documentação dos resultados dos testes e da correção das falhas. 
 
 # Recursos necessários: 
