@@ -51,26 +51,33 @@
         }
     }
 
-  
-    .container {
-        width: 100%;
-        height: 80vh;
-        overflow: hidden;
-        
+    .background {
+        background: linear-gradient(to top right , #773daa, rgb(34, 1, 56));  
+        width: 100vw;
+        height: 100vh;
     }
 
-    .area {
-        background: linear-gradient(to top right , #773daa, rgb(34, 1, 56));  
+    header {
         width: 100%;
-        height:100vh;
+        height: 15%;
+    }
+    main {
+        width: 100%;
+        height: 85%;
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        
     }
     
     .circles {
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
         overflow: hidden;
     }
 
@@ -215,12 +222,15 @@
     
     .main-text {
         color: white;
+        height: 50%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         padding: 30px;
         position: relative;
-        top: 15%;
-        gap: 20px;
+        top: 10%;
+        gap: 20%;
         animation: MainTextSlideLeft 1s ease-out;
         text-align: center;
     }
@@ -234,19 +244,17 @@
     }
 
     .btn-home {
-        position: relative;
         display: flex;
-        justify-content: center;
-        top: 30px;
-        gap: 40px;
+        justify-content: space-around;
+        width: 80%;
         animation: btn-slide-botton 1s ease-out;
 
     }
     .btn-style {
         color: white;
         display: flex;
-        padding: 5px;
-        width: 100px;
+        padding: 2%;
+        width: 40%;
         justify-content: center;
         align-items: center;
         border-radius: 10px;
@@ -326,24 +334,33 @@
         }
     }
 
+    .background {
+        background: linear-gradient(to top right , #773daa, rgb(34, 1, 56));  
+        width: 100vw;
+        height: 100vh;
+    }
+
+    header {
+        width: 100%;
+        height: 15%;
+    }
+    main {
+        width: 100%;
+        height: 85%;
+    }
+
     .container {
         width: 100%;
-        height: 80vh;
-        overflow: hidden;
+        height: 100%;
         
-    }
-    .area {
-        background: linear-gradient(to top right , #773daa, rgb(34, 1, 56));  
-        width: 100%;
-        height: 100vh;
     }
     
     .circles {
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
         overflow: hidden;
     }
 
@@ -486,18 +503,17 @@
         cursor: pointer;
     }
     
-    .btn-homepage-M {
-        display: none;
-    }
-
     .main-text {
         color: white;
+        height: 50%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         padding: 30px;
         position: relative;
-        top: 20%;
-        gap: 20px;
+        top: 10%;
+        gap: 20%;
         animation: MainTextSlideLeft 1s ease-out;
         text-align: center;
     }
@@ -511,20 +527,19 @@
     }
 
     .btn-home {
-        position: relative;
         display: flex;
-        justify-content: center;
-        top: 30px;
-        gap: 40px;
+        justify-content: space-around;
+        width: 400px;
         animation: btn-slide-botton 1s ease-out;
 
     }
     .btn-style {
         color: white;
         display: flex;
-        padding: 5px;
-        width: 100px;
-        justify-content: center;
+        padding: 10px;
+        width: 150px;
+        font-size: 100%;
+        justify-content: space-around;
         align-items: center;
         border-radius: 10px;
         outline: none;
@@ -554,7 +569,8 @@
         background-color: #743983;
     }
 
-  
+   
+
 }
 
 

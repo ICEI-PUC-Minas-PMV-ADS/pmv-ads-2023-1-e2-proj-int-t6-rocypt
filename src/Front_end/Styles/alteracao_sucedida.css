@@ -231,7 +231,7 @@
         display: flex;
         background-color: #ffffff;
         width: 90%;
-        height: 90%;
+        height: 80%;
         border-radius: 20px;
         flex-direction: column;
         padding: 30px;
@@ -247,42 +247,20 @@
         font-size: 30px;
         line-height: 40px;
     }
-    .user-data {
-        height: 40%;
+    
+    .text {
         display: flex;
-        flex-direction: column;
-        gap: 5%;
-    }
-    .input-label {
-        display: flex;
-        font-weight: bold;
-    }
-    .user-input {
-        display: flex;
-        height: 30%;
-        font-size: 16px;
-        font-weight: bold;
-        justify-content: space-around;
-        padding: 5%;
-        border: none;
-        outline: none;
-        background-color: rgb(207, 207, 207);
-        border-radius: 15px;
-    }
-    ::placeholder {
-        text-align: center;
+        justify-content: center;
     }
 
-    .links {
-        height: 20%;
-        align-items: center;
-        justify-content: space-around;
-        display: flex;
-        flex-direction: column;
-        font-weight: bold;
+    .text-style {
+        width: 90%;
+        color: black;
+        font-size: 125%;
+        line-height: 30px;
+        font-weight: 600;
     }
 
-      
     .btn-functions {
         position: relative;
         display: flex;
@@ -551,12 +529,13 @@
         display: flex;
         background-color: #ffffff;
         width: 600px;
-        height: 90%;
+        height: 60%;
         border-radius: 20px;
         flex-direction: column;
         padding: 30px;
         position: relative;
         justify-content: space-around;
+        align-items: center;
         text-align: center;
         animation: MainTextSlideLeft ease-out 1s;
         box-shadow: 0px 5px 10px black;
@@ -567,43 +546,20 @@
         font-size: 30px;
         line-height: 40px;
     }
-    .user-data {
-        height: 40%;
+    .text {
         display: flex;
-        flex-direction: column;
-        gap: 5%;
-    }
-    .input-label {
-        display: flex;
-        font-weight: bold;
-    }
-    .user-input {
-        display: flex;
-        height: 30%;
-        font-size: 16px;
-        font-weight: bold;
-        justify-content: space-around;
-        padding: 5%;
-        border: none;
-        outline: none;
-        background-color: rgb(207, 207, 207);
-        border-radius: 15px;
-    }
-    ::placeholder {
-        text-align: center;
-    }
-
-    .links {
-        height: 15%;
-        align-items: center;
         justify-content: center;
-        display: flex;
-        flex-direction: column;
-        gap: 30%;
-        font-weight: bold;
     }
 
-      
+    .text-style {
+        width: 90%;
+        color: black;
+        font-size: 125%;
+        line-height: 30px;
+        font-weight: 600;
+    }
+
+  
     .btn-functions {
         position: relative;
         display: flex;

@@ -38,36 +38,37 @@
         }
     }
 
-    body {
-        width: 100%;
-        height: 100%;
-        overflow: auto;
+    .background {
+        background: linear-gradient(to top right , #773daa, rgb(34, 1, 56));  
+        width: 100vw;
+        height: 100vh;
+        position: relative;
     }
+
+    header {
+        width: 100%;
+        height: 15%;
+    }
+    main {
+        width: 100%;
+        height: 85%;
+    }
+
     .container {
         width: 100%;
-        height: 100vh;
+        height: 100%;
         display: flex;
-        justify-content: center;
-        animation: MainTextSlideLeft 1s ease-out;
-        overflow: hidden;
-
+        justify-content: center;        
     }
 
-    .area {
-        background: linear-gradient(to top right , #773daa, rgb(34, 1, 56));  
-        width: 100%;
-        height: 100vh;
-        overflow: hidden;
-
-    }
     
     .circles {
         position: absolute;
         display: block;
         top: 0;
         left: 0;
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
         overflow: hidden;
     }
 
@@ -229,18 +230,18 @@
         position: relative;
         display: flex;
         background-color: #ffffff;
-        width: 400px;
-        height: 500px;
+        width: 90%;
+        height: 95%;
         border-radius: 20px;
         flex-direction: column;
         padding: 30px;
         position: relative;
-        gap: 30px;
+        justify-content: space-around;
         text-align: center;
-        margin: 30px;
-    }
+        animation: MainTextSlideLeft ease-out 1s;
+        box-shadow: 0px 5px 10px black;
 
-   
+    }
 
     .main-title {
         color: black;
@@ -248,9 +249,10 @@
         line-height: 40px;
     }
     .user-data {
+        height: 50%;
         display: flex;
         flex-direction: column;
-        gap: 5px;
+        gap: 2%;
     }
     .input-label {
         display: flex;
@@ -258,9 +260,11 @@
     }
     .user-input {
         display: flex;
+        height: 25%;
         font-size: 16px;
         font-weight: bold;
-        padding: 10px;
+        justify-content: space-around;
+        padding: 5%;
         border: none;
         outline: none;
         background-color: rgb(207, 207, 207);
@@ -271,9 +275,11 @@
     }
 
     .links {
+        height: 15%;
+        align-items: center;
+        justify-content: space-around;
         display: flex;
         flex-direction: column;
-        gap: 15px;
         font-weight: bold;
     }
 
@@ -286,7 +292,7 @@
     .btn-style {
         color: white;
         display: flex;
-        padding: 5px;
+        padding: 5%;
         width: 100px;
         justify-content: center;
         align-items: center;
@@ -295,6 +301,7 @@
         border: 2px solid #9b4caf;
         cursor: pointer;
         text-decoration: none;
+        font-size: 90%;
         font-weight: bold;
         background: none;
     }
@@ -354,32 +361,36 @@
         }
     }
 
-    body {
-        width: 100%;
+    .background {
+        background: linear-gradient(to top right , #773daa, rgb(34, 1, 56));  
+        width: 100vw;
         height: 100vh;
+        position: relative;
     }
-  
+
+    header {
+        width: 100%;
+        height: 15%;
+    }
+    main {
+        width: 100%;
+        height: 85%;
+    }
+
     .container {
         width: 100%;
         height: 100%;
         display: flex;
-        justify-content: center;
-        overflow: hidden;
-        animation: MainTextSlideLeft 1s ease-out;
+        justify-content: center;        
     }
 
-    .area {
-        background: linear-gradient(to top right , #773daa, rgb(34, 1, 56));  
-        width: 100%;
-        height: 100vh;
-    }
-    
     .circles {
         position: absolute;
+        display: block;
         top: 0;
         left: 0;
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
         overflow: hidden;
     }
 
@@ -390,7 +401,7 @@
         width: 0px;
         height: 0px;
         animation: animate 25s linear infinite;
-        bottom: -150px;
+        bottom: -200px;
     }
     .circles li:nth-child(1){
         left: 25%;
@@ -527,39 +538,43 @@
         position: absolute;
         left: 10%;
         cursor: pointer;
-        width: 20px;
-        height: 20px;
+        width: 35px;
+        height: 35px;
     }
     .return:hover {
         transition: 0.5s;
         transform: translateX(-7px);
-        height: 25px;
-        width: 25px;
+        height: 45px;
+        width: 45px;
     }
     
     .window {
         position: relative;
         display: flex;
         background-color: #ffffff;
-        width: 400px;
-        height: 500px;
+        width: 600px;
+        height: 75%;
         border-radius: 20px;
         flex-direction: column;
         padding: 30px;
         position: relative;
-        top: 5%;
-        gap: 30px;
+        justify-content: space-around;
         text-align: center;
+        margin: 5%;
+        animation: MainTextSlideLeft ease-out 1s;
+        box-shadow: 0px 5px 10px 0px black;
     }
+
     .main-title {
         color: black;
         font-size: 30px;
         line-height: 40px;
     }
     .user-data {
+        height: 65%;
         display: flex;
         flex-direction: column;
-        gap: 5px;
+        gap: 5%;
     }
     .input-label {
         display: flex;
@@ -567,9 +582,11 @@
     }
     .user-input {
         display: flex;
+        height: 30%;
         font-size: 16px;
         font-weight: bold;
-        padding: 10px;
+        justify-content: space-around;
+        padding: 5%;
         border: none;
         outline: none;
         background-color: rgb(207, 207, 207);
@@ -580,9 +597,11 @@
     }
 
     .links {
+        height: 10%;
+        align-items: center;
+        justify-content: center;
         display: flex;
         flex-direction: column;
-        gap: 15px;
         font-weight: bold;
     }
 
@@ -595,7 +614,7 @@
     .btn-style {
         color: white;
         display: flex;
-        padding: 5px;
+        padding: 20px;
         width: 100px;
         justify-content: center;
         align-items: center;
@@ -604,6 +623,7 @@
         border: 2px solid #9b4caf;
         cursor: pointer;
         text-decoration: none;
+        font-size: 90%;
         font-weight: bold;
         background: none;
     }

@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Rocypt</title>
+    <title>Alteração sucedida</title>
 
-    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="Styles/alteracao_sucedida.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,23 +38,25 @@
                 <div class="Title">
                     <h1 onclick="location.href='index.html'">Ro<span style="color: rgb(162, 0, 255)">cyp</span>t</h1>
                 </div>
+                <img class="return" src="imgs/fi-bs-angle-small-left.png" alt="return" onclick="history.back()">
             </div>
         </header>
 
         <main>
             <div class="container">
-                    <div class="main-text">
-                            <p class="main-welcome">Seja bem vindo(a)...</p>
-                            <h1 class="main-title">Proteja suas senhas, proteja sua vida digital.</h1>
-                        <div class="btn-home">
-                            <button class="btn-style" id="Comece" onclick="location.href='cadastro.html'">Comece já</button>
-                            <button class="btn-style" onclick="location.href='login.html'">Login</button>
+                    <div class="window">
+                        <h1 class="main-title">Senha Alterada com Sucesso...</h1>
+                        <div class="text">
+                            <p class="text-style">Sua senha master foi alterada com sucesso.
+                                Clique no botão abaixo para ir a tela de Login e entrar na sua conta.
+                            </p>
+                        </div>  
+                        <div class="btn-functions">
+                            <button class="btn-style" id="entrar" onclick="location.href='login.html'">Login</button>
                         </div>
                     </div>
             </div >
         </main>
-        <footer>
-        </footer>
     </div>
 </body>
 </html>
