@@ -4,11 +4,14 @@
 
 ## Teste em diferentes navegadores
  - [Google](https://www.google.com/chrome/)
+ - 
  - [Firefox](https://www.mozilla.org/pt-BR/firefox/new/)
+ - 
  - [Safari](https://www.apple.com/br/safari/)
 
 ## Teste em diferentes dispositivos
 - PC
+
 - Smartphone
 
 ## Registro de usuário
