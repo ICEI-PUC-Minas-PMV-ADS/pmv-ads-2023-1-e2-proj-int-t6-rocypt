@@ -12,10 +12,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@100&family=Nunito:wght@200&family=Poppins:wght@200&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
+    
     <div class="background" >
+
             <ul class="circles">
                     <li><img class="lock" src="imgs/lock.png" alt="lock"></li>
                     <li><img class="lock" src="imgs/lock.png" alt="lock"></li>
@@ -33,39 +36,80 @@
                     <li><img class="lock" src="imgs/lock.png" alt="lock"></li>
                     <li><img class="lock" src="imgs/lock.png" alt="lock"></li>
             </ul>
-        <header class="outer-Header">
-            <div class="inner-Header">
-                <div class="title-desktop">
-                    <h1 onclick="location.href='index.html'">Ro<span style="color: rgb(162, 0, 255)">cyp</span>t</h1>
-                </div>
-                <div class="mobile-nav">
-                    <div class="title-mobile">
-                        <h1 class="title" onclick="location.href='gerenciador_de_senhas.html'">Ro<span style="color: rgb(162, 0, 255)">cyp</span>t</h1>
-                    </div>
-                    <div class="nav-bar">
-                        
-                        <label class="logo"><img class="nav-dots" src="imgs/fi-bs-menu-dots.png" alt="nav-dots"></label>
-                        <ul>
-                            <li><a href="gerenciador_de_senhas.html">Gerenciador de Senhas</a></li>
-                            <li><a href="#">Gerador de Senhas</a></li>
-                            <li><a href="index.html">Logout</a></li>
-                        </ul>
+
+            <div class="popup" id="popup-new-group">
+                <div id="overlay-new-group" class="overlay"></div>
+                <div id="content-new-group" class="content">
+                    <div class="close-btn" onclick="closePopup()"><i class="fa fa-close"></i></div>
+                    <h1 class="main-title">Criar novo grupo...</h1>
+                    <input class="user-input" type="text">
+                    <div class="btn-popup">
+                        <button id="confirm-popup" onclick="createGroup()" class="btn-style-popup">Confirmar</button>
+                        <button id="cancel-popup" onclick="createClose()" class="btn-style-popup">Cancelar</button>
                     </div>
                 </div>
             </div>
+
+            <div class="popup" id="popup-edit-group">
+                <div id="overlay-edit" class="overlay"></div>
+                <div id="content-edit" class="content">
+                    <div class="close-btn" onclick="editClose()"><i class="fa fa-close"></i></div>
+                    <h1 class="main-title">Editar grupo...</h1>
+                    <input class="user-input" type="text">
+                    <div class="btn-popup">
+                        <button id="confirm-popup" onclick="editGroup()" class="btn-style-popup">Confirmar</button>
+                        <button id="delete-popup" onclick="deleteGroup()" class="btn-style-popup">Deletar</button>
+                        <button id="cancel-popup" onclick="editClose()" class="btn-style-popup">Cancelar</button>
+                    </div>
+                </div>
+            </div>
+
+        <header>
+
+           <nav>
+            <input type="checkbox" id="check" name="checkbox"> 
+            <label for="check" class="check-btn">
+            <i class="fa fa-bars"></i>
+            </label>
+            <label class="title"><h1 onclick="location.href='gerenciador_de_senhas.html'">Ro<span style="color: rgb(162, 0, 255)">cyp</span>t</h1></label>
+            <ul>
+               <li><a onclick="location.href='index.html'" id="logout">Logout</a></li>
+            </ul>
+                <div class="btn-header">
+                    <button class="btn-style-desktop" id="logout" onclick="location.href='index.html'">Logout</button>
+                </div>   
+            </nav>
+
         </header>
 
         <main>
-            <div class="container">
-                    <div class="window">
-                        <h1 class="main-title">Gerenciador de Senhas...</h1>
-                         
-                        
-                        <div class="btn-functions">
+
+        <div class="container">
+            
+         <div class="window">
+            <h1 class="main-title">Gerenciador de Senhas...</h1>
+             <div class="manager-mobile">
+                    <div class="btn-create">
+                        <button onclick="createPopup()" class="btn-style-mobile" id="new-group">Novo Grupo</button>
+                    </div>
+                    <div class="group-zone">
+                        <div class="group-template">
+                            <div class="name">
+                                <button id="group-name" name="">Grupo 1</button>
+                            </div>
+                            <div class="area-edit">
+                                <button id="edit-button" onclick="editPopup()" class="btn-edit"><i class="fa fa-pencil" id="edit-icon"></i></button>
+                           </div>
                         </div>
                     </div>
+                  </div>
+              </div>
             </div >
         </main>
+
     </div>
+    
+    <script type="text/javascript" src="Scripts/group-management.js"></script>
+
 </body>
 </html>
