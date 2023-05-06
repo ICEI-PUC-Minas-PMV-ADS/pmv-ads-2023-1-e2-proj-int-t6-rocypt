@@ -41,8 +41,8 @@
 
 # Recursos necessários: 
 
-- Navegadores.
-- Ferramenta de testes (NodeJS).
-- Dispositivos (desktop e smartphone).
-- Equipe de testes.
+- Navegadores
+- Visual Studio Code
+- Dispositivos
+- Equipe de testes
 
