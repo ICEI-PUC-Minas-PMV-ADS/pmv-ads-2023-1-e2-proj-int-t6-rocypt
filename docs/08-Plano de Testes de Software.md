@@ -10,30 +10,14 @@
 
 - Assegurar que a aplicação seja fácil de usar e de navegar para os usuários. 
 
-# Escopo do teste: 
+# Escopo do teste
 
-#### **Testar a aplicação web em diferentes navegadores:**
+#### **Testar a aplicação web em diferentes navegadores
 
-- ![](https://github.com/alrra/browser-logos/blob/main/src/chrome/chrome_32x32.png) - Chrome
+#### **Verificar a compatibilidade em diferentes dispositivos
 
-- ![](https://github.com/alrra/browser-logos/blob/main/src/firefox/firefox_32x32.png) - Firefox 
+#### **Testar todas as funcionalidades da aplicação
 
-- ![](https://github.com/alrra/browser-logos/blob/main/src/safari/safari_32x32.png) - Safari
-
-#### **Verificar a compatibilidade em diferentes dispositivos:**
-
-- Desktop 🖥️
-- SmartPhone 📱
-
-#### **Testar todas as funcionalidades da aplicação:**
-
-- Formulários
-- Botões
-- Links
-- Menus
-- etc...
-
-*Testar a usabilidade da aplicação, incluindo a navegação e a experiência do usuário.*
 
 # Estratégia de teste: 
 
