@@ -12,11 +12,11 @@
 
 # Escopo do teste
 
-#### **Testar a aplicação web em diferentes navegadores
+- **Testar a aplicação web em diferentes navegadores
 
-#### **Verificar a compatibilidade em diferentes dispositivos
+- **Verificar a compatibilidade em diferentes dispositivos
 
-#### **Testar todas as funcionalidades da aplicação
+- **Testar todas as funcionalidades da aplicação
 
 
 # Estratégia de teste: 
