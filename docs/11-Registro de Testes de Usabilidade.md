@@ -1,8 +1,12 @@
 # Registro de Testes de Usabilidade
+Após realizar os testes de usabilidade, obtém-se um relatório a partir das análises realizadas. O Registro de Testes de Usabilidade é um relatório que contém as evidências dos testes e relatos dos usuários participantes, baseado no Plano de Testes de Usabilidade desenvolvido para os casos de uso desta etapa.
 
-Relatório de Teste de Usabilidade
+As referências abaixo irão auxiliá-lo na geração do artefato “Registro de Testes de Usabilidade”.
 
-Introdução:
+
+# Relatório de Teste de Usabilidade
+
+# Introdução:
 
 A evolução tecnológica traz consigo inúmeros benefícios tais quais aumento da produtividade, otimização e automação de processos, melhoria na comunicação, aumento do controle de qualidade, entre outros. No entanto, vem acompanhada da necessidade de proteção e monitoramento de dados particulares solicitados através de cadastros para permissão de utilização.
 
@@ -14,7 +18,7 @@ O Rocypt é um aplicativo de navegador que criptografa as senhas do usuário e a
 
 O participante de usabilidade do Rocypt realizou um teste de usabilidade na presença do facilitador, usando a última versão disponível localizada no computador dele. Foram registrados todos os comentários. A sessão também capturou a navegabilidade, conclusão de tarefas propostas, classificações gerais de satisfação, perguntas e feedback.
 
-Resumo:
+# Resumo:
 
 A equipe do projeto Rocypt realizou um teste de usabilidade na residência do usuário. O objetivo do teste foi avaliar a usabilidade do design da interface web, do fluxo de informação e da arquitetura do projeto.
 
@@ -26,7 +30,7 @@ O teste foi realizado no tocante as funcionalidades disponíveis no protótipo e
 •	Demora/lentidão para efetuar o login.
 •	Falta de um link de retorno a página principal. 
 
-Metodologia:
+# Metodologia:
 
 O facilitador do teste entrou em contato com o participante informando-o sobre a logística do teste, solicitando sua disponibilidade e participação. 
 
@@ -46,7 +50,7 @@ Além disso, o administrador do teste fez aos participantes as seguintes pergunt
 •	O que o participante menos gostou.
 •	Recomendações de melhoria. 
 
-Resultados:
+# Resultados:
 
 O participante concluiu com êxito as tarefas propostas de efetuar o cadastro, realizar o login e acionar a função de esqueci senha. Contudo, não foi capaz de achar muito facilmente o retorno a página principal.
 
@@ -69,15 +73,13 @@ O participante classificou a demora no momento do login como o ponto que menos g
 •	Recomendações de melhorias:
 Pelo protótipo analisado o usuário sugeriu como melhoria um menu de retorno a página principal mais visível.
 
-Conclusão:
+# Conclusão:
 
 O participante considerou o site limpo, organizado, fácil de usar e útil. O Rocypt é fundamental para aqueles que precisam ter na memória inúmeras senhas de segurança de acesso. Por se tratar de um protótipo novas funcionalidades serão implementadas até que todas as funcionalidades propostas sejam atendidas, garantindo um site centrado no usuário contínuo.
 
 
 
-Após realizar os testes de usabilidade, obtém-se um relatório a partir das análises realizadas. O Registro de Testes de Usabilidade é um relatório que contém as evidências dos testes e relatos dos usuários participantes, baseado no Plano de Testes de Usabilidade desenvolvido para os casos de uso desta etapa.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Registro de Testes de Usabilidade”.
 
 > **Links Úteis**:
 > - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
