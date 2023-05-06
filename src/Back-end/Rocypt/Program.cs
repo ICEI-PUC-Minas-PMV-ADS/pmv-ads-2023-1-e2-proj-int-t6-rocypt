@@ -17,11 +17,6 @@ namespace Rocypt
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            //jwtToken
-
-
-        //adicionar esse trecho em SQL SERVER
-
         builder.Services.AddDbContext<DatabankContext>(options =>
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DataBase"));
@@ -29,7 +24,8 @@ namespace Rocypt
 
         // Add services to the container.
             builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
-            builder.Services.AddScoped<IEmail, Email>();
+			builder.Services.AddScoped<IGrupoRepositorio, GrupoRepositorio>();
+			builder.Services.AddScoped<IEmail, Email>();
             builder.Services.AddDistributedMemoryCache();
             builder.Services.AddControllersWithViews();
 
@@ -49,7 +45,7 @@ namespace Rocypt
 
             builder.Services.AddSession(options =>
             {
-                options.IdleTimeout = TimeSpan.FromMinutes(30);
+                options.IdleTimeout = TimeSpan.FromMinutes(15);
                 options.Cookie.HttpOnly = true;
                 options.Cookie.IsEssential = true;
             });

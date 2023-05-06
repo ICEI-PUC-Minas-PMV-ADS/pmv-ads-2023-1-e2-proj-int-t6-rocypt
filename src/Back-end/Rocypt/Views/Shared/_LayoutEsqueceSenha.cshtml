@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rocypt</title>
+
+    <link rel="stylesheet" href="~/css/login.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@100&family=Nunito:wght@200&family=Poppins:wght@200&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="area">
+        <ul class="circles">
+            <li><img class="lock" src="~/imgs/lock.png" alt="lock"></li>
+            <li><img class="lock" src="~/imgs/lock.png" alt="lock"></li>
+            <li><img class="lock" src="~/imgs/lock.png" alt="lock"></li>
+            <li><img class="lock" src="~/imgs/lock.png" alt="lock"></li>
+            <li><img class="lock" src="~/imgs/lock.png" alt="lock"></li>
+            <li><img class="lock" src="~/imgs/lock.png" alt="lock"></li>
+            <li><img class="lock" src="~/imgs/lock.png" alt="lock"></li>
+            <li><img class="lock" src="~/imgs/lock.png" alt="lock"></li>
+            <li><img class="lock" src="~/imgs/lock.png" alt="lock"></li>
+            <li><img class="lock" src="~/imgs/lock.png" alt="lock"></li>
+            <li><img class="lock" src="~/imgs/lock.png" alt="lock"></li>
+            <li><img class="lock" src="~/imgs/lock.png" alt="lock"></li>
+            <li><img class="lock" src="~/imgs/lock.png" alt="lock"></li>
+            <li><img class="lock" src="~/imgs/lock.png" alt="lock"></li>
+            <li><img class="lock" src="~/imgs/lock.png" alt="lock"></li>
+        </ul>
+        <header class="outer-Header">
+            <div class="inner-Header">
+                <div class="Title">
+                    <h1 onclick="location.href='/'">Ro<span style="color: rgb(162, 0, 255)">cyp</span>t</h1>
+                </div>
+                <img class="return" src="/imgs/fi-bs-angle-small-left.png" alt="return" onclick="location.href='/'">
+            </div>
+        </header>
+        <main>
+                    @RenderBody()
+        </main>
+        <footer>
+        </footer>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

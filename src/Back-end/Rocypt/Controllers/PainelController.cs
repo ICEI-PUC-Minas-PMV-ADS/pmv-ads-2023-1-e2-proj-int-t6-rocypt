@@ -1,39 +1,73 @@
 ﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Rocypt.Data;
 using Rocypt.Models;
 using Rocypt.Repositorio;
+using System.Security.Claims;
 
 namespace Rocypt.Controllers
 {
     public class PainelController : Controller
     {
-        private readonly IUsuarioRepositorio _usuarioRepositorio;
+        private readonly IGrupoRepositorio _grupoRespositorio;
         private readonly DatabankContext _databankContext;
 
-        public PainelController(IUsuarioRepositorio UsuarioRepositorio, DatabankContext databankContext)
+
+        public PainelController(IGrupoRepositorio grupoRepositorio, DatabankContext databankContext)
         {
-            _usuarioRepositorio = UsuarioRepositorio;
+            _grupoRespositorio = grupoRepositorio;
             _databankContext = databankContext;
         }
 
         public IActionResult Index()
         {
             if (!User.Identity.IsAuthenticated) return RedirectToAction("Index", "Login");
-            List<UsuarioModel> usuarios = _usuarioRepositorio.BuscarRegistros();
-            return View(usuarios);
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            List<GrupoModel> grupos = _grupoRespositorio.BuscarTodos(Guid.Parse(userId));
+            return View(grupos);
         }
+
+        [HttpGet]
+        public IActionResult CriarGrupo()
+        {
+            return View();
+        }
+
         public IActionResult Deslogar()
         {
             HttpContext.SignOutAsync();
             return RedirectToAction("Index", "Login");
         }
 
-        public IActionResult Apagar(int id)
+        [HttpPost]
+        public IActionResult CriarGrupo(GrupoModel grupo)
         {
             try
             {
-                bool apagado = _usuarioRepositorio.Apagar(id);
+                if (ModelState.IsValid)
+                {
+                    var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                    UsuarioModel usuario = _databankContext.Usuarios.Find(Guid.Parse(userId));
+                    grupo.UsuarioId = usuario.Id;
+                    grupo = _grupoRespositorio.Adicionar(grupo);
+                    return RedirectToAction("Index");
+                }
+                return View();
+            }catch(Exception erro)
+            {
+                TempData["MensagemErro"] = $"Ops, não conseguimos adicionar um grupo, tente novamante, detalhe do erro: {erro.Message}";
+                return View();
+            }
+
+        }
+
+      
+        public IActionResult Apagar(Guid id)
+        {
+            try
+            {
+                bool apagado = _grupoRespositorio.Apagar(id);
 
                 return RedirectToAction("Index");
             }

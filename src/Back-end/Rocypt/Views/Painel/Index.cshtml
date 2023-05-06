@@ -1,4 +1,4 @@
-﻿@model List<UsuarioModel>
+﻿@model List<GrupoModel>
 @{
     Layout = "_Layout";
     ViewData["Title"] = "Pagina Inicial";
@@ -8,24 +8,22 @@
 <p class="main-welcome">Seja bem vindo(a), @User.Identity.Name</p>
     <h1 class="main-title">Você esta logado! O sistema esta funcionando perfeitamente!</h1>
         <div class="btn-home">
-                  <a asp-controller="Painel" asp-action="Deslogar"><button class="btn-style" onclick="location.href=''">Sair</button></a>
+                  <a asp-controller="Painel" asp-action="Deslogar"><button class="btn-style">Sair</button></a>
 
 </div>
 
-        <h1 class="display-4">Registrados</h1>
+        <h1 class="display-4">Grupos</h1>
 
         <table id="table-contatos" class="display" style="width:100%">
             <thead>
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">Nome</th>
-                    <th scope="col">Email</th>
-                    <th scope="col">Senha(Encrypt)</th>
-                    <th scope="col">Data de registro</th>
                     <th scope="col"></th>
                 </tr>
             </thead>
             <tbody>
+                <a class="btn btn-danger" asp-controller="Painel" asp-action="CriarGrupo" role="button"><button class="btn-style">Adicionar Grupo</button></a>
                 @if (Model != null && Model.Any())
                 {
                     foreach (var registro in Model)
@@ -33,9 +31,6 @@
                         <tr>
                             <th scope="row">@registro.Id</th>
                             <td>@registro.Name</td>
-                            <td>@registro.Email</td>
-                            <td>@registro.Password</td>
-                            <td>@registro.RegistrationDate</td>
                             <td>
                                 <div class="btn-group" role="group">
                                     <a role="button" asp-action="Apagar" asp-controller="Painel" asp-route-id="@registro.Id" class="btn btn-danger">Apagar</a>
@@ -46,7 +41,7 @@
                 }
                 else
                 {
-                    <tr class="odd"><td valign="top" colspan="5">Nenhum contato encontrado</td></tr>
+                    <tr class="odd"><td valign="top" colspan="5">Nenhum grupo encontrado</td></tr>
                 }
             </tbody>
         </table>

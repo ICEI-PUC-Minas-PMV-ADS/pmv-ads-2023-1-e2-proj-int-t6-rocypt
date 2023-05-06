@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Rocypt.Data.Map;
 using Rocypt.Models;
 
 namespace Rocypt.Data
@@ -12,6 +13,16 @@ namespace Rocypt.Data
 		}
 
 		public DbSet<UsuarioModel> Usuarios { get; set; }
+		public DbSet<GrupoModel> Grupo { get; set; }
+
+		protected override void OnModelCreating(ModelBuilder modelBuilder)
+		{
+			modelBuilder.ApplyConfiguration(new GrupoMap());
+
+			base.OnModelCreating(modelBuilder);
+
+
+		}
 
 
 	}

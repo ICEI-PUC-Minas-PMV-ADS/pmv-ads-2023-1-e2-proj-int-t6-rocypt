@@ -1,0 +1,19 @@
+﻿@model RedefinirSenhaModel
+@{
+    Layout = "_LayoutEsqueceSenha";
+    ViewData["Title"] = "Verificação";
+}
+
+
+<div class="container">
+    <div class="window">
+        <h1 class="main-title">Código de Alteração de Senha...</h1>
+        <form class="user-data" asp-controller="RedefinirSenha" asp-action="Verificar" method="post">
+            <label class="input-label for=" email>Um link de código foi enviado para "Email@gmail.com". Verifique o código enviado e coloque-o no campo abaixo</label>
+            <input class="user-input" placeholder="•••••••••••••••" type="text" asp-for="Token" id="Email" required="required">
+                    <div class="btn-functions">
+            <button class="btn-style" id="entrar">Enviar</button>
+        </div>
+        </form>
+    </div>
+</div>
