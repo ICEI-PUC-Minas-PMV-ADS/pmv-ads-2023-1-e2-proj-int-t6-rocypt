@@ -6,8 +6,6 @@
 
 ## Login
 
-## Alterar senha Master
-
 ## Redefinir senha
 
 ## Cadastrar perfil
