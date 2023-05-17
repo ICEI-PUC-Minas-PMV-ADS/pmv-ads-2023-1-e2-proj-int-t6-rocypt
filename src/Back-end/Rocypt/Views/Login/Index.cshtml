@@ -1,7 +1,7 @@
 ﻿@model LoginModel
 @{
 	Layout = "_LayoutLogin";
-	ViewData["Title"] = "Login";
+	ViewData["Title"] = "Redefinir a senha.";
 }
 
 
@@ -23,7 +23,7 @@
 
         <div class="links">
             <a asp-controller="Registro" asp-action="Index" >Não tem uma conta? Cadastre-se</a>
-            <a asp-controller="RedefinirSenha" asp-action="Index">Esqueceu a senha master?</a>
+            <a asp-controller="Login" asp-action="RedefinirSenha">Esqueceu a senha master?</a>
         </div>
     <div class="btn-functions">
         <button class="btn-style" id="entrar">Entrar</button>

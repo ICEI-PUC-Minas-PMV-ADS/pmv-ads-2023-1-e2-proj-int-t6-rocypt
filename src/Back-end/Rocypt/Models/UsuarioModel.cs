@@ -8,7 +8,7 @@ namespace Rocypt.Models
 	public class UsuarioModel
 	{
 
-		public Guid Id { get; set; } = Guid.NewGuid();
+		public int Id { get; set; }
 		[Required(ErrorMessage = "Digite o nome do usuário.")]
 		public string Name { get; set; }
 		[Required(ErrorMessage = "Digite o seu email.")]
@@ -16,10 +16,7 @@ namespace Rocypt.Models
 		[Required(ErrorMessage = "Digite a sua senha.")]
 		public string Password { get; set; }
 		public string Role { get; set; } = "User";
-		public string? Token { get; set; }
 		public DateTime RegistrationDate { get; set; } = DateTime.Now;
-
-		public virtual List<GrupoModel>? Grupo { get; set; }
 
 		public void SetSenhaHash()
 		{
@@ -29,17 +26,6 @@ namespace Rocypt.Models
 		public bool SenhaValida(string password)
 		{
 			return Password == password.GerarHash();
-		}
-
-		public bool TokenValido(string token)
-		{
-			return Token == token;
-		}
-		public string GerarToken()
-		{
-			string novoToken = Guid.NewGuid().ToString().Substring(0, 6);
-			Token = novoToken;
-			return novoToken;
 		}
 
 		public string GerarNovaSenha()

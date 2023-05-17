@@ -24,28 +24,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/faculdade/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/Painel/CriarGrupo.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpbmVsXENyaWFyR3J1cG8uY3NodG1s
+[C:/faculdade/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/Login/RedefinirSenha.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVkZWZpbmlyU2VuaGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/faculdade/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/Painel/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpbmVsXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/faculdade/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/RedefinirSenha/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVkZWZpbmlyU2VuaGFcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/faculdade/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/RedefinirSenha/Redefinir.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVkZWZpbmlyU2VuaGFcUmVkZWZpbmlyLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/faculdade/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/RedefinirSenha/Sucesso.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVkZWZpbmlyU2VuaGFcU3VjZXNzby5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/faculdade/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/RedefinirSenha/Verificacao.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVkZWZpbmlyU2VuaGFcVmVyaWZpY2FjYW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/faculdade/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/Registro/Index.cshtml]
@@ -58,10 +42,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/faculdade/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/Shared/_LayoutCadastro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRDYWRhc3Ryby5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/faculdade/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/Shared/_LayoutEsqueceSenha.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRFc3F1ZWNlU2VuaGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/faculdade/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/Shared/_LayoutLogin.cshtml]

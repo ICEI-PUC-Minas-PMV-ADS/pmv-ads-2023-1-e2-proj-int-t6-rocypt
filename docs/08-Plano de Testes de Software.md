@@ -10,14 +10,30 @@
 
 - Assegurar que a aplicação seja fácil de usar e de navegar para os usuários. 
 
-# Escopo do teste
+# Escopo do teste: 
 
-- **Testar a aplicação web em diferentes navegadores**
+#### **Testar a aplicação web em diferentes navegadores:**
 
-- **Verificar a compatibilidade em diferentes dispositivos**
+- ![](https://github.com/alrra/browser-logos/blob/main/src/chrome/chrome_32x32.png) - Chrome
 
-- **Testar todas as funcionalidades da aplicação**
+- ![](https://github.com/alrra/browser-logos/blob/main/src/firefox/firefox_32x32.png) - Firefox 
 
+- ![](https://github.com/alrra/browser-logos/blob/main/src/safari/safari_32x32.png) - Safari
+
+#### **Verificar a compatibilidade em diferentes dispositivos:**
+
+- Desktop 🖥️
+- SmartPhone 📱
+
+#### **Testar todas as funcionalidades da aplicação:**
+
+- Formulários
+- Botões
+- Links
+- Menus
+- etc...
+
+*Testar a usabilidade da aplicação, incluindo a navegação e a experiência do usuário.*
 
 # Estratégia de teste: 
 
@@ -41,8 +57,20 @@
 
 # Recursos necessários: 
 
-- Navegadores
-- Visual Studio Code
-- Dispositivos
-- Equipe de testes
+- Navegadores (Chrome, Firefox, Safari). 
+- Ferramenta de teste (NodeJS). 
+- Dispositivos (desktop, smartphone).
+- Equipe de testes.
 
+
+
+
+
+
+> **Links Úteis**:
+> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
+> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
+> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
+> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
+> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)

@@ -43,7 +43,8 @@ namespace Rocypt.Helpers
                 }
             }
             catch (System.Exception ex)
-            { 
+            {
+                // Gravar log de erro ao enviar e-mail
 
                 return false;
             }

@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@100&family=Nunito:wght@200&family=Poppins:wght@200&family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <link rel="icon" href="imgs/lock.png" type="image/png">
+    
 </head>
 <body>
     
@@ -37,14 +39,15 @@
                     <li><img class="lock" src="imgs/lock.png" alt="lock"></li>
             </ul>
 
+            <!--Popups da tela de criação de grupos-->
             <div class="popup" id="popup-new-group">
                 <div id="overlay-new-group" class="overlay"></div>
                 <div id="content-new-group" class="content">
-                    <div class="close-btn" onclick="closePopup()"><i class="fa fa-close"></i></div>
+                    <div class="close-btn" onclick="createClose()"><i class="fa fa-close"></i></div>
                     <h1 class="main-title">Criar novo grupo...</h1>
                     <input class="user-input" type="text">
                     <div class="btn-popup">
-                        <button id="confirm-popup" onclick="createGroup()" class="btn-style-popup">Confirmar</button>
+                        <button id="confirm-popup" onclick="createClose()" class="btn-style-popup">Confirmar</button>
                         <button id="cancel-popup" onclick="createClose()" class="btn-style-popup">Cancelar</button>
                     </div>
                 </div>
@@ -57,8 +60,60 @@
                     <h1 class="main-title">Editar grupo...</h1>
                     <input class="user-input" type="text">
                     <div class="btn-popup">
-                        <button id="confirm-popup" onclick="editGroup()" class="btn-style-popup">Confirmar</button>
-                        <button id="delete-popup" onclick="deleteGroup()" class="btn-style-popup">Deletar</button>
+                        <button id="confirm-popup" onclick="editClose()" class="btn-style-popup">Confirmar</button>
+                        <button id="delete-popup" onclick="editClose()" class="btn-style-popup">Deletar</button>
+                        <button id="cancel-popup" onclick="editClose()" class="btn-style-popup">Cancelar</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!--Popups da tela de senhas-->
+            <div class="popup" id="popup-new-password">
+                    <div id="overlay-new-password" class="overlay">
+                        <div id="content-new-password" class="content">
+                            <div class="popup-header">
+                                <div class="close-btn" onclick="createNewPasswordOff()"><i class="fa fa-close"></i></div>
+                                <h1 class="main-title">Gerenciamento de Senhas...</h1>
+                            </div>
+
+                            <div class="password-creation">
+                                <label for="password-name">Nome da senha...</label>
+                                <input id="password-name" class="user-input" type="text">
+
+                                <label for="password-user">Nome do usuário...</label>
+                                <input id="password-user" class="user-input" type="text">
+
+                                <label for="password-email">Email...</label>
+                                <input id="password-email" class="user-input" type="text">
+                                
+                                <div class="password-edit">
+                                    <label for="password-user-password">Senha...</label>
+                                    <div class="password-edit-random">
+                                        <input id="password-user-password" class="user-input" type="password">
+                                        <button class="btn-style-popup" id="random-password" onclick=""><i class="fa fa-random"></i></button>
+                                    </div>
+                                    <h2 class="tip">O botão ao lado criará uma senha completamente aleatória.</h2>
+                                </div>
+                                
+                            </div>
+
+                            <div class="btn-popup">
+                                <button id="confirm-popup" onclick="createNewPasswordOff()" class="btn-style-popup">Confirmar</button>
+                                <button id="cancel-popup" onclick="createNewPasswordOff()" class="btn-style-popup">Cancelar</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="popup" id="popup-exclude-password">
+                <div id="overlay-exclude" class="overlay"></div>
+                <div id="content-exclude" class="content">
+                    <div class="close-btn" onclick="editClose()"><i class="fa fa-close"></i></div>
+                    <h1 class="main-title">Excluir Senha...</h1>
+                    <input class="user-input" type="text">
+                    <div class="btn-popup">
+                        <button id="confirm-popup" onclick="editClose()" class="btn-style-popup">Confirmar</button>
+                        <button id="delete-popup" onclick="editClose()" class="btn-style-popup">Deletar</button>
                         <button id="cancel-popup" onclick="editClose()" class="btn-style-popup">Cancelar</button>
                     </div>
                 </div>
@@ -73,11 +128,16 @@
             </label>
             <label class="title"><h1 onclick="location.href='gerenciador_de_senhas.html'">Ro<span style="color: rgb(162, 0, 255)">cyp</span>t</h1></label>
             <ul>
+                <div class="user-info">
+                    <li id="user-image"><i class="fa fa-user"></i></li>
+                    <div class="user-text-info">
+                        <li class="user-data" id="user-name"><h1>Fulano Siclano</h1></li>
+                        <li class="user-data" id="user-email"><h1>email@exemplo.com</h1></li>
+                    </div>
+                </div>
                <li><a onclick="location.href='index.html'" id="logout">Logout</a></li>
             </ul>
-                <div class="btn-header">
-                    <button class="btn-style-desktop" id="logout" onclick="location.href='index.html'">Logout</button>
-                </div>   
+                 
             </nav>
 
         </header>
@@ -86,30 +146,128 @@
 
         <div class="container">
             
-         <div class="window">
-            <h1 class="main-title">Gerenciador de Senhas...</h1>
-             <div class="manager-mobile">
-                    <div class="btn-create">
-                        <button onclick="createPopup()" class="btn-style-mobile" id="new-group">Novo Grupo</button>
-                    </div>
-                    <div class="group-zone">
-                        <div class="group-template">
-                            <div class="name">
-                                <button id="group-name" name="">Grupo 1</button>
-                            </div>
-                            <div class="area-edit">
-                                <button id="edit-button" onclick="editPopup()" class="btn-edit"><i class="fa fa-pencil" id="edit-icon"></i></button>
-                           </div>
+            <div class="window">
+
+                <div class="mobile-window">
+
+                    <div class="groups" id="mobile-groups">
+                        <div class="titles">
+                            <h1 class="main-title">Gerenciador de Senhas...</h1>
+                            <h2 class="managing-title">Grupos...</h2>
                         </div>
+
+                        <div class="manager-mobile">
+                                <div class="btn-create">
+                                    <button onclick="createPopup()" class="btn-style-mobile" id="new-group">Novo Grupo</button>
+                                </div>
+                                <div class="group-zone">
+                                    <div class="group-template">
+                                        <div class="name">
+                                            <button id="group-name" name="" onclick="groupPasswordsOn()">Grupo 1</button>
+                                        </div>
+                                        <div class="area-edit">
+                                            <button id="edit-button" onclick="editPopup()" class="btn-edit"><i class="fa fa-pencil" id="edit-icon"></i></button>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
                     </div>
-                  </div>
-              </div>
-            </div >
+                    
+
+                    <div class="passwords" id="mobile-passwords">
+                        <div class="titles">
+                            <h1 class="main-title">Gerenciador de Senhas...</h1>
+                            <h2 class="managing-title">Senhas...</h2>
+                        </div>
+
+                        <div class="manager-mobile">
+                                <div class="btn-create">
+                                    <button onclick="groupPasswordsOff()" class="btn-style-mobile" id="return"><i class="fa fa-arrow-left"></i></button>
+                                    <button onclick="createNewPasswordOn()" class="btn-style-mobile" id="new-group">Nova Senha</button>
+                                </div>
+                                <div class="group-zone">
+                                    <div class="group-template">
+                                        <div class="name">
+                                            <button id="group-name" onclick="">Senha 1</button>
+                                        </div>
+                                        <div class="area-edit">
+                                            <button id="btn-exclude" onclick="editPopup()" class="btn-edit"><i class="fa fa-trash" id="btn-exclude"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+
+                </div>
+                
+            </div>
+                <div class="desktop-window">
+                        
+                    <div class="desktop-window">
+
+                         <div class="titles">
+                              <h1 class="main-title">Gerenciador de Senhas...</h1>
+                         </div>
+
+                         <div class="manager-desktop">
+
+                            <div class="group-window-desktop">
+
+                                <div class="btn-create" id="btn-create-group">
+                                    <h2 class="managing-title">Grupos...</h2>
+                                    <button onclick="createPopup()" class="btn-style-mobile" id="new-group">Novo Grupo</button>
+                                </div>
+
+                                <div class="group-zone">
+                                    <div class="group-template">
+                                        <div class="name">
+                                            <button id="group-name" name="" onclick="groupPasswordsOn()">Grupo 1</button>
+                                        </div>
+                                        <div class="area-edit">
+                                            <button id="edit-button" onclick="editPopup()" class="btn-edit"><i class="fa fa-pencil" id="edit-icon"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="password-window-desktop">
+
+                                <div class="btn-create" id="btn-create-password">
+                                    <h2 class="managing-title" id="Senhas">Senhas...</h2>
+                                    <button onclick="createNewPasswordOn()" class="btn-style-mobile" id="new-group">Nova Senha</button>
+                                </div>
+
+                                <div class="group-zone" id="password-zone">
+
+                                    <div class="group-template">
+                                        <div class="name">
+                                            <button id="group-name" onclick="createNewPasswordOn()">Senha 1</button>
+                                        </div>
+                                        <div class="area-edit">
+                                            <button id="btn-exclude" onclick="editPopup()" class="btn-edit"><i class="fa fa-trash" id="btn-exclude"></i></button>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+
+                            </div>
+
+                         </div>
+                            
+                    </div>
+                </div>
+
+            </div>
+
+        </div >
+
         </main>
 
     </div>
     
-    <script type="text/javascript" src="Scripts/group-management.js"></script>
+    <script type="text/javascript" src="Scripts/open-close.js"></script>
 
 </body>
 </html>

@@ -530,6 +530,11 @@
         margin: 10px;
         color: white;
         cursor: pointer;
+        transition: 1s;
+    }
+    .Title:hover {
+        transition: 1s;
+        font-size: 22px;
     }
     .return {
         display: flex;
