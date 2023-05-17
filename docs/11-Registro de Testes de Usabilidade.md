@@ -1,8 +1,8 @@
 # Registro de Testes de Usabilidade
 
-Após realizar os testes de usabilidade, obtém-se um relatório a partir das análises realizadas. O Registro de Testes de Usabilidade é um relatório que contém as evidências dos testes e relatos dos usuários participantes, baseado no Plano de Testes de Usabilidade desenvolvido para os casos de uso desta etapa.
+A Proof of Concept (PoC) do cadastro de usuário tem como objetivo demonstrar a viabilidade e funcionalidade do processo de registro e armazenamento de informações dos usuários em um sistema.
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Registro de Testes de Usabilidade”.
 
 > **Links Úteis**:
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+> - [Link YouTube](https://youtu.be/AR-g6cJv870)
