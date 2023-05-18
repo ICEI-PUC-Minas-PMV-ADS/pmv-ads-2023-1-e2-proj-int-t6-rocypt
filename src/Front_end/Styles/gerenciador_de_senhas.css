@@ -408,6 +408,7 @@
         line-height: 40px;
         padding: 10px;
     }
+    
     .managing-title {
         width: 50%;
         display: flex;
@@ -745,7 +746,7 @@
         top: 5%;
         background: #fff;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         font-weight: bold;
         scale: 1;
         width: 90%;
@@ -758,12 +759,13 @@
         box-shadow: 0px 5px 10px black;
         scale: 0;
         overflow: auto;
+        gap: 15px;
     }
     .password-creation {
         display: flex;
         flex-direction: column;
         gap: 10px;
-        height: 70%;
+        height: 55%;
         width: 100%;
         text-align: left;
         overflow: auto;
@@ -1613,6 +1615,7 @@
         box-shadow: 0px 5px 10px black;
         scale: 0;
         overflow: auto;
+        gap: 10px;
     }
     .password-creation {
         display: flex;

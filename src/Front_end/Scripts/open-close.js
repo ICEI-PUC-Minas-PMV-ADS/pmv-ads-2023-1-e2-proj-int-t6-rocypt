@@ -58,11 +58,15 @@ function createNewPasswordOn() {
     const overlayPassword = document.querySelector("#overlay-new-password");
     const contentPassword = document.querySelector("#content-new-password");
     const mainTitle = document.getElementById("popup-title");
+    const mainText = document.getElementById("popup-text");
+
 
     overlayPassword.style.display = "flex";
     contentPassword.style.scale = "1";
 
     mainTitle.innerHTML = "Adicionar nova Senha...";
+    mainText.innerHTML = "";
+
 
 }
 function createNewPasswordOff() {
@@ -78,11 +82,14 @@ function editPasswordOn() {
     const overlayPassword = document.querySelector("#overlay-new-password");
     const contentPassword = document.querySelector("#content-new-password");
     const mainTitle = document.getElementById("popup-title");
+    const mainText = document.getElementById("popup-text");
 
     overlayPassword.style.display = "flex";
     contentPassword.style.scale = "1";
 
-    mainTitle.innerHTML = "Editar senha...";
+    mainTitle.innerHTML = "Visualização da senha...";
+    mainText.innerHTML = "Pode ser editada...";
+
 }
 
 //Popup de deletar senha
