@@ -57,9 +57,13 @@ function groupPasswordsOff() {
 function createNewPasswordOn() {
     const overlayPassword = document.querySelector("#overlay-new-password");
     const contentPassword = document.querySelector("#content-new-password");
+    const mainTitle = document.getElementById("popup-title");
 
     overlayPassword.style.display = "flex";
     contentPassword.style.scale = "1";
+
+    mainTitle.innerHTML = "Adicionar nova Senha...";
+
 }
 function createNewPasswordOff() {
     const overlayPassword = document.querySelector("#overlay-new-password");
@@ -67,4 +71,53 @@ function createNewPasswordOff() {
 
     overlayPassword.style.display = "none";
     contentPassword.style.scale = "0";
+}
+
+//Abrir e fechar popup de editar senha
+function editPasswordOn() {
+    const overlayPassword = document.querySelector("#overlay-new-password");
+    const contentPassword = document.querySelector("#content-new-password");
+    const mainTitle = document.getElementById("popup-title");
+
+    overlayPassword.style.display = "flex";
+    contentPassword.style.scale = "1";
+
+    mainTitle.innerHTML = "Editar senha...";
+}
+
+//Popup de deletar senha
+function deletePasswordOn() {
+    const overlayExclude = document.querySelector("#overlay-exclude");
+    const contentExclude = document.querySelector("#content-exclude");
+
+    overlayExclude.style.display = "flex";
+    contentExclude.style.scale = "1";
+}
+function deletePasswordOff() {
+    const overlayExclude = document.querySelector("#overlay-exclude");
+    const contentExclude = document.querySelector("#content-exclude");
+
+    overlayExclude.style.display = "none";
+    contentExclude.style.scale = "0";
+}
+
+//Popup de deletar grupo
+function deleteGroupOn() {
+    const contentExcludeGroup = document.querySelector("#content-exclude-group");
+
+    contentExcludeGroup.style.scale = "1";
+}
+function deleteGroupCancel() {
+    const contentExcludeGroup = document.querySelector("#content-exclude-group");
+
+    contentExcludeGroup.style.scale = "0";
+}
+function deleteGroupExclude() {
+    const contentExcludeGroup = document.querySelector("#content-exclude-group");
+    const overlayEdit = document.querySelector("#overlay-edit");
+    const contentEdit = document.querySelector("#content-edit");
+
+    overlayEdit.style.display = "none";
+    contentEdit.style.scale = "0";
+    contentExcludeGroup.style.scale = "0";
 }

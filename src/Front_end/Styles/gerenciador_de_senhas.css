@@ -567,7 +567,7 @@
     }
     #btn-exclude {
         color: white;
-        font-size: 36px;
+        font-size: 26px;
         width: 100%;
         height: 100%;
         display: flex;
@@ -668,25 +668,42 @@
     .btn-style-popup:active {
         background: rgb(64, 0, 124);
     }
-    #confirm-popup {
+    .confirm-popup {
+        width: 90px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        font-size: 95%;
+        font-weight: bolder;
+        cursor: pointer;
         background-color: rgb(5, 155, 0);
     }
-    #confirm-popup:hover {
+    .confirm-popup:hover {
         background-color: rgb(0, 190, 92);
     }
-    #confirm-popup:active {
+    .confirm-popup:active {
         background-color: rgb(0, 104, 40);
     }
 
-    #cancel-popup {
+    .cancel-popup {
+        width: 90px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        font-size: 95%;
+        font-weight: bolder;
+        cursor: pointer;
         background-color: rgb(121, 0, 0);
     }
-    #cancel-popup:hover {
+    .cancel-popup:hover {
         background-color: rgb(167, 0, 0);
     }
-    #cancel-popup:active {
+    .cancel-popup:active {
         background-color: rgb(75, 0, 0);
     }
+    
     
     #overlay-edit {
         display: none;
@@ -695,13 +712,21 @@
         scale: 0;
 
     }
-    #delete-popup {
+    .delete-popup {
+        width: 90px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        font-size: 95%;
+        font-weight: bolder;
+        cursor: pointer;
         background-color: rgb(255, 153, 0);
         color: black;
-        font-weight: bolder;
-        font-size: 95%;
     }
-    #delete-popup:active {
+    .delete-popup:hover {
+        background-color: rgb(255, 179, 0);
+    }
+    .delete-popup:active {
         background-color: rgb(255, 102, 0);
     }
 
@@ -1491,25 +1516,42 @@
     .btn-style-popup:active {
         background: rgb(64, 0, 124);
     }
-    #confirm-popup {
+    .confirm-popup {
+        width: 90px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        font-size: 95%;
+        font-weight: bolder;
+        cursor: pointer;
         background-color: rgb(5, 155, 0);
     }
-    #confirm-popup:hover {
+    .confirm-popup:hover {
         background-color: rgb(0, 190, 92);
     }
-    #confirm-popup:active {
+    .confirm-popup:active {
         background-color: rgb(0, 104, 40);
     }
 
-    #cancel-popup {
+    .cancel-popup {
+        width: 90px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        font-size: 95%;
+        font-weight: bolder;
+        cursor: pointer;
         background-color: rgb(121, 0, 0);
     }
-    #cancel-popup:hover {
+    .cancel-popup:hover {
         background-color: rgb(167, 0, 0);
     }
-    #cancel-popup:active {
+    .cancel-popup:active {
         background-color: rgb(75, 0, 0);
     }
+    
     
     #overlay-edit {
         display: none;
@@ -1518,13 +1560,21 @@
         scale: 0;
 
     }
-    #delete-popup {
+    .delete-popup {
+        width: 90px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        font-size: 95%;
+        font-weight: bolder;
+        cursor: pointer;
         background-color: rgb(255, 153, 0);
         color: black;
-        font-weight: bolder;
-        font-size: 95%;
     }
-    #delete-popup:active {
+    .delete-popup:hover {
+        background-color: rgb(255, 179, 0);
+    }
+    .delete-popup:active {
         background-color: rgb(255, 102, 0);
     }
 
