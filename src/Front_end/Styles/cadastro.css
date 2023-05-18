@@ -565,7 +565,6 @@
         position: relative;
         justify-content: space-around;
         text-align: center;
-        margin: 5%;
         animation: MainTextSlideLeft ease-out 1s;
         box-shadow: 0px 5px 10px 0px black;
     }
