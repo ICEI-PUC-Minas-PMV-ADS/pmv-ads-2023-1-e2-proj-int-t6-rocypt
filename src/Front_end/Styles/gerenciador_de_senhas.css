@@ -808,8 +808,28 @@
         font-size: 22px;
         font-weight: bolder;
     }
-    #random-password:active {
+    #random-password:hover {
         background: #b45eff;
+    }
+    #random-password:active {
+        background: #49008a;
+
+    }
+    #hidden-pass {
+        border-radius: 0px;
+        height: 100%;
+        width: 50px;
+        border-right-style: solid;
+        border-color: #2c1c3a;
+    }
+    #hidden-pass:hover {
+        background: #b45eff;
+    }
+    #hidden-pass:active {
+        background: #49008a;
+    }
+    #hidden-pass-icon {
+        font-size: 24px;
     }
     .btn-style-mobile {
         color: white;
@@ -1668,8 +1688,28 @@
         font-size: 22px;
         font-weight: bolder;
     }
-    #random-password:active {
+    #random-password:hover {
         background: #b45eff;
+    }
+    #random-password:active {
+        background: #49008a;
+
+    }
+    #hidden-pass {
+        border-radius: 0px;
+        height: 100%;
+        width: 50px;
+        border-right-style: solid;
+        border-color: #2c1c3a;
+    }
+    #hidden-pass:hover {
+        background: #b45eff;
+    }
+    #hidden-pass:active {
+        background: #49008a;
+    }
+    #hidden-pass-icon {
+        font-size: 24px;
     }
 
     .btn-style-mobile {
