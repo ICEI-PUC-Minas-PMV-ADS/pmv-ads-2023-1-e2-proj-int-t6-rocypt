@@ -70,8 +70,7 @@ namespace Rocypt.Controllers
                     {
                         if (usuario.TokenValido(usuario.Token))
                         {
-                            TempData["MinhaChave"] = usuario.Token;
-                            return View("Redefinir");
+                            return RedirectToAction("Redefinir");
                         }
                     }
                     TempData["MesagemErro"] = $"O token não é valido.";
@@ -87,20 +86,14 @@ namespace Rocypt.Controllers
         }
 
         [HttpPost]
-        public IActionResult AlterarSenha(UsuarioModel usuario)
+        public IActionResult AlterarSenha(RedefinirSenhaModel redefinir)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
-                        string key = TempData["MinhaChave"] as string;
-                        usuario = _usuarioRepositorio.BuscarPorToken(key);
-                        if (usuario != null)
-                        {
-                            TempData["MesagemErro"] = $"Não foi possivel redefinir a senha";
-                        }
-                       
-                        _usuarioRepositorio.AtualizarSenha(usuario);
+                        
+                        _usuarioRepositorio.AtualizarSenha(redefinir);
                         return RedirectToAction("Sucesso");
                 }
                 return View("Redefinir");

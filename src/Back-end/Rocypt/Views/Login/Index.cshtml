@@ -1,10 +1,10 @@
 ﻿@model LoginModel
 @{
 	Layout = "_LayoutLogin";
-	ViewData["Title"] = "Redefinir a senha.";
+	ViewData["Title"] = "Login";
 }
 
-
+<div class="container">
 <div class="window">
     <h1 class="main-title">Login...</h1>
     <form class="user-data" asp-controller="Login" asp-action="Entrar" method="post">
@@ -20,12 +20,13 @@
                 @TempData["MensagemErro"]
              </div>
 		}
-
-        <div class="links">
+                <div class="links">
             <a asp-controller="Registro" asp-action="Index" >Não tem uma conta? Cadastre-se</a>
-            <a asp-controller="Login" asp-action="RedefinirSenha">Esqueceu a senha master?</a>
+            <a asp-controller="RedefinirSenha" asp-action="Index">Esqueceu a senha master?</a>
         </div>
     <div class="btn-functions">
         <button class="btn-style" id="entrar">Entrar</button>
     </div>
-</form>
+        </form>
+</div>
+ </div>

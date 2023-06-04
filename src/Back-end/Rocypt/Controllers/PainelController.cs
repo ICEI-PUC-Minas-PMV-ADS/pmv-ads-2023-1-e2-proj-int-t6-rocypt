@@ -3,45 +3,83 @@ using Microsoft.AspNetCore.Mvc;
 using Rocypt.Data;
 using Rocypt.Models;
 using Rocypt.Repositorio;
+using System.Security.Claims;
 
 namespace Rocypt.Controllers
 {
     public class PainelController : Controller
     {
-        private readonly IUsuarioRepositorio _usuarioRepositorio;
+        private readonly IGrupoRepositorio _grupoRespositorio;
         private readonly DatabankContext _databankContext;
+        private readonly IPasswordDataRepositorio _passwordDataRespositorio;
 
-        public PainelController(IUsuarioRepositorio UsuarioRepositorio, DatabankContext databankContext)
+
+        public PainelController(IGrupoRepositorio grupoRepositorio, IPasswordDataRepositorio passwordDataRespositorio, DatabankContext databankContext)
         {
-            _usuarioRepositorio = UsuarioRepositorio;
+            _grupoRespositorio = grupoRepositorio;
+            _passwordDataRespositorio = passwordDataRespositorio;
             _databankContext = databankContext;
+
         }
 
         public IActionResult Index()
         {
             if (!User.Identity.IsAuthenticated) return RedirectToAction("Index", "Login");
-            List<UsuarioModel> usuarios = _usuarioRepositorio.BuscarRegistros();
-            return View(usuarios);
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var model = new PainelIndexModel();
+            model.grupoModels = _grupoRespositorio.BuscarTodos(Guid.Parse(userId));
+            return View(model);
         }
+
+
         public IActionResult Deslogar()
         {
             HttpContext.SignOutAsync();
             return RedirectToAction("Index", "Login");
         }
 
-        public IActionResult Apagar(int id)
+        [HttpPost]
+        public IActionResult CriarGrupo(GrupoModel grupo)
         {
-            try
+            if (ModelState.IsValid)
             {
-                bool apagado = _usuarioRepositorio.Apagar(id);
-
+                var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                UsuarioModel usuario = _databankContext.Usuarios.Find(Guid.Parse(userId));
+                grupo.UsuarioId = usuario.Id;
+                grupo = _grupoRespositorio.Adicionar(grupo);
                 return RedirectToAction("Index");
             }
-            catch (Exception erro)
-            {
-                TempData["MensagemErro"] = $"Ops, não conseguimos apagar seu usuário, tente novamante, detalhe do erro: {erro.Message}";
-                return RedirectToAction("Index");
-            }
+            return View();
         }
+
+        [HttpPost]
+        public IActionResult Alterar(GrupoModel grupo)
+        {
+
+            if (ModelState.IsValid)
+            {
+                grupo = _grupoRespositorio.Atualizar(grupo);
+                _databankContext.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View("Index");
+        }
+
+
+
+        [HttpPost]
+        public IActionResult Apagar(GrupoModel grupo)
+        {
+            if (ModelState.IsValid)
+            {
+                grupo = _grupoRespositorio.Apagar(grupo);
+                _databankContext.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View("Index");
+        }
+
+
+
     }
 }

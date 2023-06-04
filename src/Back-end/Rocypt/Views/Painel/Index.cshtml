@@ -1,53 +1,341 @@
-﻿@model List<UsuarioModel>
+﻿@model PainelIndexModel
 @{
-    Layout = "_Layout";
-    ViewData["Title"] = "Pagina Inicial";
+    Layout = "_LayoutPainel";
 }
-<div class="container">
-    <div class="main-text">
-<p class="main-welcome">Seja bem vindo(a), @User.Identity.Name</p>
-    <h1 class="main-title">Você esta logado! O sistema esta funcionando perfeitamente!</h1>
-        <div class="btn-home">
-                  <a asp-controller="Painel" asp-action="Deslogar"><button class="btn-style" onclick="location.href=''">Sair</button></a>
+      <!--Popups da tela de criação de grupos-->
+      <form id="modalCriarForm" method="post" action="/Painel/CriarGrupo">
+<div class="popup" id="popup-new-group">
+    <div id="overlay-new-group" class="overlay"></div>
+    <div id="content-new-group" class="content">
+        <div class="close-btn" onclick="createClose()"><i class="fa fa-close"></i></div>
+        <h1 class="main-title">Criar novo grupo...</h1>
+        
+            <input class="user-input" type="text" name="grupo.Name">
 
-</div>
-
-        <h1 class="display-4">Registrados</h1>
-
-        <table id="table-contatos" class="display" style="width:100%">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Nome</th>
-                    <th scope="col">Email</th>
-                    <th scope="col">Senha(Encrypt)</th>
-                    <th scope="col">Data de registro</th>
-                    <th scope="col"></th>
-                </tr>
-            </thead>
-            <tbody>
-                @if (Model != null && Model.Any())
-                {
-                    foreach (var registro in Model)
-                    {
-                        <tr>
-                            <th scope="row">@registro.Id</th>
-                            <td>@registro.Name</td>
-                            <td>@registro.Email</td>
-                            <td>@registro.Password</td>
-                            <td>@registro.RegistrationDate</td>
-                            <td>
-                                <div class="btn-group" role="group">
-                                    <a role="button" asp-action="Apagar" asp-controller="Painel" asp-route-id="@registro.Id" class="btn btn-danger">Apagar</a>
-                                </div>
-                            </td>
-                        </tr>
-                    }
-                }
-                else
-                {
-                    <tr class="odd"><td valign="top" colspan="5">Nenhum contato encontrado</td></tr>
-                }
-            </tbody>
-        </table>
+            <div class="btn-popup">
+                <button id="confirm-popup" type="submit" class="confirm-popup">Confirmar</button>
+                <button id="cancel-popup" onclick="createClose()" class="cancel-popup">Cancelar</button>
             </div>
+        
+    </div>
+</div>
+       </form>
+<script>
+    $(document).ready(function() {
+  $("#modalCriarForm").submit(function(e) {
+    e.preventDefault(); // Impede o comportamento padrão de envio do formulário
+
+    $.ajax({
+      url: $(this).attr("action"),
+      type: $(this).attr("method"),
+      data: $(this).serialize(),
+      success: function(response) {
+        // Lidar com a resposta do servidor (opcional)
+        createClose(); // Fechar o modal após o envio bem-sucedido
+        location.reload();// Atualizar a página
+      },
+      error: function(xhr, status, error) {
+        // Lidar com erros (opcional)
+        console.log(error);
+      }
+    });
+  });
+});</script>
+<!--Fim Popups da tela de criação de grupos-->
+<form id="modalEditForm" method="post" action="/Painel/Alterar">
+<div class="popup" id="popup-edit-group">
+    <div id="overlay-edit" class="overlay"></div>
+    <div id="content-edit" class="content">
+        <div class="close-btn" onclick="editClose()"><i class="fa fa-close"></i></div>
+        <h1 class="main-title">Editar grupo...</h1>
+        
+        <input id="group-id-input" class="user-input" type="hidden" value="" name="grupo.Id">
+        <input id="group-name-input" class="user-input" type="text" value="" name="grupo.Name">
+        <div class="btn-popup">
+             <button id="confirm-popup" class="confirm-popup">Confirmar</button>
+            <button id="delete-popup" onclick="deleteGroupOn()" class="delete-popup">Excluir</button>
+            <button id="cancel-popup" onclick="editClose()" class="cancel-popup">Cancelar</button>
+        </div>
+    </div>
+</div>
+</form>
+
+
+<script>
+    $(document).ready(function() {
+  $("#modalEditForm").submit(function(e) {
+    e.preventDefault(); // Impede o comportamento padrão de envio do formulário
+
+    $.ajax({
+      url: $(this).attr("action"),
+      type: $(this).attr("method"),
+      data: $(this).serialize(),
+      success: function(response) {
+        // Lidar com a resposta do servidor (opcional)
+        createClose(); // Fechar o modal após o envio bem-sucedido
+        location.reload();
+      },
+      error: function(xhr, status, error) {
+        // Lidar com erros (opcional)
+        console.log(error);
+      }
+    });
+  });
+});</script>
+
+
+<form id="modalDeleteForm" method="post" action="/Painel/ApagarGrupo">
+            <div class="popup" id="popup-exclude-group">
+                <div id="overlay-exclude-group" class="overlay"></div>
+                <div id="content-exclude-group" class="content">
+                    <div class="close-btn" onclick="deleteGroupCancel()"><i class="fa fa-close"></i></div>
+                    <h1 class="main-title" id="exclude-title-group">Excluir Grupo...</h1>
+                    <h3 class="main-text" id="exclude-text-group">Tem certeza que quer excluir este grupo?</h3>
+                    <h4 style="color:red">Atenção! Excluir um grupo irá excluir todas as senhas presentes no mesmo. Prossiga com cuidado</h4>
+                    <input id="group-id-input" class="user-input" type="hidden" value="" name="grupo.Id">
+                    <input id="group-name-input" class="user-input" type="hidden" value="" name="grupo.Name">
+                    <div class="btn-popup">
+                    <button id="exclude-group" onclick="deleteGroupExclude()" class="delete-popup">Excluir</button>
+                        <button id="cancel-exclude-group" onclick="deleteGroupCancel()" class="cancel-popup">Cancelar</button>
+                    </div>
+                </div>
+            </div>
+            </form>
+<script>
+    $(document).ready(function() {
+  $("#modalDeleteForm").submit(function(e) {
+    e.preventDefault(); // Impede o comportamento padrão de envio do formulário
+
+    $.ajax({
+      url: $(this).attr("action"),
+      type: $(this).attr("method"),
+      data: $(this).serialize(),
+      success: function(response) {
+        // Lidar com a resposta do servidor (opcional)
+        createClose(); // Fechar o modal após o envio bem-sucedido
+        location.reload();// Atualizar a página
+      },
+      error: function(xhr, status, error) {
+        // Lidar com erros (opcional)
+        console.log(error);
+      }
+    });
+  });
+});</script>
+
+            <!--Popups da tela de senhas-->
+            <div class="popup" id="popup-new-password">
+                    <div id="overlay-new-password" class="overlay">
+                        <div id="content-new-password" class="content">
+                            <div class="popup-header">
+                                <div class="close-btn" onclick="createNewPasswordOff()"><i class="fa fa-close"></i></div>
+                                <h1 class="main-title" id="popup-title">Adicionar nova Senha...</h1>
+                                <h3 style="color:rgb(247, 0, 255)" id="popup-text"></h3>
+                            </div>
+                            <form class="password-creation">
+                            
+                                <label for="password-name">Nome da senha...</label>
+                                <input id="password-name" class="user-input" type="text">
+
+                                <label for="password-user">Nome do usuário...</label>
+                                <input id="password-user" class="user-input" type="text">
+
+                                <label for="password-email">Email...</label>
+                                <input id="password-email" class="user-input" type="text">
+                                
+                                <div class="password-edit">
+                                    <label for="password-user-password">Senha...</label>
+                                    <div class="password-edit-random">
+                                        <input id="password-user-password" class="user-input" type="password">
+                                        <button type="button" class="btn-style-popup" id="hidden-pass" onclick="viewPassword()"><i id="hidden-pass-icon" class="fa fa-eye-slash"></i></button>
+                                        <button type="button" class="btn-style-popup" id="random-password" onclick=""><i class="fa fa-random"></i></button>
+                                    </div>
+                                    <h2 class="tip">O botão ao lado criará uma senha completamente aleatória.</h2>
+                                </div>
+
+           
+
+                            <div class="btn-popup">
+                                <button type="submit" id="confirm-popup" onclick="createNewPasswordOff()" class="confirm-popup">Confirmar</button>
+                            <button type="button" id="cancel-popup" onclick="createNewPasswordOff()" class="cancel-popup">Cancelar</button>
+                            </div>
+                            </form>
+                        </div>
+                        
+
+                    </div>
+            </div>
+
+            <div class="popup" id="popup-exclude-password">
+                <div id="overlay-exclude" class="overlay"></div>
+                <div id="content-exclude" class="content">
+                    <div class="close-btn" onclick="deletePasswordOff()"><i class="fa fa-close"></i></div>
+                    <h1 class="main-title" id="exclude-title-password">Excluir Senha...</h1>
+                    <h3 class="main-text" id="exclude-text-password">Tem certeza que quer excluir essa senha?</h3>
+                    <div class="btn-popup">
+                        <button id="exclude-password" onclick="deletePasswordOff()" class="delete-popup">Excluir</button>
+                        <button id="cancel-exclude-password" onclick="deletePasswordOff()" class="cancel-popup">Cancelar</button>
+                    </div>
+                </div>
+            </div>
+
+
+        <header>
+
+           <nav>
+            <input type="checkbox" id="check" name="checkbox"> 
+            <label for="check" class="check-btn">
+            <i class="fa fa-bars"></i>
+            </label>
+            <label class="title"><h1 onclick="location.href='/'">Ro<span style="color: rgb(162, 0, 255)">cyp</span>t</h1></label>
+            <ul>
+                <div class="user-info">
+                    <li id="user-image"><i class="fa fa-user"></i></li>
+                    <div class="user-text-info">
+                        <li class="user-data" id="user-name"><h1>@User.Identity.Name</h1></li>
+                        <li class="user-data" id="user-email"><h1>exemplo@email.com</h1></li>
+                    </div>
+                </div>
+            <li><a asp-controller="Painel" asp-action="Deslogar" id="logout">Logout</a></li>
+            </ul>
+                 
+            </nav>
+
+        </header>
+
+        <main>
+
+        <div class="container">
+            
+            <div class="window">
+
+                <div class="mobile-window">
+
+                    <div class="groups" id="mobile-groups">
+                        <div class="titles">
+                            <h1 class="main-title">Gerenciador de Senhas...</h1>
+                            <h2 class="managing-title">Grupos...</h2>
+                        </div>
+
+                        <div class="manager-mobile">
+                                <div class="btn-create">
+                                    <button onclick="createPopup()" class="btn-style-mobile" id="new-group">Novo Grupo</button>
+                                </div>
+                        <div class="group-zone">
+                            <div class="group-template">
+                        @if (Model != null && Model.grupoModels.Any())
+                        {
+                            foreach (var grupos in Model.grupoModels)
+                            {
+                                        <div class="name">
+                                            <button id="@grupos.Id" name="" onclick="groupPasswordsOn()" >@grupos.Name</button>
+                                            
+                                        </div>
+                                        <div class="area-edit">
+                                            <button id="edit-button-@grupos.Id" onclick="editPopup('@grupos.Id', '@grupos.Name')" class="btn-edit"><i class="fa fa-pencil" id="edit-icon"></i></button>
+                                            
+                                        </div>
+                            }
+                        }
+                            </div>
+                        </div>
+                            </div>
+                    </div>
+                    
+
+                    <div class="passwords" id="mobile-passwords">
+                        <div class="titles">
+                            <h1 class="main-title">Gerenciador de Senhas...</h1>
+                            <h2 class="managing-title">Senhas...</h2>
+                        </div>
+
+                        <div class="manager-mobile">
+                                <div class="btn-create">
+                                    <button onclick="groupPasswordsOff()" class="btn-style-mobile" id="return"><i class="fa fa-arrow-left"></i></button>
+                                    <button onclick="createNewPasswordOn()" class="btn-style-mobile" id="new-group">Nova Senha</button>
+                                </div>
+                                <div class="group-zone">
+                                    <div class="group-template">
+                                        <div class="name">
+                                            <button id="group-name" onclick="editPasswordOn()">Senha1</button>
+                                        </div>
+                                        <div class="area-edit">
+                                            <button id="btn-exclude" onclick="deletePasswordOn()" class="btn-edit"><i class="fa fa-trash" id="btn-exclude"></i></button>
+                                        </div>
+                                    </div>
+                               
+                                </div>
+                        </div>
+
+                </div>
+                
+            </div>
+                <div class="desktop-window">
+                        
+                    <div class="desktop-window">
+
+                         <div class="titles">
+                              <h1 class="main-title">Gerenciador de Senhas...</h1>
+                         </div>
+
+                         <div class="manager-desktop">
+
+                            <div class="group-window-desktop">
+
+                                <div class="btn-create" id="btn-create-group">
+                                    <h2 class="managing-title">Grupos...</h2>
+                                    <button onclick="createPopup()" class="btn-style-mobile" id="new-group">Novo Grupo</button>
+                                </div>
+
+                                <div class="group-zone">
+                            @if (Model != null && Model.grupoModels.Any())
+                            {
+                                foreach (var grupos in Model.grupoModels)
+                                {
+                                    <div class="group-template">
+                                            <div class="name">
+                                                <button id="group-name" name="" onclick="groupPasswordsOn()">@grupos.Name</button>
+                                            </div>
+                                            <div class="area-edit">
+                                                <button id="edit-button-@grupos.Id" onclick="editPopup('@grupos.Id', '@grupos.Name')" class="btn-edit"><i class="fa fa-pencil" id="edit-icon"></i></button>
+                                            </div>
+                                            </div>
+                                
+                                }
+                            }
+                    </div>
+                   </div>
+
+                            <div class="password-window-desktop">
+
+                                <div class="btn-create" id="btn-create-password">
+                                    <h2 class="managing-title" id="Senhas">Senhas...</h2>
+                                    <button onclick="createNewPasswordOn()" class="btn-style-mobile" id="new-group">Nova Senha</button>
+                                </div>
+
+                                <div class="group-zone" id="password-zone">
+
+                                        <div class="group-template">
+                                        <div class="name">
+                                            <button id="group-name" onclick="editPasswordOn()">Senha1</button>
+                                        </div>
+                                        <div class="area-edit">
+                                            <button id="btn-exclude" onclick="deletePasswordOn()" class="btn-edit"><i class="fa fa-trash" id="btn-exclude"></i></button>
+                                        </div>
+                                    </div>
+                               
+                               </div>
+
+
+                            </div>
+
+                         </div>
+                            
+                    </div>
+                </div>
+
+            </div>
+
+        </div >
+
+        </main>

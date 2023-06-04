@@ -1,0 +1,18 @@
+﻿@model GrupoModel
+<div class="popup" id="popup-edit-group-@Model.Id">
+    <div id="overlay-edit" class="overlay"></div>
+                <div id="content-edit" class="content">
+                    <div class="close-btn" onclick="editClose()"><i class="fa fa-close"></i></div>
+                    <h1 class="main-title">Editar grupo...</h1>
+                    <form asp-action="Alterar" asp-controller="Painel" method="post">
+                        <input type="hidden" asp-for="Id"/>
+                     <input id="group-id" class="user-input" type="text">
+                    <div class="btn-popup">
+                        <button id="confirm-popup" onclick="editClose()" class="confirm-popup">Confirmar</button>
+                    
+                        <button id="delete-popup" onclick="deleteGroupOn()" class="delete-popup">Excluir</button>
+                        <button id="cancel-popup" onclick="editClose()" class="cancel-popup">Cancelar</button>
+                    </div>
+                    </form>
+                </div>
+            </div>

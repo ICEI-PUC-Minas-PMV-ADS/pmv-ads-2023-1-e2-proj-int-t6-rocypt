@@ -40,19 +40,18 @@ namespace Rocypt.Repositorio
 
             _databankContext.Grupo.Update(grupoDb);
             _databankContext.SaveChanges();
-
             return grupoDb;
         }
 
-        public bool Apagar(Guid id)
+        public GrupoModel Apagar(GrupoModel grupo)
         {
-            GrupoModel grupoDb = BuscarPorId(id);
+            GrupoModel grupoDb = BuscarPorId(grupo.Id);
             if (grupoDb == null) throw new Exception("Houve um erro na deleção do contato!");
 
             _databankContext.Grupo.Remove(grupoDb);
             _databankContext.SaveChanges();
 
-            return true;
+            return grupoDb;
         }
 
     }

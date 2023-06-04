@@ -12,5 +12,6 @@ namespace Rocypt.Models
         
         public UsuarioModel? Usuario { get; set; }
 
+        public virtual List<PasswordModel>? PasswordGroup { get; set; }
     }
 }

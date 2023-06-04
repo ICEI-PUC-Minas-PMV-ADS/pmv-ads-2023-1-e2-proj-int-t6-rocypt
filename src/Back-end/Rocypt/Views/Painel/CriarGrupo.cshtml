@@ -1,20 +1,37 @@
-﻿@model GrupoModel
+﻿@model Rocypt.Models.GrupoModel
+
 @{
-    Layout = "_LayoutLogin";
-    ViewData["Title"] = "Pagina Inicial";
+    ViewData["Title"] = "CriarGrupo";
 }
 
+<h1>CriarGrupo</h1>
 
-<div class="window">
- <h1 class="main-title">Cadastrar grupo</h1>
-    <form class="user-data" asp-controller="Painel" asp-action="CriarGrupo" method="post">
-        <label class="input-label" for="name">Nome</label>
-        <input class="user-input" type="text" asp-for="Name" placeholder="Digite o nome do grupo">
-        @Html.ValidationMessageFor(x => x.Name)
-       <div class="btn-functions">
-        <button class="btn-style" id="entrar">Cadastrar</button>
+<h4>GrupoModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CriarGrupo">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UsuarioId" class="control-label"></label>
+                <select asp-for="UsuarioId" class ="form-control" asp-items="ViewBag.UsuarioId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
     </div>
-    
-</form>
-<a class="btn btn-secondary btn-block" asp-action="Index" asp-controller="Painel" role="button">Voltar</a>
-    
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -17,6 +17,7 @@ namespace Rocypt.Controllers
             return View();
 		}
 
+
 		[HttpPost]
 		public IActionResult Criar(UsuarioModel usuario)
 		{
@@ -33,7 +34,7 @@ namespace Rocypt.Controllers
 					TempData["MensagemSucesso"] = "Usuario Cadastrado com sucesso.";
 					return RedirectToAction("Index", "Home");
 				}
-				return View(usuario);
+				return View();
 			}
 			catch (Exception erro)
 			{
