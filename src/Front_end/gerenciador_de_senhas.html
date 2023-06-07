@@ -45,11 +45,13 @@
                 <div id="content-new-group" class="content">
                     <div class="close-btn" onclick="createClose()"><i class="fa fa-close"></i></div>
                     <h1 class="main-title">Criar novo grupo...</h1>
-                    <input class="user-input" type="text">
-                    <div class="btn-popup">
-                        <button id="confirm-popup" onclick="createClose()" class="confirm-popup">Confirmar</button>
-                        <button id="cancel-popup" onclick="createClose()" class="cancel-popup">Cancelar</button>
-                    </div>
+                    <form action="" class="group-form">
+                        <input class="user-input" type="text">
+                        <div class="btn-popup">
+                            <button id="confirm-popup" onclick="createClose()" class="confirm-popup" type="submit">Confirmar</button>
+                            <button id="cancel-popup" onclick="createClose()" class="cancel-popup" type="button">Cancelar</button>
+                        </div>
+                    </form>
                 </div>
             </div>
 
@@ -58,12 +60,14 @@
                 <div id="content-edit" class="content">
                     <div class="close-btn" onclick="editClose()"><i class="fa fa-close"></i></div>
                     <h1 class="main-title">Editar grupo...</h1>
-                    <input class="user-input" type="text">
-                    <div class="btn-popup">
-                        <button id="confirm-popup" onclick="editClose()" class="confirm-popup">Confirmar</button>
-                        <button id="delete-popup" onclick="deleteGroupOn()" class="delete-popup">Excluir</button>
-                        <button id="cancel-popup" onclick="editClose()" class="cancel-popup">Cancelar</button>
-                    </div>
+                    <form action="" class="edit-group-form">
+                        <input class="user-input" type="text">
+                        <div class="btn-popup">
+                            <button id="confirm-popup" onclick="editClose()" class="confirm-popup" type="submit">Confirmar</button>
+                            <button id="delete-popup" onclick="deleteGroupOn()" class="delete-popup" type="button">Excluir</button>
+                            <button id="cancel-popup" onclick="editClose()" class="cancel-popup" type="button">Cancelar</button>
+                        </div>
+                    </form>
                 </div>
             </div>
             
@@ -74,10 +78,12 @@
                     <h1 class="main-title" id="exclude-title-group">Excluir Grupo...</h1>
                     <h3 class="main-text" id="exclude-text-group">Tem certeza que quer excluir este grupo?</h2>
                     <h4 style="color:red">Atenção! Excluir um grupo irá excluir todas as senhas presentes no mesmo. Prossiga com cuidado</h4>
-                    <div class="btn-popup">
-                        <button id="exclude-group" onclick="deleteGroupExclude()" class="delete-popup">Excluir</button>
-                        <button id="cancel-exclude-group" onclick="deleteGroupCancel()" class="cancel-popup">Cancelar</button>
-                    </div>
+                    <form action="" class="delete-group-form">
+                        <div class="btn-popup">
+                            <button id="exclude-group" onclick="deleteGroupExclude()" class="delete-popup" type="submit">Excluir</button>
+                            <button id="cancel-exclude-group" onclick="deleteGroupCancel()" class="cancel-popup" type="button">Cancelar</button>
+                        </div>
+                    </form>
                 </div>
             </div>
 
@@ -91,7 +97,7 @@
                                 <h3 style="color:rgb(247, 0, 255)" id="popup-text"></h3>
                             </div>
 
-                            <div class="password-creation">
+                            <form class="password-creation">
                                 <label for="password-name">Nome da senha...</label>
                                 <input id="password-name" class="user-input" type="text">
 
@@ -105,18 +111,18 @@
                                     <label for="password-user-password">Senha...</label>
                                     <div class="password-edit-random">
                                         <input id="password-user-password" class="user-input" type="password">
-                                        <button class="btn-style-popup" id="hidden-pass" onclick="viewPassword()"><i id="hidden-pass-icon" class="fa fa-eye-slash"></i></button>
-                                        <button class="btn-style-popup" id="random-password" onclick=""><i class="fa fa-random"></i></button>
+                                        <button class="btn-style-popup" id="hidden-pass" onclick="viewPassword()" type="button"><i id="hidden-pass-icon" class="fa fa-eye-slash"></i></button>
+                                        <button class="btn-style-popup" id="random-password" onclick="" type="button"><i class="fa fa-random"></i></button>
                                     </div>
                                     <h2 class="tip">O botão ao lado criará uma senha completamente aleatória.</h2>
                                 </div>
                                 
-                            </div>
+                                <div class="btn-popup-form">
+                                    <button id="confirm-popup" onclick="createNewPasswordOff()" class="confirm-popup" type="submit">Confirmar</button>
+                                    <button id="cancel-popup" onclick="createNewPasswordOff()" class="cancel-popup" type="button">Cancelar</button>
+                                </div>
 
-                            <div class="btn-popup">
-                                <button id="confirm-popup" onclick="createNewPasswordOff()" class="confirm-popup">Confirmar</button>
-                                <button id="cancel-popup" onclick="createNewPasswordOff()" class="cancel-popup">Cancelar</button>
-                            </div>
+                            </form>
                         </div>
                     </div>
             </div>
@@ -127,10 +133,12 @@
                     <div class="close-btn" onclick="deletePasswordOff()"><i class="fa fa-close"></i></div>
                     <h1 class="main-title" id="exclude-title-password">Excluir Senha...</h1>
                     <h3 class="main-text" id="exclude-text-password">Tem certeza que quer excluir essa senha?</h2>
-                    <div class="btn-popup">
-                        <button id="exclude-password" onclick="deletePasswordOff()" class="delete-popup">Excluir</button>
-                        <button id="cancel-exclude-password" onclick="deletePasswordOff()" class="cancel-popup">Cancelar</button>
-                    </div>
+                    <form action="" class="exclude-password-form">
+                        <div class="btn-popup">
+                            <button id="exclude-password" onclick="deletePasswordOff()" class="delete-popup" type="submit">Excluir</button>
+                            <button id="cancel-exclude-password" onclick="deletePasswordOff()" class="cancel-popup" type="button">Cancelar</button>
+                        </div>
+                    </form>
                 </div>
             </div>
 

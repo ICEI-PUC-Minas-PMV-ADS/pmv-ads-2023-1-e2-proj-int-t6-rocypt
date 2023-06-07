@@ -232,14 +232,13 @@
         display: flex;
         background-color: #ffffff;
         width: 90%;
-        height: 95%;
+        height: 80vh;
         border-radius: 20px;
         flex-direction: column;
         padding: 30px;
         position: relative;
         justify-content: space-around;
         text-align: center;
-        animation: MainTextSlideLeft ease-out 1s;
         box-shadow: 0px 5px 10px black;
     }
 
@@ -249,7 +248,7 @@
         line-height: 40px;
     }
     .user-data {
-        height: 55%;
+        height: 70%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -260,7 +259,7 @@
     }
     .user-input {
         display: flex;
-        height: 30%;
+        height: 20%;
         font-size: 16px;
         font-weight: bold;
         justify-content: space-around;
@@ -519,7 +518,6 @@
         margin: 10px;
         color: white;
         cursor: pointer;
-        transition: 1s;
     }
     .Title:hover {
         transition: 1s;
@@ -555,7 +553,6 @@
         justify-content: space-around;
         align-items: center;
         text-align: center;
-        animation: MainTextSlideLeft ease-out 1s;
         box-shadow: 0px 5px 10px black;
     }
 

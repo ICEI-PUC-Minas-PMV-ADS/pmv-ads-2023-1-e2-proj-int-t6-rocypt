@@ -342,7 +342,7 @@
     }
     #check:checked ~ .check-btn::before{
         transition: 1s;
-        transform: rotate(180deg);
+        transform: rotate(90deg);
         opacity: 1;
     }
     
@@ -386,7 +386,6 @@
         padding: 30px;
         position: relative;
         text-align: center;
-        animation: MainTextSlideLeft ease-out 1s;
         box-shadow: 0px 5px 10px black;
         overflow: hidden;
     }
@@ -625,7 +624,20 @@
         scale: 0;
         overflow: auto;
     }
-    
+    .group-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 50%;
+    }
+    .edit-group-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 50%;
+    }
+
+
     .popup .close-btn {
         cursor: pointer;
         position: absolute;
@@ -648,6 +660,11 @@
         background: #570000;
     }
     .btn-popup {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+    }
+    .btn-popup-form {
         position: relative;
         display: flex;
         justify-content: space-around;
@@ -750,7 +767,7 @@
         font-weight: bold;
         scale: 1;
         width: 90%;
-        height: 90%;
+        height: 90vh;
         z-index: 2;
         text-align: center;
         flex-direction: column;
@@ -764,8 +781,9 @@
     .password-creation {
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
         gap: 10px;
-        height: 55%;
+        height: 55vh;
         width: 100%;
         text-align: left;
         overflow: auto;
@@ -775,7 +793,7 @@
         flex-direction: column;
         text-align: left;
         width: 100%;
-        height: 100px;
+        height: 80%;
         gap: 10px;
 
     }
@@ -1121,6 +1139,8 @@
     .user-info {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 100%;
         height: 100%;
         background: none;
@@ -1133,6 +1153,7 @@
         font-size: small;
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .user-data {
         height: 30px;
@@ -1202,7 +1223,7 @@
     }
     #check:checked ~ .check-btn::before{
         transition: 1s;
-        transform: rotate(180deg);
+        transform: rotate(90deg);
         opacity: 1;
     }
     
@@ -1243,7 +1264,6 @@
         padding: 30px;
         position: relative;
         text-align: center;
-        animation: MainTextSlideLeft ease-out 1s;
         box-shadow: 0px 5px 10px black;
         overflow: hidden;
     }
@@ -1494,6 +1514,19 @@
         box-shadow: 0px 5px 10px black;
         scale: 0;
     }
+    .group-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 50%;
+    }
+    .edit-group-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 50%;
+    }
+    
     
     .popup .close-btn {
         cursor: pointer;
@@ -1517,6 +1550,11 @@
         background: #570000;
     }
     .btn-popup {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+    }
+    .btn-popup-form {
         position: relative;
         display: flex;
         justify-content: space-around;
@@ -1622,7 +1660,7 @@
         top: 10%;
         background: #fff;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         font-weight: bold;
         scale: 1;
         width: 500px;
@@ -1640,8 +1678,8 @@
     .password-creation {
         display: flex;
         flex-direction: column;
-        gap: 10px;
-        height: 70%;
+        gap: 20px;
+        height: 80%;
         width: 100%;
         text-align: left;
         overflow: auto;
@@ -1651,7 +1689,7 @@
         flex-direction: column;
         text-align: left;
         width: 100%;
-        height: 100px;
+        height: 200px;
         gap: 10px;
 
     }
