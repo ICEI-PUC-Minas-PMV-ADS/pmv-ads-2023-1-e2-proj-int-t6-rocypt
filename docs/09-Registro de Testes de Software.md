@@ -1,40 +1,54 @@
-# Registro de Testes de Software
-
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
 
-## Teste em diferentes navegadores
- - [Google](https://www.google.com/chrome/)
- - 
- - [Firefox](https://www.mozilla.org/pt-BR/firefox/new/)
- - 
- - [Safari](https://www.apple.com/br/safari/)
-
-## Teste em diferentes dispositivos
-- PC
-
-- Smartphone
-
 ## Registro de usuário
+## Cadastro de usuário
+- Ao inserirmos as informações nescessárias para o cadastro, conseguimos acessar o software.
+
+![cadastro](https://user-images.githubusercontent.com/111783703/236650152-66ceffd8-e4d1-4fe8-8644-05edc7528000.gif)
+
+- Funcionando perfeitamente no dispositivo móvel.
+
+![cadastro cel](https://user-images.githubusercontent.com/111783703/236650824-16b52cc8-9a5a-417c-98b3-f0b97255eb76.gif)
+
 
 ## Login
+- Após inserir as informações que usamos para nos cadastras, o login funcionou devidamente.
 
-## Alterar senha Master
+![login](https://user-images.githubusercontent.com/111783703/236649857-b570e268-2baa-4a3b-8ea7-2f1dc55dbf56.gif)
+
+- Funcionado perfeitamente no dispositivo móvel.
+
+![login cel](https://user-images.githubusercontent.com/111783703/236650735-e71ddda1-6447-45ea-9645-feff4402471e.gif)
+
+
+
+## Redefinir senha 
+- Ao tentarmos redefinir a senha, obtivemos o resultado esperado.
+
+![redefinir senha](https://user-images.githubusercontent.com/111783703/236650069-a02928ed-43ba-4ce0-a7cc-9a95e1a2686e.gif)
+
+- Funcionando perfeitamente no dispositivo móvel.
+
+![esqueci minha senha cel](https://user-images.githubusercontent.com/111783703/236650953-e472865e-234c-40eb-a5e9-3593a5f49a79.gif)
+
+
+## Alterar senha
+- Funcionalidade funcionando conforme o esperado.
+
+![alterar senha](https://user-images.githubusercontent.com/111783703/236650417-1bc6d53f-6402-43e9-b8b3-b556103fe78b.gif)
+
+- Funcionado perfeitamente no dispositivo móvel.
+
+![alterar senha cel](https://user-images.githubusercontent.com/111783703/236650876-505f39eb-06eb-43d2-9f8a-e2e1813c5112.gif)
 
 ## Redefinir senha
 
 ## Cadastrar perfil
+- É possível cadastrar o perfil, funcionando conforme o esperado. Entretanto, esteticamente é nescessário uma correção.
 
-## Gerenciamento de perfil
 
-## Gerenciar campos personalizados por perfil
+![cadastro perfil](https://user-images.githubusercontent.com/111783703/236649942-c8c4f714-c2a4-4ef5-91a9-b4289a825365.gif)
 
-## Gerenciar plataformas por perfil
+- Aos testarmos no dispositivo móvel, funcionando perfeitamente.
 
-## Gerador de senhas
-
-## Avaliação
-
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+![perfil cel](https://user-images.githubusercontent.com/111783703/236650790-a31e9485-6714-4e98-9b7e-f85effb4bf51.gif)
