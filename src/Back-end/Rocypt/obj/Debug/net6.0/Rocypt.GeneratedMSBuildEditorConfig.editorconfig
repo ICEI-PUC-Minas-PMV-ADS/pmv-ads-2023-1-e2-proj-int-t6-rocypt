@@ -9,77 +9,81 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Rocypt
 build_property.RootNamespace = Rocypt
-build_property.ProjectDir = D:\Faculdade - Projeto na azure\Rocypt\Rocypt\
+build_property.ProjectDir = C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2023-1-e2-proj-int-t6-rocypt\src\Back-end\Rocypt\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Faculdade - Projeto na azure\Rocypt\Rocypt
+build_property.MSBuildProjectDirectory = C:\Users\Brend\OneDrive\Área de Trabalho\pmv-ads-2023-1-e2-proj-int-t6-rocypt\src\Back-end\Rocypt
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Faculdade - Projeto na azure/Rocypt/Rocypt/Views/Home/Index.cshtml]
+[C:/Users/Brend/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Faculdade - Projeto na azure/Rocypt/Rocypt/Views/Login/Index.cshtml]
+[C:/Users/Brend/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Faculdade - Projeto na azure/Rocypt/Rocypt/Views/Painel/Index.cshtml]
+[C:/Users/Brend/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/Painel/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpbmVsXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Faculdade - Projeto na azure/Rocypt/Rocypt/Views/RedefinirSenha/Index.cshtml]
+[C:/Users/Brend/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/Painel/_Senhas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpbmVsXF9TZW5oYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Brend/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/RedefinirSenha/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVkZWZpbmlyU2VuaGFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Faculdade - Projeto na azure/Rocypt/Rocypt/Views/RedefinirSenha/Redefinir.cshtml]
+[C:/Users/Brend/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/RedefinirSenha/Redefinir.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVkZWZpbmlyU2VuaGFcUmVkZWZpbmlyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Faculdade - Projeto na azure/Rocypt/Rocypt/Views/RedefinirSenha/Sucesso.cshtml]
+[C:/Users/Brend/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/RedefinirSenha/Sucesso.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVkZWZpbmlyU2VuaGFcU3VjZXNzby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Faculdade - Projeto na azure/Rocypt/Rocypt/Views/RedefinirSenha/Verificacao.cshtml]
+[C:/Users/Brend/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/RedefinirSenha/Verificacao.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVkZWZpbmlyU2VuaGFcVmVyaWZpY2FjYW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Faculdade - Projeto na azure/Rocypt/Rocypt/Views/Registro/Index.cshtml]
+[C:/Users/Brend/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/Registro/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cm9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Faculdade - Projeto na azure/Rocypt/Rocypt/Views/Shared/Error.cshtml]
+[C:/Users/Brend/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Faculdade - Projeto na azure/Rocypt/Rocypt/Views/Shared/_LayoutCadastro.cshtml]
+[C:/Users/Brend/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/Shared/_LayoutCadastro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRDYWRhc3Ryby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Faculdade - Projeto na azure/Rocypt/Rocypt/Views/Shared/_LayoutEsqueceSenha.cshtml]
+[C:/Users/Brend/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/Shared/_LayoutEsqueceSenha.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRFc3F1ZWNlU2VuaGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Faculdade - Projeto na azure/Rocypt/Rocypt/Views/Shared/_LayoutLogin.cshtml]
+[C:/Users/Brend/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/Shared/_LayoutLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Faculdade - Projeto na azure/Rocypt/Rocypt/Views/Shared/_LayoutPainel.cshtml]
+[C:/Users/Brend/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/Shared/_LayoutPainel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRQYWluZWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Faculdade - Projeto na azure/Rocypt/Rocypt/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Brend/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Faculdade - Projeto na azure/Rocypt/Rocypt/Views/_ViewImports.cshtml]
+[C:/Users/Brend/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Faculdade - Projeto na azure/Rocypt/Rocypt/Views/_ViewStart.cshtml]
+[C:/Users/Brend/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Faculdade - Projeto na azure/Rocypt/Rocypt/Views/Shared/_Layout.cshtml]
+[C:/Users/Brend/OneDrive/Área de Trabalho/pmv-ads-2023-1-e2-proj-int-t6-rocypt/src/Back-end/Rocypt/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-f8pq84uspu

@@ -45,6 +45,7 @@
         width: 100vw;
         height: 100vh;
         position: relative;
+        overflow: hidden;
     }
 
     header {
@@ -245,15 +246,15 @@
         display: flex;
         background-color: #ffffff;
         width: 90%;
-        height: 90%;
+        height: 80vh;
         border-radius: 20px;
         flex-direction: column;
         padding: 30px;
         position: relative;
         justify-content: space-around;
         text-align: center;
-        animation: MainTextSlideLeft ease-out 1s;
         box-shadow: 0px 5px 10px black;
+        overflow: auto;
     }
 
     .main-title {
@@ -263,10 +264,11 @@
     }
 
     .user-data {
-        height: 40%;
+        height: 80%;
         display: flex;
         flex-direction: column;
         gap: 5%;
+        overflow: auto;
     }
 
     .input-label {
@@ -276,7 +278,7 @@
 
     .user-input {
         display: flex;
-        height: 30%;
+        height: 25%;
         font-size: 16px;
         font-weight: bold;
         justify-content: space-around;
@@ -292,9 +294,10 @@
     }
 
     .links {
-        height: 20%;
+        height: 40%;
         align-items: center;
         justify-content: space-around;
+        gap: 20px;
         display: flex;
         flex-direction: column;
         font-weight: bold;
@@ -560,7 +563,6 @@
         margin: 10px;
         color: white;
         cursor: pointer;
-        transition: 1s;
     }
 
         .Title:hover {
@@ -591,14 +593,13 @@
         display: flex;
         background-color: #ffffff;
         width: 600px;
-        height: 90%;
+        height: 70%;
         border-radius: 20px;
         flex-direction: column;
         padding: 30px;
         position: relative;
         justify-content: space-around;
         text-align: center;
-        animation: MainTextSlideLeft ease-out 1s;
         box-shadow: 0px 5px 10px black;
     }
 
@@ -609,10 +610,12 @@
     }
 
     .user-data {
-        height: 40%;
+        height: 80%;
         display: flex;
+        padding: 20px;
         flex-direction: column;
-        gap: 5%;
+        justify-content: space-around;
+        gap: 10px;
     }
 
     .input-label {
@@ -622,7 +625,7 @@
 
     .user-input {
         display: flex;
-        height: 30%;
+        height: 30px;
         font-size: 16px;
         font-weight: bold;
         justify-content: space-around;
@@ -638,12 +641,12 @@
     }
 
     .links {
-        height: 15%;
+        height: 25%;
         align-items: center;
         justify-content: center;
         display: flex;
         flex-direction: column;
-        gap: 30%;
+        gap: 20px;
         font-weight: bold;
     }
 

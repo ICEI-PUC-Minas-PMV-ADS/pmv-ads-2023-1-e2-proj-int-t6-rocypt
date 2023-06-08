@@ -66,20 +66,25 @@ namespace Rocypt.Controllers
         }
 
 
-
-        [HttpPost]
-        public IActionResult Apagar(GrupoModel grupo)
+        public IActionResult Apagar(Guid id)
         {
-            if (ModelState.IsValid)
-            {
-                grupo = _grupoRespositorio.Apagar(grupo);
-                _databankContext.SaveChanges();
-                return RedirectToAction("Index");
-            }
-            return View("Index");
+            bool apagado = _grupoRespositorio.Apagar(id);
+            return RedirectToAction("Index");
         }
 
-
+        public IActionResult ListarSenhasPorGruposId(string id)
+        {
+            if (Guid.TryParse(id, out Guid groupId))
+            {
+                List<PasswordModel> pass = _passwordDataRespositorio.BuscarTodos(groupId);
+                return PartialView("_Senhas", pass);
+            }
+            else
+            {
+                // Trate o caso em que o ID não é um formato válido de Guid
+                return BadRequest();
+            }
+        }
 
     }
 }

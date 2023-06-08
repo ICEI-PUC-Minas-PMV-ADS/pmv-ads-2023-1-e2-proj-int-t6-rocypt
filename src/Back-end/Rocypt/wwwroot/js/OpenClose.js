@@ -1,4 +1,6 @@
-﻿
+﻿var selectedGroupId = null;
+
+
 //Abrir e fechar popup de criar grupo
 function createPopup() {
     const overlay = document.querySelector(".overlay");
@@ -54,13 +56,28 @@ function editClose() {
 }
 
 //Trocar entre tela de grupos e de senhas
-function groupPasswordsOn() {
+function groupPasswordsOn(button) {
+    selectedGroupId = button.id;
+    var groupId = button.id;
+
+    $.ajax({
+        type: 'GET',
+        url: '/Painel/ListarSenhasPorGruposId/' + groupId,
+        success: function (result) {
+            $("#password-zone").html(result);
+        }
+    });
+
     var passwords = document.getElementById("mobile-passwords");
     var groups = document.getElementById("mobile-groups");
+    var passid = document.getElementsByClassName("btn-style-mobile");
+
+    passid.id = groupId;
 
     passwords.style.display = "flex";
 
     groups.style.display = "none";
+
 }
 function groupPasswordsOff() {
     var passwords = document.getElementById("mobile-passwords");
@@ -73,6 +90,7 @@ function groupPasswordsOff() {
 
 //Abrir e fechar popup de criar senha
 function createNewPasswordOn() {
+
     const overlayPassword = document.querySelector("#overlay-new-password");
     const contentPassword = document.querySelector("#content-new-password");
     const mainTitle = document.getElementById("popup-title");
