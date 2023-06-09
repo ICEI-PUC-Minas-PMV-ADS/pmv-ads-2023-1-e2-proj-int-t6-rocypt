@@ -111,12 +111,16 @@ function deletePasswordOff() {
 //Popup de deletar grupo
 function deleteGroupOn() {
     const contentExcludeGroup = document.querySelector("#content-exclude-group");
-
+    const overlayExcludeGroup = document.querySelector("#overlay-exclude-group");
+    
+    overlayExcludeGroup.style.display = "flex";
     contentExcludeGroup.style.scale = "1";
 }
 function deleteGroupCancel() {
     const contentExcludeGroup = document.querySelector("#content-exclude-group");
-
+    const overlayExcludeGroup = document.querySelector("#overlay-exclude-group");
+    
+    overlayExcludeGroup.style.display = "none";
     contentExcludeGroup.style.scale = "0";
 }
 function deleteGroupExclude() {
@@ -133,6 +137,51 @@ function deleteGroupExclude() {
 function viewPassword() {
     const inputPassword = document.getElementById("password-user-password");
     const eye = document.getElementById("hidden-pass-icon");
+
+    // Ver senha ou esconder senha
+    if (inputPassword.type == "password") {
+
+        inputPassword.type = "text";
+    }
+    else {
+        inputPassword.type = "password";
+    }
+
+    //Troca o icone do olho
+    if (eye.className == "fa fa-eye-slash") {
+        eye.className = "fa fa-eye";
+    }
+
+    else {
+        eye.className = "fa fa-eye-slash";
+    }
+}
+// Visualização de senha no cadastro
+function viewPassword() {
+    const inputPassword = document.getElementById("password");
+    const eye = document.getElementById("hidden-pass-icon");
+
+    // Ver senha ou esconder senha
+    if (inputPassword.type == "password") {
+
+        inputPassword.type = "text";
+    }
+    else {
+        inputPassword.type = "password";
+    }
+
+    //Troca o icone do olho
+    if (eye.className == "fa fa-eye-slash") {
+        eye.className = "fa fa-eye";
+    }
+
+    else {
+        eye.className = "fa fa-eye-slash";
+    }
+}
+function viewPasswordConfirm() {
+    const inputPassword = document.getElementById("password-confirm");
+    const eye = document.getElementById("hidden-pass-icon-confirm");
 
     // Ver senha ou esconder senha
     if (inputPassword.type == "password") {

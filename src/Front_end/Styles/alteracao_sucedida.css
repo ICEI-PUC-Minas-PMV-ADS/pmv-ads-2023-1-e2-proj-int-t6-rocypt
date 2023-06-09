@@ -209,21 +209,21 @@
         color: white;
         cursor: pointer;
     }
-    .return {
+    #return {
         display: flex;
         align-items: center;
         justify-content: left;
         position: absolute;
         left: 10%;
         cursor: pointer;
-        width: 20px;
-        height: 20px;
+        width: 50px;
+        height: 50px;
+        color: white;
+        font-size: x-large;
     }
-    .return:hover {
+    #return:hover {
         transition: 0.5s;
-        transform: translateX(-7px);
-        height: 25px;
-        width: 25px;
+        transform: translateX(-10px);
     }
     
     .window {
@@ -512,21 +512,21 @@
         transition: 1s;
         font-size: 22px;
     }
-    .return {
+    #return {
         display: flex;
         align-items: center;
         justify-content: left;
         position: absolute;
         left: 10%;
         cursor: pointer;
-        width: 35px;
-        height: 35px;
+        width: 50px;
+        height: 50px;
+        color: white;
+        font-size: x-large;
     }
-    .return:hover {
+    #return:hover {
         transition: 0.5s;
-        transform: translateX(-7px);
-        height: 45px;
-        width: 45px;
+        transform: translateX(-10px);
     }
     
     .window {

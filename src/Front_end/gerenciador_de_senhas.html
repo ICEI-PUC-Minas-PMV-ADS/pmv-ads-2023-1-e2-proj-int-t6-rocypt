@@ -64,7 +64,6 @@
                         <input class="user-input" type="text">
                         <div class="btn-popup">
                             <button id="confirm-popup" onclick="editClose()" class="confirm-popup" type="submit">Confirmar</button>
-                            <button id="delete-popup" onclick="deleteGroupOn()" class="delete-popup" type="button">Excluir</button>
                             <button id="cancel-popup" onclick="editClose()" class="cancel-popup" type="button">Cancelar</button>
                         </div>
                     </form>
@@ -191,6 +190,7 @@
                                         </div>
                                         <div class="area-edit">
                                             <button id="edit-button" onclick="editPopup()" class="btn-edit"><i class="fa fa-pencil" id="edit-icon"></i></button>
+                                            <button id="btn-exclude" onclick="deleteGroupOn()" class="btn-edit-exclude"><i class="fa fa-trash" id="btn-exclude-group"></i></button>
                                         </div>
                                     </div>
                                     
@@ -215,7 +215,7 @@
                                         <div class="name">
                                             <button id="group-name" onclick="editPasswordOn()">Senha 1</button>
                                         </div>
-                                        <div class="area-edit">
+                                        <div class="area-edit-exclude">
                                             <button id="btn-exclude" onclick="deletePasswordOn()" class="btn-edit"><i class="fa fa-trash" id="btn-exclude"></i></button>
                                         </div>
                                     </div>
@@ -249,6 +249,7 @@
                                         </div>
                                         <div class="area-edit">
                                             <button id="edit-button" onclick="editPopup()" class="btn-edit"><i class="fa fa-pencil" id="edit-icon"></i></button>
+                                            <button id="btn-exclude" onclick="deleteGroupOn()" class="btn-edit-exclude"><i class="fa fa-trash" id="btn-exclude"></i></button>
                                         </div>
                                     </div>
                                 </div>
@@ -268,7 +269,7 @@
                                         <div class="name">
                                             <button id="group-name" onclick="editPasswordOn()">Senha 1</button>
                                         </div>
-                                        <div class="area-edit">
+                                        <div class="area-edit-exclude">
                                             <button id="btn-exclude" onclick="deletePasswordOn()" class="btn-edit"><i class="fa fa-trash" id="btn-exclude"></i></button>
                                         </div>
                                     </div>
