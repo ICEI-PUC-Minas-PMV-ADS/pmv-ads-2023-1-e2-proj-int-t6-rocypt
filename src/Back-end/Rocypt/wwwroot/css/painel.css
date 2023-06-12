@@ -566,7 +566,18 @@
     }
 
     .area-edit {
-        width: 20%;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-left-style: solid;
+        border-color: #06000e73;
+        background: none;
+    }
+
+    .area-edit-exclude {
+        width: 25%;
         height: 100%;
         display: flex;
         align-items: center;
@@ -596,6 +607,31 @@
     #edit-icon {
         color: white;
         font-size: 22px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-edit-exclude {
+        background: none;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border-left-style: solid;
+        border-color: #06000e73;
+    }
+
+    #btn-exclude-group {
+        color: white;
+        font-size: 26px;
         width: 100%;
         height: 100%;
         display: flex;
@@ -812,7 +848,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        overflow: auto;
+        overflow: hidden;
     }
 
     #content-new-password {
@@ -833,19 +869,20 @@
         border-radius: 20px;
         box-shadow: 0px 5px 10px black;
         scale: 0;
-        overflow: auto;
+        overflow: hidden;
         gap: 15px;
     }
 
     .password-creation {
         display: flex;
+        position: relative;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: flex-start;
         gap: 10px;
-        height: 55vh;
+        height: 60vh;
         width: 100%;
         text-align: left;
-        overflow: auto;
+        overflow: scroll;
     }
 
     .password-edit {
@@ -853,7 +890,7 @@
         flex-direction: column;
         text-align: left;
         width: 100%;
-        height: 80%;
+        height: 300px;
         gap: 10px;
     }
 
@@ -1490,7 +1527,7 @@
         width: 100%;
         height: 70px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         margin-bottom: 15px;
         border-radius: 10px;
@@ -1538,7 +1575,18 @@
     }
 
     .area-edit {
-        width: 20%;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-left-style: solid;
+        border-color: #06000e73;
+        background: none;
+    }
+
+    .area-edit-exclude {
+        width: 15%;
         height: 100%;
         display: flex;
         align-items: center;
@@ -1573,6 +1621,21 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .btn-edit-exclude {
+        background: none;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border: none;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border-left-style: solid;
+        border-color: #06000e73;
     }
 
     .user-input {

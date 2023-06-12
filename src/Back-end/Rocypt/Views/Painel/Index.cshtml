@@ -53,14 +53,11 @@
         <input id="group-name-input" class="user-input" type="text" value="" name="grupo.Name">
         <div class="btn-popup">
              <button id="confirm-popup" class="confirm-popup">Confirmar</button>
-            <button id="delete-popup" onclick="deleteGroupOn()" class="delete-popup">Excluir</button>
             <button id="cancel-popup" onclick="editClose()" class="cancel-popup">Cancelar</button>
         </div>
     </div>
 </div>
 </form>
-
-
 <script>
     $(document).ready(function() {
   $("#modalEditForm").submit(function(e) {
@@ -95,7 +92,7 @@
                                 <h3 style="color:rgb(247, 0, 255)" id="popup-text"></h3>
                             </div>
                             <form class="password-creation">
-                            
+                                
                                 <label for="password-name">Nome da senha...</label>
                                 <input id="password-name" class="user-input" type="text">
 
@@ -127,6 +124,77 @@
 
                     </div>
             </div>
+            
+
+            <div class="popup" id="popup-edit-password">
+                    <div id="overlay-edit-password" class="overlay">
+                        <div id="content-edit-password" class="content">
+                            <div class="popup-header">
+                                <div class="close-btn" onclick="createNewPasswordOff()"><i class="fa fa-close"></i></div>
+                                <h1 class="main-title" id="popup-title-edit">Editar Senha....</h1>
+                                <h3 style="color:rgb(247, 0, 255)" id="popup-text-edit"></h3>
+                            </div>
+                            <form id="passEditModal" method="post" action="/Painel/AlterarPass" class="password-creation">
+                                <input id="pass-id-input" class="user-input" type="hidden" value="" name="pass.Id">
+
+                                <label for="password-name">Nome da senha...</label>
+                                <input id="password-name-input" class="user-input" type="text" value="" name="pass.Name">
+
+                                <label for="password-user">Nome do usuário...</label>
+                                <input id="password-user-input" class="user-input" type="text" value="" name="pass.UserName">
+
+                                <label for="password-email">Email...</label>
+                                <input id="password-email-input" class="user-input" type="text" value="" name="pass.Email">
+                                
+                                <div class="password-edit">
+                                    <label for="password-user-password">Senha...</label>
+                                    <div class="password-edit-random">
+                                    <input id="password-userpass-input" class="user-input" type="password" value="" name="pass.Senha">
+                                        <button type="button" class="btn-style-popup" id="hidden-pass" onclick="viewPassword()"><i id="hidden-pass-icon" class="fa fa-eye-slash"></i></button>
+                                        <button type="button" class="btn-style-popup" id="random-password" onclick=""><i class="fa fa-random"></i></button>
+                                    </div>
+                                    <h2 class="tip">O botão ao lado criará uma senha completamente aleatória.</h2>
+                                </div>
+
+           
+
+                            <div class="btn-popup">
+                                <button type="submit" id="confirm-popup" onclick="createNewPasswordOff()" class="confirm-popup">Confirmar</button>
+                            <button type="button" id="cancel-popup" onclick="createNewPasswordOff()" class="cancel-popup">Cancelar</button>
+                            </div>
+                            </form>
+                        </div>
+                        
+
+                    </div>
+            </div>
+
+
+<script>
+    $(document).ready(function () {
+        $("#passEditModal").submit(function (e) {
+            e.preventDefault(); // Impede o comportamento padrão de envio do formulário
+
+            $.ajax({
+                url: $(this).attr("action"),
+                type: $(this).attr("method"),
+                data: $(this).serialize(),
+                success: function (response) {
+                    // Lidar com a resposta do servidor (opcional)
+                    createClose(); // Fechar o modal após o envio bem-sucedido
+                    location.reload();
+                },
+                error: function (xhr, status, error) {
+                    // Lidar com erros (opcional)
+                    console.log(error);
+                }
+            });
+        });
+    });</script>
+
+
+
+
 
             <div class="popup" id="popup-exclude-password">
                 <div id="overlay-exclude" class="overlay"></div>
@@ -249,13 +317,13 @@
                                 {
                                     <div class="group-template">
                                             <div class="name">
-                                                <button id="@grupos.Id" onclick="groupPasswordsOn(this)" name="">@grupos.Name</button>
+                                                <button id="@grupos.Id" onclick="groupPasswordsOn(this)" class="btn-edit" name="">@grupos.Name</button>
                                             </div>
                                             <div class="area-edit">
                                                 <button id="edit-button-@grupos.Id" onclick="editPopup('@grupos.Id', '@grupos.Name')" class="btn-edit"><i class="fa fa-pencil" id="edit-icon"></i></button>
-                                                <a role="button" asp-action="Apagar" asp-controller="Painel" asp-route-id="@grupos.Id" class="btn btn-danger">Apagar</a>
+                                                <a id="btn-exclude" class="btn-edit-exclude" asp-action="Apagar" asp-controller="Painel" asp-route-id="@grupos.Id"><i class="fa fa-trash" id="btn-exclude-group"></i></a>
                                             </div>
-                                            </div>
+                                    </div>
                                 
                                 }
                             }
