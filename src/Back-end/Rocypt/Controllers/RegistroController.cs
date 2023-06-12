@@ -32,7 +32,7 @@ namespace Rocypt.Controllers
                     } else
 					usuario = _usuarioRepositorio.Adicionar(usuario);
 					TempData["MensagemSucesso"] = "Usuario Cadastrado com sucesso.";
-					return RedirectToAction("Index", "Home");
+					return RedirectToAction("Index", "Login");
 				}
 				return View();
 			}

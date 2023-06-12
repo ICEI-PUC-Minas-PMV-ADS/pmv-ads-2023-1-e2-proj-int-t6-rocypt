@@ -1,5 +1,18 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model UsuarioModel
 @{
+    Layout = "_LayoutEsqueceSenha";
 }
+<div class="container">
+    <div class="window">
+        <h1 class="main-title">Nova Senha Master...</h1>
+        <div class="text">
+            <p class="text-style">
+                Uma nova senha master foi enviada para o seu e-mail.
+                Por favor, guarde-a com cuidado.
+            </p>
+        </div>
+        <div class="btn-functions">
+            <a asp-controller="Login" asp-action="Index" class="btn-style" id="entrar">Login</a>
+        </div>
+    </div>
+</div>

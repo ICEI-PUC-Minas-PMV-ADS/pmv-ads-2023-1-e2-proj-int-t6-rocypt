@@ -130,7 +130,7 @@
                     <div id="overlay-edit-password" class="overlay">
                         <div id="content-edit-password" class="content">
                             <div class="popup-header">
-                                <div class="close-btn" onclick="createNewPasswordOff()"><i class="fa fa-close"></i></div>
+                                <div class="close-btn" onclick="editPasswordOff()"><i class="fa fa-close"></i></div>
                                 <h1 class="main-title" id="popup-title-edit">Editar Senha....</h1>
                                 <h3 style="color:rgb(247, 0, 255)" id="popup-text-edit"></h3>
                             </div>
@@ -160,7 +160,7 @@
 
                             <div class="btn-popup">
                                 <button type="submit" id="confirm-popup" onclick="createNewPasswordOff()" class="confirm-popup">Confirmar</button>
-                            <button type="button" id="cancel-popup" onclick="createNewPasswordOff()" class="cancel-popup">Cancelar</button>
+                            <button type="button" id="cancel-popup" onclick="editPasswordOff()" class="cancel-popup">Cancelar</button>
                             </div>
                             </form>
                         </div>
@@ -226,6 +226,7 @@
                         <li class="user-data" id="user-email"><h1>exemplo@email.com</h1></li>
                     </div>
                 </div>
+                
             <li><a asp-controller="Painel" asp-action="Deslogar" id="logout">Logout</a></li>
             </ul>
                  
@@ -258,11 +259,11 @@
                             foreach (var grupos in Model.grupoModels)
                             {
                                         <div class="name">
-                                            <button id="@grupos.Id" onclick="groupPasswordsOn(this)" name="">@grupos.Name</button>
+                                            <button id="@grupos.Id" onclick="groupPasswordsOn(this)" name="" style="width: 100%; height: 100%; display: flex; position: relative; justify-content: center; border-radius: 10px; border: none; align-items: center; background: none; color: white; font-size: 150%; cursor: pointer;">@grupos.Name</button>
                                         </div>
                                         <div class="area-edit">
                                             <button id="edit-button-@grupos.Id" onclick="editPopup('@grupos.Id', '@grupos.Name')" class="btn-edit"><i class="fa fa-pencil" id="edit-icon"></i></button>
-                                            <a role="button" asp-action="Apagar" asp-controller="Painel" asp-route-id="@grupos.Id" class="btn btn-danger">Apagar</a>
+                                            <a id="btn-exclude" class="btn-edit-exclude" asp-action="Apagar" asp-controller="Painel" asp-route-id="@grupos.Id"><i class="fa fa-trash" id="btn-exclude-group"></i></a>
                                         </div>
                             }
                         }
@@ -281,7 +282,7 @@
                         <div class="manager-mobile">
                                 <div class="btn-create">
                                     <button onclick="groupPasswordsOff()" class="btn-style-mobile" id="return"><i class="fa fa-arrow-left"></i></button>
-                                    <button onclick="createNewPasswordOn()" class="btn-style-mobile" id="new-group">Nova Senha</button>
+                                    <button onclick="createNewPasswordOn()" class="btn-style-mobile" id="new-group-pass" value="">Nova Senha</button>
                                 </div>
                                 <div class="group-zone">
                             <div id="listaSenhaDeGrupos">
@@ -317,7 +318,7 @@
                                 {
                                     <div class="group-template">
                                             <div class="name">
-                                                <button id="@grupos.Id" onclick="groupPasswordsOn(this)" class="btn-edit" name="">@grupos.Name</button>
+                                                <button id="@grupos.Id" onclick="groupPasswordsOn(this)" class="btn-edit" name="" style="width: 100%; height: 100%; display: flex; position: relative; justify-content: center; border-radius: 10px; border: none; align-items: center; background: none; color: white; font-size: 150%; cursor: pointer;">@grupos.Name</button>
                                             </div>
                                             <div class="area-edit">
                                                 <button id="edit-button-@grupos.Id" onclick="editPopup('@grupos.Id', '@grupos.Name')" class="btn-edit"><i class="fa fa-pencil" id="edit-icon"></i></button>
@@ -334,7 +335,7 @@
 
                                 <div class="btn-create" id="btn-create-password">
                                     <h2 class="managing-title" id="Senhas">Senhas...</h2>
-                                    <button onclick="createNewPasswordOn()" class="btn-style-mobile" id="new-group">Nova Senha</button>
+                                <button onclick="createNewPasswordOn()" class="btn-style-mobile" id="new-group-pass" value="">Nova Senha</button>
                                 </div>
 
                                 <div class="group-zone" id="password-zone">

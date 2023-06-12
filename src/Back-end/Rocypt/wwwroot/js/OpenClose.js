@@ -71,6 +71,11 @@ function groupPasswordsOn(button) {
     var passwords = document.getElementById("mobile-passwords");
     var groups = document.getElementById("mobile-groups");
     var passid = document.getElementsByClassName("btn-style-mobile");
+    const groupidpass = document.querySelector("#new-group-pass");
+
+    if (groupidpass) {
+        groupidpass.value = groupId;
+    }
 
     passid.id = groupId;
 
@@ -108,6 +113,14 @@ function createNewPasswordOn() {
 function createNewPasswordOff() {
     const overlayPassword = document.querySelector("#overlay-new-password");
     const contentPassword = document.querySelector("#content-new-password");
+
+    overlayPassword.style.display = "none";
+    contentPassword.style.scale = "0";
+}
+
+function editPasswordOff() {
+    const overlayPassword = document.querySelector("#overlay-edit-password");
+    const contentPassword = document.querySelector("#content-edit-password");
 
     overlayPassword.style.display = "none";
     contentPassword.style.scale = "0";
