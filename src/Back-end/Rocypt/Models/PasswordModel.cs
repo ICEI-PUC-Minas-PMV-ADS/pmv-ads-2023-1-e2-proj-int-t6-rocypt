@@ -10,7 +10,7 @@ namespace Rocypt.Models
         public string UserName { get; set; }
         public string Email { get; set; }
         public string Senha { get; set; }
-        public Guid? GrupoId { get; set; }
+        public Guid GrupoId { get; set; }
         public GrupoModel? grupo { get; set; }
 
     }

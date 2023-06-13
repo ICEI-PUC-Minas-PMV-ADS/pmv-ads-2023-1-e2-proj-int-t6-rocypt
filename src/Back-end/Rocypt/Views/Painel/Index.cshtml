@@ -91,23 +91,24 @@
                                 <h1 class="main-title" id="popup-title">Adicionar nova Senha...</h1>
                                 <h3 style="color:rgb(247, 0, 255)" id="popup-text"></h3>
                             </div>
-                            <form class="password-creation">
-                                
+                    <form id="criarPassModal" method="post" action="/Painel/CriarPass" class="password-creation">
+                            <input id="id-input" type="hidden" name="pass.GrupoId">
+
                                 <label for="password-name">Nome da senha...</label>
-                                <input id="password-name" class="user-input" type="text">
+                <input id="password-name" class="user-input" type="text" name="pass.Name">
 
                                 <label for="password-user">Nome do usuário...</label>
-                                <input id="password-user" class="user-input" type="text">
+                <input id="password-user" class="user-input" type="text" name="pass.UserName">
 
                                 <label for="password-email">Email...</label>
-                                <input id="password-email" class="user-input" type="text">
+                <input id="password-email" class="user-input" type="text" name="pass.Email">
                                 
                                 <div class="password-edit">
                                     <label for="password-user-password">Senha...</label>
                                     <div class="password-edit-random">
-                                        <input id="password-user-password" class="user-input" type="password">
+                        <input id="password-user-password" class="user-input" type="password" name="pass.Senha">
                                         <button type="button" class="btn-style-popup" id="hidden-pass" onclick="viewPassword()"><i id="hidden-pass-icon" class="fa fa-eye-slash"></i></button>
-                                        <button type="button" class="btn-style-popup" id="random-password" onclick=""><i class="fa fa-random"></i></button>
+                                        <button type="button" class="btn-style-popup" id="random-password" onclick="ramdomPassword()"><i class="fa fa-random"></i></button>
                                     </div>
                                     <h2 class="tip">O botão ao lado criará uma senha completamente aleatória.</h2>
                                 </div>
@@ -124,7 +125,37 @@
 
                     </div>
             </div>
-            
+
+
+<script>
+    $(document).ready(function () {
+        $("#criarPassModal").submit(function (e) {
+            e.preventDefault(); // Impede o comportamento padrão de envio do formulário
+
+            $.ajax({
+                url: $(this).attr("action"),
+                type: $(this).attr("method"),
+                data: $(this).serialize(),
+                success: function (response) {
+                    // Lidar com a resposta do servidor (opcional)
+                    createClose(); // Fechar o modal após o envio bem-sucedido
+                    location.reload();
+                },
+                error: function (xhr, status, error) {
+                    // Lidar com erros (opcional)
+                    console.log(error);
+                }
+            });
+        });
+    });</script>
+
+
+
+
+
+
+
+
 
             <div class="popup" id="popup-edit-password">
                     <div id="overlay-edit-password" class="overlay">
@@ -134,7 +165,7 @@
                                 <h1 class="main-title" id="popup-title-edit">Editar Senha....</h1>
                                 <h3 style="color:rgb(247, 0, 255)" id="popup-text-edit"></h3>
                             </div>
-                            <form id="passEditModal" method="post" action="/Painel/AlterarPass" class="password-creation">
+                            <form class="password-creation">
                                 <input id="pass-id-input" class="user-input" type="hidden" value="" name="pass.Id">
 
                                 <label for="password-name">Nome da senha...</label>
@@ -170,27 +201,7 @@
             </div>
 
 
-<script>
-    $(document).ready(function () {
-        $("#passEditModal").submit(function (e) {
-            e.preventDefault(); // Impede o comportamento padrão de envio do formulário
 
-            $.ajax({
-                url: $(this).attr("action"),
-                type: $(this).attr("method"),
-                data: $(this).serialize(),
-                success: function (response) {
-                    // Lidar com a resposta do servidor (opcional)
-                    createClose(); // Fechar o modal após o envio bem-sucedido
-                    location.reload();
-                },
-                error: function (xhr, status, error) {
-                    // Lidar com erros (opcional)
-                    console.log(error);
-                }
-            });
-        });
-    });</script>
 
 
 
@@ -282,7 +293,7 @@
                         <div class="manager-mobile">
                                 <div class="btn-create">
                                     <button onclick="groupPasswordsOff()" class="btn-style-mobile" id="return"><i class="fa fa-arrow-left"></i></button>
-                                    <button onclick="createNewPasswordOn()" class="btn-style-mobile" id="new-group-pass" value="">Nova Senha</button>
+                            <button onclick="createNewPasswordOn(this)" class="btn-style-mobile" id="new-group-pass" >Nova Senha</button>
                                 </div>
                                 <div class="group-zone">
                             <div id="listaSenhaDeGrupos">
@@ -335,7 +346,7 @@
 
                                 <div class="btn-create" id="btn-create-password">
                                     <h2 class="managing-title" id="Senhas">Senhas...</h2>
-                                <button onclick="createNewPasswordOn()" class="btn-style-mobile" id="new-group-pass" value="">Nova Senha</button>
+                                <button onclick="createNewPasswordOn(this)" class="btn-style-mobile" id="new-group-pass">Nova Senha</button>
                                 </div>
 
                                 <div class="group-zone" id="password-zone">

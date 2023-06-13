@@ -71,13 +71,13 @@ function groupPasswordsOn(button) {
     var passwords = document.getElementById("mobile-passwords");
     var groups = document.getElementById("mobile-groups");
     var passid = document.getElementsByClassName("btn-style-mobile");
-    const groupidpass = document.querySelector("#new-group-pass");
 
-    if (groupidpass) {
-        groupidpass.value = groupId;
-    }
+
+    var newGroupPassButton = document.querySelectorAll("#new-group-pass");
 
     passid.id = groupId;
+    newGroupPassButton.forEach((group) => { group.dataset.id = groupId })
+
 
     passwords.style.display = "flex";
 
@@ -95,12 +95,20 @@ function groupPasswordsOff() {
 
 //Abrir e fechar popup de criar senha
 function createNewPasswordOn() {
+    var newGroupPassButton = document.querySelector("#new-group-pass");
+    var groupId = newGroupPassButton.dataset.id;
+    console.log(groupId);
+
+
+
 
     const overlayPassword = document.querySelector("#overlay-new-password");
     const contentPassword = document.querySelector("#content-new-password");
     const mainTitle = document.getElementById("popup-title");
     const mainText = document.getElementById("popup-text");
-
+    const groupIdInput = document.querySelector("#id-input");
+    
+    groupIdInput.value = groupId;
 
     overlayPassword.style.display = "flex";
     contentPassword.style.scale = "1";
@@ -233,3 +241,17 @@ function viewPassword() {
     }
     }
 
+function ramdomPassword() {
+    let pass = "";
+    let charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#";
+    for (let contador = 0, n = charset.length; contador < 10; ++contador) {
+
+        pass += charset.charAt(Math.floor(Math.random() * n))
+    }
+    const passwordEl = document.querySelector("#password-user-password");
+
+    if (passwordEl) {
+        passwordEl.value = pass;
+    }
+
+}

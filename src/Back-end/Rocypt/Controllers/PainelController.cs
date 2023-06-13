@@ -89,6 +89,17 @@ namespace Rocypt.Controllers
         }
 
         [HttpPost]
+        public IActionResult CriarPass(PasswordModel pass)
+        {
+            if (ModelState.IsValid)
+            {
+                pass = _passwordDataRespositorio.Adicionar(pass);
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+
+        [HttpPost]
         public IActionResult AlterarPass(PasswordModel pass)
         {
 
