@@ -12,6 +12,7 @@ namespace Rocypt.Controllers
         private readonly IGrupoRepositorio _grupoRespositorio;
         private readonly DatabankContext _databankContext;
         private readonly IPasswordDataRepositorio _passwordDataRespositorio;
+        private int a;
 
 
         public PainelController(IGrupoRepositorio grupoRepositorio, IPasswordDataRepositorio passwordDataRespositorio, DatabankContext databankContext)
