@@ -5,10 +5,10 @@
     foreach (var pass in Model){
        <div class="group-template">
         <div class="name">
-            <button id="group-name" onclick="editPasswordOn()">@pass.Name</button>
+                <button id="group-name" onclick="editPasswordOn('@pass.Id', '@pass.Name', '@pass.Email', '@pass.UserName', '@pass.Senha')">@pass.Name</button>
         </div>
         <div class="area-edit">
-            <button id="btn-exclude" onclick="deletePasswordOn()" class="btn-edit"><i class="fa fa-trash" id="btn-exclude"></i></button>
+        <a id="btn-exclude" class="btn-edit" asp-action="ApagarPass" asp-controller="Painel" asp-route-id="@pass.Id"><i class="fa fa-trash" id="btn-exclude"></i></a>
         </div>
         </div>
 
@@ -18,7 +18,7 @@
 {
            <div class="group-template">
         <div class="name">
-            <button id="group-name" onclick="editPasswordOn()">Não existe senhas</button>
+            <button id="group-name">Não existem senhas. Clique em "Nova Senha."</button>
         </div>
         </div>
 }

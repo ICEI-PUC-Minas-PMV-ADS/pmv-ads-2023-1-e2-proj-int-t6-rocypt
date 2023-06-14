@@ -48,7 +48,7 @@ namespace Rocypt.Repositorio
 			return usuarioDb;
 		}
 
-		public UsuarioModel AtualizarSenha(RedefinirSenhaModel usuario)
+		public UsuarioModel AtualizarSenha(UsuarioModel usuario)
         {
             UsuarioModel usuarioDb = BuscarPorToken(usuario.Token);
 

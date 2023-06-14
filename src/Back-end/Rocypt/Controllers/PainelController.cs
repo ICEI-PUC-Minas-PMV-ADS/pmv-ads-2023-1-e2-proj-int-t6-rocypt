@@ -72,6 +72,8 @@ namespace Rocypt.Controllers
             return RedirectToAction("Index");
         }
 
+
+
         public IActionResult ListarSenhasPorGruposId(string id)
         {
             if (Guid.TryParse(id, out Guid groupId))
@@ -84,6 +86,36 @@ namespace Rocypt.Controllers
                 // Trate o caso em que o ID não é um formato válido de Guid
                 return BadRequest();
             }
+        }
+
+        [HttpPost]
+        public IActionResult CriarPass(PasswordModel pass)
+        {
+            if (ModelState.IsValid)
+            {
+                pass = _passwordDataRespositorio.Adicionar(pass);
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult AlterarPass(PasswordModel pass)
+        {
+
+            if (ModelState.IsValid)
+            {
+                pass = _passwordDataRespositorio.Alterar(pass);
+                _databankContext.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View("Index");
+        }
+
+        public IActionResult ApagarPass(Guid id)
+        {
+            bool apagado = _passwordDataRespositorio.Apagar(id);
+            return RedirectToAction("Index");
         }
 
     }

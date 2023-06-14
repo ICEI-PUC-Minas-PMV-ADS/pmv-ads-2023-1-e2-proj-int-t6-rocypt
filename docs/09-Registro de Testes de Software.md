@@ -10,6 +10,9 @@
 
 ![cadastro cel](https://user-images.githubusercontent.com/111783703/236650824-16b52cc8-9a5a-417c-98b3-f0b97255eb76.gif)
 
+## Caracteres Inválidos 
+
+## Senhas diferentes
 
 ## Login
 - Após inserir as informações que usamos para nos cadastras, o login funcionou devidamente.
@@ -20,6 +23,7 @@
 
 ![login cel](https://user-images.githubusercontent.com/111783703/236650735-e71ddda1-6447-45ea-9645-feff4402471e.gif)
 
+## Senha Incorreta
 
 
 ## Redefinir senha 
@@ -43,7 +47,7 @@
 
 ## Redefinir senha
 
-## Cadastrar perfil
+## Cadastrar Grupo
 - É possível cadastrar o perfil, funcionando conforme o esperado. Entretanto, esteticamente é nescessário uma correção.
 
 
@@ -52,3 +56,15 @@
 - Aos testarmos no dispositivo móvel, funcionando perfeitamente.
 
 ![perfil cel](https://user-images.githubusercontent.com/111783703/236650790-a31e9485-6714-4e98-9b7e-f85effb4bf51.gif)
+
+## Editar Grupo
+
+## Excluir Grupo
+
+## Cadastrar Senha do Perfil
+
+## Alterar Senha do Perfil
+
+## Excluir Senha do Perfil
+
+## Visualizar Senha do Perfil

@@ -224,22 +224,22 @@
         cursor: pointer;
     }
 
-    .return {
+    #return {
         display: flex;
         align-items: center;
         justify-content: left;
         position: absolute;
         left: 10%;
         cursor: pointer;
-        width: 20px;
-        height: 20px;
+        width: 50px;
+        height: 50px;
+        color: white;
+        font-size: x-large;
     }
 
-        .return:hover {
+        #return:hover {
             transition: 0.5s;
-            transform: translateX(-7px);
-            height: 25px;
-            width: 25px;
+            transform: translateX(-10px);
         }
 
     .window {
@@ -278,7 +278,7 @@
 
     .user-input {
         display: flex;
-        height: 25%;
+        height: 50px;
         font-size: 16px;
         font-weight: bold;
         justify-content: space-around;
@@ -348,6 +348,88 @@
         #entrar:active {
             background-color: #743983;
         }
+
+    .btn-style-popup {
+        width: 90px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        background: rgb(115, 0, 223);
+        color: white;
+        font-size: 95%;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+
+        .btn-style-popup:hover {
+            background: rgb(162, 71, 247);
+        }
+
+        .btn-style-popup:active {
+            background: rgb(64, 0, 124);
+        }
+
+    .master {
+        display: flex;
+    }
+
+    .confirm-master {
+        display: flex;
+    }
+
+    #password {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width: 100%;
+    }
+
+    #password-confirm {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width: 100%;
+    }
+
+    #hidden-pass {
+        border-radius: 0px;
+        height: 100%;
+        width: 50px;
+        border-right-style: solid;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+        #hidden-pass:hover {
+            background: #b45eff;
+        }
+
+        #hidden-pass:active {
+            background: #49008a;
+        }
+
+    #hidden-pass-icon {
+        font-size: 24px;
+    }
+
+    #hidden-pass-confirm {
+        border-radius: 0px;
+        height: 100%;
+        width: 50px;
+        border-right-style: solid;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+        #hidden-pass-confirm:hover {
+            background: #b45eff;
+        }
+
+        #hidden-pass-confirm:active {
+            background: #49008a;
+        }
+
+    #hidden-pass-icon-confirm {
+        font-size: 24px;
+    }
 }
 
 /*Tela para desktop*/
@@ -570,22 +652,22 @@
             font-size: 22px;
         }
 
-    .return {
+    #return {
         display: flex;
         align-items: center;
         justify-content: left;
         position: absolute;
         left: 10%;
         cursor: pointer;
-        width: 35px;
-        height: 35px;
+        width: 50px;
+        height: 50px;
+        color: white;
+        font-size: x-large;
     }
 
-        .return:hover {
+        #return:hover {
             transition: 0.5s;
-            transform: translateX(-7px);
-            height: 45px;
-            width: 45px;
+            transform: translateX(-10px);
         }
 
     .window {
@@ -593,7 +675,7 @@
         display: flex;
         background-color: #ffffff;
         width: 600px;
-        height: 75vh;
+        height: 80vh;
         border-radius: 20px;
         flex-direction: column;
         padding: 30px;
@@ -613,7 +695,7 @@
         height: 85%;
         display: flex;
         flex-direction: column;
-        gap: 5%;
+        gap: 25px;
     }
 
     .input-label {
@@ -623,7 +705,7 @@
 
     .user-input {
         display: flex;
-        height: 30%;
+        height: 50px;
         font-size: 16px;
         font-weight: bold;
         justify-content: space-around;
@@ -693,4 +775,86 @@
         #entrar:active {
             background-color: #743983;
         }
+
+    .btn-style-popup {
+        width: 90px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        background: rgb(115, 0, 223);
+        color: white;
+        font-size: 95%;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+
+        .btn-style-popup:hover {
+            background: rgb(162, 71, 247);
+        }
+
+        .btn-style-popup:active {
+            background: rgb(64, 0, 124);
+        }
+
+    .master {
+        display: flex;
+    }
+
+    .confirm-master {
+        display: flex;
+    }
+
+    #password {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width: 100%;
+    }
+
+    #password-confirm {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width: 100%;
+    }
+
+    #hidden-pass {
+        border-radius: 0px;
+        height: 100%;
+        width: 50px;
+        border-right-style: solid;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+        #hidden-pass:hover {
+            background: #b45eff;
+        }
+
+        #hidden-pass:active {
+            background: #49008a;
+        }
+
+    #hidden-pass-icon {
+        font-size: 24px;
+    }
+
+    #hidden-pass-confirm {
+        border-radius: 0px;
+        height: 100%;
+        width: 50px;
+        border-right-style: solid;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+        #hidden-pass-confirm:hover {
+            background: #b45eff;
+        }
+
+        #hidden-pass-confirm:active {
+            background: #49008a;
+        }
+
+    #hidden-pass-icon-confirm {
+        font-size: 24px;
+    }
 }

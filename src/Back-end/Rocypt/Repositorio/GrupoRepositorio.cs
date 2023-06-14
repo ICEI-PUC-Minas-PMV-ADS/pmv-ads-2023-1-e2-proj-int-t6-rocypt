@@ -34,7 +34,7 @@ namespace Rocypt.Repositorio
         {
             GrupoModel grupoDb = BuscarPorId(grupo.Id);
 
-            if (grupoDb == null) throw new Exception("Houve um erro na atualização do contato!");
+            if (grupoDb == null) throw new Exception("Houve um erro na atualização!");
 
             grupoDb.Name = grupo.Name;
 
@@ -46,7 +46,7 @@ namespace Rocypt.Repositorio
         public bool Apagar(Guid id)
         {
             GrupoModel grupoDb = BuscarPorId(id);
-            if (grupoDb == null) throw new Exception("Houve um erro na deleção do contato!");
+            if (grupoDb == null) throw new Exception("Houve um erro na deleção!");
 
             _databankContext.Grupo.Remove(grupoDb);
             _databankContext.SaveChanges();

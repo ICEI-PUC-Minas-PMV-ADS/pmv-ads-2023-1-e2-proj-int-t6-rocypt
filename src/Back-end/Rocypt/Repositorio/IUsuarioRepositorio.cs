@@ -9,7 +9,7 @@ namespace Rocypt.Repositorio
 		public UsuarioModel BuscarPorToken(string token);
         UsuarioModel BuscarPorId(Guid id);
 		UsuarioModel Adicionar(UsuarioModel usuario);
-		UsuarioModel AtualizarSenha(RedefinirSenhaModel usuario);
+		UsuarioModel AtualizarSenha(UsuarioModel usuario);
 		UsuarioModel ConfirmarToken(UsuarioModel usuario);
 		public List<GrupoModel> BuscarTodosGrupos(Guid usuarioId);
 
