@@ -22,6 +22,8 @@
 
 ![login cel](https://user-images.githubusercontent.com/111783703/236650735-e71ddda1-6447-45ea-9645-feff4402471e.gif)
 
+## Logout
+
 ## Senha Incorreta
 
 
