@@ -9,10 +9,16 @@
     <div class="window">
         <h1 class="main-title">Código de Alteração de Senha...</h1>
         <form class="user-data" asp-controller="RedefinirSenha" asp-action="Verificar" method="post">
-            <label class="input-label for=" email>Um link de código foi enviado para "Email@gmail.com". Verifique o código enviado e coloque-o no campo abaixo</label>
+            <label class="input-label for=" email>Um link de código foi enviado para seu Email. Verifique o código enviado e coloque-o no campo abaixo</label>
             <input class="user-input" placeholder="•••••••••••••••" type="text" asp-for="Token" id="Email" required="required">
                     <div class="btn-functions">
-            <button class="btn-style" id="entrar">Enviar</button>
+		        @if (TempData["MensagemErro"] != null)
+		        {
+			 <div role="alert">
+                @TempData["MensagemErro"]
+             </div>
+		        }
+            <button class="btn-style" id="entrar">Redefinir Senha</button>
         </div>
         </form>
     </div>

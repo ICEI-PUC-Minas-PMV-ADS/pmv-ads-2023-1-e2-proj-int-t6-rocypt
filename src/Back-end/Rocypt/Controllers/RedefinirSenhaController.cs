@@ -37,7 +37,6 @@ namespace Rocypt.Controllers
                         if (emailEnviado)
                         {
                             _usuarioRepositorio.ConfirmarToken(usuario);
-                            TempData["MensagemSucesso"] = $"Enviamos para seu e-mail um token.";
                             return View("Verificacao");
                         }
                         else
@@ -45,7 +44,12 @@ namespace Rocypt.Controllers
                             TempData["MensagemErro"] = $"Não conseguimos enviar e-mail. Por favor, tente novamente.";
                         }
                     }
-                    TempData["MesagemErro"] = $"Ops, não conseguimos redefinir sua senha! Verifique os dados informados.";
+                    else
+                    {
+                        TempData["MesagemErro"] = $"Ops, não conseguimos redefinir sua senha! Verifique os dados informados.";
+                        return View("Index");
+                    }
+                    
                 }
                 TempData["MesagemErro"] = "Ops, não conseguimos recuperar sua senha.";
                 return View("Index");
@@ -76,7 +80,6 @@ namespace Rocypt.Controllers
                             if (emailEnviado)
                             {
                                 _usuarioRepositorio.AtualizarSenha(usuario);
-                                TempData["MensagemSucesso"] = $"Enviamos uma nova senha para seu email.";
                                 return View("Sucesso");
                             }
                             else

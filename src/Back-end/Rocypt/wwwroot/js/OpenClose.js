@@ -239,7 +239,75 @@ function viewPassword() {
     else {
         eye.className = "fa fa-eye-slash";
     }
+}
+// Visualização de senha no cadastro
+function viewPassword() {
+    const inputPassword = document.getElementById("password");
+    const eye = document.getElementById("hidden-pass-icon");
+
+    // Ver senha ou esconder senha
+    if (inputPassword.type == "password") {
+
+        inputPassword.type = "text";
     }
+    else {
+        inputPassword.type = "password";
+    }
+
+    //Troca o icone do olho
+    if (eye.className == "fa fa-eye-slash") {
+        eye.className = "fa fa-eye";
+    }
+
+    else {
+        eye.className = "fa fa-eye-slash";
+    }
+}
+function viewPasswordConfirm() {
+    const inputPassword = document.getElementById("password-confirm");
+    const eye = document.getElementById("hidden-pass-icon-confirm");
+
+    // Ver senha ou esconder senha
+    if (inputPassword.type == "password") {
+
+        inputPassword.type = "text";
+    }
+    else {
+        inputPassword.type = "password";
+    }
+
+    //Troca o icone do olho
+    if (eye.className == "fa fa-eye-slash") {
+        eye.className = "fa fa-eye";
+    }
+
+    else {
+        eye.className = "fa fa-eye-slash";
+    }
+}
+
+function viewPasswordEdit() {
+    const inputPassword = document.getElementById("password-userpass-input");
+    const eye = document.getElementById("hidden-pass-icon");
+
+    // Ver senha ou esconder senha
+    if (inputPassword.type == "password") {
+
+        inputPassword.type = "text";
+    }
+    else {
+        inputPassword.type = "password";
+    }
+
+    //Troca o icone do olho
+    if (eye.className == "fa fa-eye-slash") {
+        eye.className = "fa fa-eye";
+    }
+
+    else {
+        eye.className = "fa fa-eye-slash";
+    }
+}
 
 function ramdomPassword() {
     let pass = "";
@@ -255,3 +323,19 @@ function ramdomPassword() {
     }
 
 }
+
+function ramdomPasswordEdit() {
+    let pass = "";
+    let charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#";
+    for (let contador = 0, n = charset.length; contador < 10; ++contador) {
+
+        pass += charset.charAt(Math.floor(Math.random() * n))
+    }
+    const passwordEl = document.querySelector("#password-userpass-input");
+
+    if (passwordEl) {
+        passwordEl.value = pass;
+    }
+
+}
+

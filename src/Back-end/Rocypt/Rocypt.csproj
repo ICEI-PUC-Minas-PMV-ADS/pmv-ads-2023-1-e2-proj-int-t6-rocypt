@@ -17,6 +17,7 @@
     <Content Remove="Views\Painel\CriarGrupo.cshtml" />
     <Content Remove="Views\Painel\Index1.cshtml" />
     <Content Remove="Views\Painel\_EditGrupoModal.cshtml" />
+    <Content Remove="wwwroot\css\site.css" />
   </ItemGroup>
 
   <ItemGroup>

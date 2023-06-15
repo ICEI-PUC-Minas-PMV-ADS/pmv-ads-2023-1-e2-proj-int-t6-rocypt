@@ -12,8 +12,11 @@
         <input class="user-input" placeholder="•••••••••@@exemple.com" type="text" asp-for="Email" id="email" required="required">
         @Html.ValidationMessageFor(x => x.Email)
         <label class="input-label" for="password">Senha Master</label>
-        <input class="user-input" placeholder="•••••••••" type="password" asp-for="Password" id="password" required="required">
-        @Html.ValidationMessageFor(x => x.Password)
+        <div class="master">
+            <input class="user-input" placeholder="•••••••••" type="password" asp-for="Password" id="password" required="required">
+            @Html.ValidationMessageFor(x => x.Password)
+            <button class="btn-style-popup" id="hidden-pass" onclick="viewPassword()" type="button"><i id="hidden-pass-icon" class="fa fa-eye-slash"></i></button>
+        </div>
 		@if (TempData["MensagemErro"] != null)
 		{
 			 <div role="alert">
@@ -27,6 +30,6 @@
     <div class="btn-functions">
         <button class="btn-style" id="entrar">Entrar</button>
     </div>
-        </form>
+    </form>
 </div>
- </div>
+</div>
