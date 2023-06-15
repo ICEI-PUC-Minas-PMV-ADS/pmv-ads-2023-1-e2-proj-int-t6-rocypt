@@ -10,13 +10,15 @@
         <label class="input-label for=" email>Informe seu endereço de email para o envio do código de alteração de senha.</label>
         <input class="user-input" placeholder="•••••••••@@example.com" type="text" asp-for="Email" id="email" required="required">
         @Html.ValidationMessageFor(x => x.Email)
-            @if (TempData["MensagemErro"] != null)
-            {
-                    @TempData["MensagemErro"]
-            }
             <div class="btn-functions">
         <button class="btn-style" id="entrar">Enviar</button>
     </div>
+            @if (TempData["MensagemErro"] != null)
+            {
+                <div role="alert">
+                @TempData["MensagemErro"]
+                </div>
+            }
     </form>
 </div>
 </div>

@@ -222,22 +222,22 @@
         cursor: pointer;
     }
 
-    .return {
+    #return {
         display: flex;
         align-items: center;
         justify-content: left;
         position: absolute;
         left: 10%;
         cursor: pointer;
-        width: 20px;
-        height: 20px;
+        width: 50px;
+        height: 50px;
+        color: white;
+        font-size: x-large;
     }
 
-        .return:hover {
+        #return:hover {
             transition: 0.5s;
-            transform: translateX(-7px);
-            height: 25px;
-            width: 25px;
+            transform: translateX(-10px);
         }
 
     .window {
@@ -245,14 +245,13 @@
         display: flex;
         background-color: #ffffff;
         width: 90%;
-        height: 90%;
+        height: 80vh;
         border-radius: 20px;
         flex-direction: column;
         padding: 30px;
         position: relative;
         justify-content: space-around;
         text-align: center;
-        animation: MainTextSlideLeft ease-out 1s;
         box-shadow: 0px 5px 10px black;
     }
 
@@ -263,7 +262,7 @@
     }
 
     .user-data {
-        height: 40%;
+        height: 70%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -276,7 +275,7 @@
 
     .user-input {
         display: flex;
-        height: 30%;
+        height: 20%;
         font-size: 16px;
         font-weight: bold;
         justify-content: space-around;
@@ -550,7 +549,6 @@
         margin: 10px;
         color: white;
         cursor: pointer;
-        transition: 1s;
     }
 
         .Title:hover {
@@ -558,22 +556,22 @@
             font-size: 22px;
         }
 
-    .return {
+    #return {
         display: flex;
         align-items: center;
         justify-content: left;
         position: absolute;
         left: 10%;
         cursor: pointer;
-        width: 35px;
-        height: 35px;
+        width: 50px;
+        height: 50px;
+        color: white;
+        font-size: x-large;
     }
 
-        .return:hover {
+        #return:hover {
             transition: 0.5s;
-            transform: translateX(-7px);
-            height: 45px;
-            width: 45px;
+            transform: translateX(-10px);
         }
 
     .window {
@@ -581,7 +579,7 @@
         display: flex;
         background-color: #ffffff;
         width: 600px;
-        height: 80%;
+        height: 50vh;
         border-radius: 20px;
         flex-direction: column;
         padding: 30px;
@@ -589,7 +587,6 @@
         justify-content: space-around;
         align-items: center;
         text-align: center;
-        animation: MainTextSlideLeft ease-out 1s;
         box-shadow: 0px 5px 10px black;
     }
 
@@ -600,7 +597,7 @@
     }
 
     .user-data {
-        height: 40%;
+        height: 70%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -613,7 +610,7 @@
 
     .user-input {
         display: flex;
-        height: 30%;
+        height: 20%;
         font-size: 16px;
         font-weight: bold;
         justify-content: space-around;

@@ -25,16 +25,26 @@
 	}
 	<form class="user-data" asp-controller="Registro" asp-action="Criar" method="post">
 		<label class="input-label" for="email">Nome</label>
-		<input class="user-input" placeholder="João Paulo Silva" type="text" asp-for="Name" id="email" required="required">
+		<input class="user-input" placeholder="Seu Nome Completo" type="text" asp-for="Name" id="user-name" required="required">
 		<label class="input-label" for="email">Email</label>
 		<input class="user-input" placeholder="•••••••••@@example.com" type="text" asp-for="Email" id="email" required="required">
+
 		<label class="input-label" for="password">Senha Master</label>
-		<input class="user-input" placeholder="•••••••••" type="password" asp-for="Password" id="password" required="required">
+		<div class="master">
+			<input class="user-input" placeholder="•••••••••" type="password" asp-for="Password" id="password" required="required">
+			<button class="btn-style-popup" id="hidden-pass" onclick="viewPassword()" type="button"><i id="hidden-pass-icon" class="fa fa-eye-slash"></i></button>
+		</div>
+
 		<label class="input-label" for="password">Confirme a Senha Master</label>
-		<input class="user-input" placeholder="•••••••••" type="password" id="password" required="required">
+		<div class="confirm-master">
+			<input class="user-input" placeholder="•••••••••" type="password" id="password" required="required">
+			<button class="btn-style-popup" id="hidden-pass-confirm" onclick="viewPasswordConfirm()" type="button"><i id="hidden-pass-icon-confirm" class="fa fa-eye-slash"></i></button>
+		</div>
+
 		<div class="links">
 			<a asp-controller="Login" asp-action="Index">Já está cadastrado? Faça login</a>
 		</div>
+
 		<div class="btn-functions">
 			<button class="btn-style" id="entrar">Cadastrar</button>
 		</div>
