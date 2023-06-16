@@ -976,6 +976,17 @@
         font-weight: bolder;
     }
 
+    #password-userpass-input {
+        width: 100%;
+        height: 60px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border: none;
+        font-size: 22px;
+        font-weight: bolder;
+    }
+
+
     #random-password:hover {
         background: #b45eff;
     }
@@ -2025,6 +2036,16 @@
     }
 
     #password-user-password {
+        width: 100%;
+        height: 60px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border: none;
+        font-size: 22px;
+        font-weight: bolder;
+    }
+
+    #password-userpass-input {
         width: 100%;
         height: 60px;
         border-top-right-radius: 0px;

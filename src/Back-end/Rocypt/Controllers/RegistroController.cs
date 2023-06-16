@@ -19,7 +19,7 @@ namespace Rocypt.Controllers
 
 
 		[HttpPost]
-		public IActionResult Criar(UsuarioModel usuario)
+		public IActionResult Criar(UsuarioModel usuario, string senhaConfirmacao)
 		{
 			try
 			{
@@ -28,8 +28,14 @@ namespace Rocypt.Controllers
 					if(_usuarioRepositorio.BuscarPorLogin(usuario.Email) != null)
 					{
                         TempData["MensagemErro"] = "Este email já esta cadastrado.";
-						RedirectToAction("Index", "Registro");
-                    } else
+						return RedirectToAction("Index", usuario);
+					}
+					
+					if (usuario.Password != senhaConfirmacao)
+					{
+						TempData["MensagemErro"] = "As senhas não coincidem.";
+						return View("Index", usuario);
+					} else
 					usuario = _usuarioRepositorio.Adicionar(usuario);
 					TempData["MensagemSucesso"] = "Usuario Cadastrado com sucesso.";
 					return RedirectToAction("Index", "Login");

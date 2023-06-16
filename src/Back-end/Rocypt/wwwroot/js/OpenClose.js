@@ -311,6 +311,30 @@ function viewPasswordEdit() {
     }
 }
 
+function viewPasswordNew() {
+    const inputPassword = document.getElementById("password-user-password");
+    const eye = document.getElementById("hidden-pass-icon");
+
+
+    // Ver senha ou esconder senha
+    if (inputPassword.type == "password") {
+
+        inputPassword.type = "text";
+    }
+    else {
+        inputPassword.type = "password";
+    }
+
+    //Troca o icone do olho
+    if (eye.className == "fa fa-eye-slash") {
+        eye.className = "fa fa-eye";
+    }
+
+    else {
+        eye.className = "fa fa-eye-slash";
+    }
+}
+
 function ramdomPassword() {
     let pass = "";
     let charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#";
