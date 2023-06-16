@@ -23,6 +23,8 @@
 ![login cel](https://user-images.githubusercontent.com/111783703/236650735-e71ddda1-6447-45ea-9645-feff4402471e.gif)
 
 ## Logout
+- Botão de logout funcionando perfeitamente.
+ ![logout](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t6-rocypt/assets/111783703/201de60c-2491-4c45-be90-9f7e5f2cbda3)
 
 ## Senha Incorreta
 
@@ -49,10 +51,8 @@
 ## Redefinir senha
 
 ## Cadastrar Grupo
-- É possível cadastrar o perfil, funcionando conforme o esperado. Entretanto, esteticamente é nescessário uma correção.
-
-
-![cadastro perfil](https://user-images.githubusercontent.com/111783703/236649942-c8c4f714-c2a4-4ef5-91a9-b4289a825365.gif)
+- É possível criar um grupo perfeitamente.
+![criar grupo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t6-rocypt/assets/111783703/2ad74c16-9310-40ea-bdfa-b58c79e8e046)
 
 - Aos testarmos no dispositivo móvel, funcionando perfeitamente.
 
@@ -63,9 +63,18 @@
 ## Excluir Grupo
 
 ## Cadastrar Senha do Perfil
+- É possível cadastrar uma senha de um perfil perfeitamente.
+![senhadogrupo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t6-rocypt/assets/111783703/fb04ebbd-1c79-4ec3-84a9-3deaf8656f6a)
+
 
 ## Alterar Senha do Perfil
+- É possível alterar a senha de um perfil perfeitamente
+![alterar senha do grupo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t6-rocypt/assets/111783703/fd22a7e0-89f5-4373-922a-5ca2e6bf6483)
+
 
 ## Excluir Senha do Perfil
 
 ## Visualizar Senha do Perfil
+- É possível visualizar a senha de um perfil perfeitamente.
+![visualizarsenhado grupo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t6-rocypt/assets/111783703/c7e3833d-e770-46c4-8ce0-ed4a69d17bfd)
+
