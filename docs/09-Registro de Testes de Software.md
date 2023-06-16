@@ -16,11 +16,17 @@
 ## Login
 - Após inserir as informações que usamos para nos cadastras, o login funcionou devidamente.
 
-![login](https://user-images.githubusercontent.com/111783703/236649857-b570e268-2baa-4a3b-8ea7-2f1dc55dbf56.gif)
+![login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t6-rocypt/assets/111783703/a50a49a0-b45a-4f53-a622-c77c4cadedd3)
 
 - Funcionado perfeitamente no dispositivo móvel.
 
 ![login cel](https://user-images.githubusercontent.com/111783703/236650735-e71ddda1-6447-45ea-9645-feff4402471e.gif)
+
+## Visualizar Senha do Login
+- É possível visualizar a senha durante o Login.
+
+![visualizarlogin](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t6-rocypt/assets/111783703/9ca79266-eff3-4aba-854a-c2a5de7c3bc1)
+
 
 ## Logout
 - Botão de logout funcionando perfeitamente.
@@ -28,6 +34,9 @@
 ![logout](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t6-rocypt/assets/111783703/201de60c-2491-4c45-be90-9f7e5f2cbda3)
 
 ## Senha Incorreta
+- Ao tentarmos logar com a senha incorreta, somos avisados sobre o erro, funcionando perfeitamente como o esperado.
+
+![senha incorreta](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t6-rocypt/assets/111783703/bff2fd07-2fa3-4cd4-b2b2-95c406e3d341)
 
 
 ## Redefinir senha 
