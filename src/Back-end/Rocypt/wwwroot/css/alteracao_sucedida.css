@@ -237,6 +237,7 @@
         flex-direction: column;
         padding: 30px;
         position: relative;
+        overflow:auto;
         justify-content: space-around;
         text-align: center;
         animation: MainTextSlideLeft ease-out 1s;
