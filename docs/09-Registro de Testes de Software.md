@@ -49,8 +49,6 @@
 
 ![alterar senha cel](https://user-images.githubusercontent.com/111783703/236650876-505f39eb-06eb-43d2-9f8a-e2e1813c5112.gif)
 
-## Redefinir senha
-
 ## Cadastrar Grupo
 - É possível criar um grupo perfeitamente.
   
