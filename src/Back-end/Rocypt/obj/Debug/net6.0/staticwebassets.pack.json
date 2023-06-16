@@ -1,283 +1,283 @@
 {
   "Files": [
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Rocypt.bundle.scp.css",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Rocypt.bundle.scp.css",
       "PackagePath": "staticwebassets\\Rocypt.bundle.scp.css"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\css\\alteracao_sucedida.css",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\css\\alteracao_sucedida.css",
       "PackagePath": "staticwebassets\\css\\alteracao_sucedida.css"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\css\\cadastro.css",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\css\\cadastro.css",
       "PackagePath": "staticwebassets\\css\\cadastro.css"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\css\\esquece_senha.css",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\css\\esquece_senha.css",
       "PackagePath": "staticwebassets\\css\\esquece_senha.css"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\css\\login.css",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\css\\painel.css",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\css\\painel.css",
       "PackagePath": "staticwebassets\\css\\painel.css"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\css\\redefinicao_de_senha_master.css",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\css\\redefinicao_de_senha_master.css",
       "PackagePath": "staticwebassets\\css\\redefinicao_de_senha_master.css"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\css\\style.css",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\favicon.ico",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\imgs\\fi-bs-angle-small-left.png",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\imgs\\fi-bs-angle-small-left.png",
       "PackagePath": "staticwebassets\\imgs\\fi-bs-angle-small-left.png"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\imgs\\lock.png",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\imgs\\lock.png",
       "PackagePath": "staticwebassets\\imgs\\lock.png"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\imgs\\pexels-tim-mossholder-3612932.jpg",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\imgs\\pexels-tim-mossholder-3612932.jpg",
       "PackagePath": "staticwebassets\\imgs\\pexels-tim-mossholder-3612932.jpg"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\js\\OpenClose.js",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\js\\OpenClose.js",
       "PackagePath": "staticwebassets\\js\\OpenClose.js"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Faculdade - Projeto na azure\\Rocypt\\Rocypt\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Projeto_Final_2P\\src\\Back-end\\Rocypt\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
