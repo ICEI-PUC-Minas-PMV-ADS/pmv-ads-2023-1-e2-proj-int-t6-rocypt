@@ -61,8 +61,15 @@
 ![perfil cel](https://user-images.githubusercontent.com/111783703/236650790-a31e9485-6714-4e98-9b7e-f85effb4bf51.gif)
 
 ## Editar Grupo
+- É possível editar um grupo perfeitamente.
 
+ ![editargrupo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t6-rocypt/assets/111783703/a5886ba5-98eb-46ac-ab23-5c77c87b51dd)
+ 
 ## Excluir Grupo
+- É possível excluir um grupo perfeitamente.
+
+ ![excluir grupo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t6-rocypt/assets/111783703/6f5ce740-c0e0-49d7-aeed-81454f3da813)
+ 
 
 ## Cadastrar Senha do Perfil
 - É possível cadastrar uma senha de um perfil perfeitamente.
@@ -75,11 +82,15 @@
   
 ![alterar senha do grupo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t6-rocypt/assets/111783703/fd22a7e0-89f5-4373-922a-5ca2e6bf6483)
 
-
-## Excluir Senha do Perfil
-
 ## Visualizar Senha do Perfil
 - É possível visualizar a senha de um perfil perfeitamente.
   
 ![visualizarsenhado grupo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t6-rocypt/assets/111783703/c7e3833d-e770-46c4-8ce0-ed4a69d17bfd)
+
+## Excluir Perfil
+- É possível excluir um perfil perfeitamente.
+  
+![excluir senha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t6-rocypt/assets/111783703/670a8fc5-1d94-4ba1-848c-da80ceb31e45)
+
+
 
