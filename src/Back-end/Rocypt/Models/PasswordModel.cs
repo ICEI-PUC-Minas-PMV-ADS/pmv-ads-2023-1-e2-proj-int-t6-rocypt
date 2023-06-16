@@ -11,7 +11,7 @@ namespace Rocypt.Models
         public string Email { get; set; }
         public string Senha { get; set; }
         public Guid GrupoId { get; set; }
-        public GrupoModel? grupo { get; set; }
+        public GrupoModel? Grupo { get; set; }
 
     }
 }

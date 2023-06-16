@@ -10,7 +10,7 @@ namespace Rocypt.Data.Map
         {
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Name).HasMaxLength(15).IsRequired();
-            builder.HasOne(x => x.grupo);
+            builder.HasOne(x => x.Grupo);
         }
     }
 }

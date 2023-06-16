@@ -18,9 +18,19 @@ namespace Rocypt.Repositorio
             return _databankContext.Grupo.Where(x => x.UsuarioId == usuarioId).ToList();
         }
 
+        public List<PasswordModel> BuscarTodosPass(Guid groupId)
+        {
+            return _databankContext.Password.Where(x => x.GrupoId == groupId).ToList();
+        }
+
         public GrupoModel BuscarPorId(Guid id)
         {
             return _databankContext.Grupo.FirstOrDefault(x => x.Id == id);
+        }
+
+        public PasswordModel BuscarPorIdPass(Guid id)
+        {
+            return _databankContext.Password.FirstOrDefault(x => x.GrupoId == id);
         }
 
         public GrupoModel Adicionar(GrupoModel grupo)
@@ -47,7 +57,7 @@ namespace Rocypt.Repositorio
         {
             GrupoModel grupoDb = BuscarPorId(id);
             if (grupoDb == null) throw new Exception("Houve um erro na deleção!");
-
+            List<PasswordModel> pass = BuscarTodosPass(id);
             _databankContext.Grupo.Remove(grupoDb);
             _databankContext.SaveChanges();
 

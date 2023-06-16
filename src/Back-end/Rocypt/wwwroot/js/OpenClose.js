@@ -64,20 +64,22 @@ function groupPasswordsOn(button) {
         type: 'GET',
         url: '/Painel/ListarSenhasPorGruposId/' + groupId,
         success: function (result) {
-            $("#password-zone").html(result);
+            $("#password-zone, #password-zone-mobile").html(result);
         }
     });
 
     var passwords = document.getElementById("mobile-passwords");
     var groups = document.getElementById("mobile-groups");
     var passid = document.getElementsByClassName("btn-style-mobile");
-
+    var buttons = document.querySelectorAll(".btn-style-mobile.hidden");
+    buttons.forEach(function (button) {
+        button.classList.remove("hidden");
+    });
 
     var newGroupPassButton = document.querySelectorAll("#new-group-pass");
 
     passid.id = groupId;
     newGroupPassButton.forEach((group) => { group.dataset.id = groupId })
-
 
     passwords.style.display = "flex";
 

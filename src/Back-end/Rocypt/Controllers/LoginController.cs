@@ -38,7 +38,8 @@ namespace Rocypt.Controllers
                             {
                                 new Claim(ClaimTypes.Name, usuario.Name),
                                 new Claim(ClaimTypes.NameIdentifier, usuario.Id.ToString()),
-                                new Claim(ClaimTypes.Role, usuario.Role.ToString())
+                                new Claim(ClaimTypes.Role, usuario.Role.ToString()),
+                                new Claim(ClaimTypes.Email, usuario.Email.ToString())
                             };
                             var userIndentify = new ClaimsIdentity(claim, "Login");
                             ClaimsPrincipal principal = new ClaimsPrincipal(userIndentify);

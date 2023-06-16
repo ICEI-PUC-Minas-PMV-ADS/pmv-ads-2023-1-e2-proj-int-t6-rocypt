@@ -6,8 +6,8 @@ namespace Rocypt.Data
 {
 	public class DatabankContext : DbContext
 	{
-		public DatabankContext(DbContextOptions<DatabankContext> options) : base (options)
-		{ 
+		public DatabankContext(DbContextOptions<DatabankContext> options) : base(options)
+		{
 
 
 		}
@@ -19,9 +19,14 @@ namespace Rocypt.Data
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
 			modelBuilder.ApplyConfiguration(new GrupoMap());
-            modelBuilder.ApplyConfiguration(new PasswordMap());
+			modelBuilder.ApplyConfiguration(new PasswordMap());
 
-            base.OnModelCreating(modelBuilder);
+			modelBuilder.Entity<GrupoModel>()
+			.HasMany(g => g.PasswordGroup)
+			.WithOne(p => p.Grupo)
+			.OnDelete(DeleteBehavior.Cascade);
+
+			base.OnModelCreating(modelBuilder);
 
 
 		}

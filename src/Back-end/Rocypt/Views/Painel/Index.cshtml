@@ -1,4 +1,5 @@
-﻿@model PainelIndexModel
+﻿@using System.Security.Claims;
+@model PainelIndexModel
 @{
     Layout = "_LayoutPainel";
 }
@@ -249,7 +250,7 @@
                     <li id="user-image"><i class="fa fa-user"></i></li>
                     <div class="user-text-info">
                         <li class="user-data" id="user-name"><h1>@User.Identity.Name</h1></li>
-                        <li class="user-data" id="user-email"><h1>exemplo@email.com</h1></li>
+            <li class="user-data" id="user-email"><h1>@User.FindFirstValue(ClaimTypes.Email)</h1></li>
                     </div>
                 </div>
                 
@@ -279,11 +280,12 @@
                                     <button onclick="createPopup()" class="btn-style-mobile" id="new-group">Novo Grupo</button>
                                 </div>
                         <div class="group-zone">
-                            <div class="group-template">
                         @if (Model != null && Model.grupoModels.Any())
                         {
                             foreach (var grupos in Model.grupoModels)
                             {
+                                       
+                                            <div class="group-template">
                                         <div class="name">
                                             <button id="@grupos.Id" onclick="groupPasswordsOn(this)" name="" style="width: 100%; height: 100%; display: flex; position: relative; justify-content: center; border-radius: 10px; border: none; align-items: center; background: none; color: white; font-size: 150%; cursor: pointer;">@grupos.Name</button>
                                         </div>
@@ -291,10 +293,12 @@
                                             <button id="edit-button-@grupos.Id" onclick="editPopup('@grupos.Id', '@grupos.Name')" class="btn-edit"><i class="fa fa-pencil" id="edit-icon"></i></button>
                                             <a id="btn-exclude" class="btn-edit-exclude" asp-action="Apagar" asp-controller="Painel" asp-route-id="@grupos.Id"><i class="fa fa-trash" id="btn-exclude-group"></i></a>
                                         </div>
+                                    </div>
+                                
                             }
-                        }
-                            </div>
-                        </div>
+                            }
+                    </div>
+
                             </div>
                     </div>
                     
@@ -308,11 +312,9 @@
                         <div class="manager-mobile">
                                 <div class="btn-create">
                                     <button onclick="groupPasswordsOff()" class="btn-style-mobile" id="return"><i class="fa fa-arrow-left"></i></button>
-                            <button onclick="createNewPasswordOn(this)" class="btn-style-mobile" id="new-group-pass" >Nova Senha</button>
+                            <button onclick="createNewPasswordOn(this)" class="btn-style-mobile hidden" id="new-group-pass">Nova Senha</button>
                                 </div>
-                                <div class="group-zone">
-                            <div id="listaSenhaDeGrupos">
-                            </div>
+                                <div class="group-zone" id="password-zone-mobile">
                                
                                 </div>
                         </div>
@@ -336,13 +338,12 @@
                                     <h2 class="managing-title">Grupos...</h2>
                                     <button onclick="createPopup()" class="btn-style-mobile" id="new-group">Novo Grupo</button>
                                 </div>
-
-                                <div class="group-zone">
+                            <div class="group-zone">
                             @if (Model != null && Model.grupoModels.Any())
                             {
                                 foreach (var grupos in Model.grupoModels)
                                 {
-                                    <div class="group-template">
+                                            <div class="group-template">
                                             <div class="name">
                                                 <button id="@grupos.Id" onclick="groupPasswordsOn(this)" class="btn-edit" name="" style="width: 100%; height: 100%; display: flex; position: relative; justify-content: center; border-radius: 10px; border: none; align-items: center; background: none; color: white; font-size: 150%; cursor: pointer;">@grupos.Name</button>
                                             </div>
@@ -351,17 +352,17 @@
                                                 <a id="btn-exclude" class="btn-edit-exclude" asp-action="Apagar" asp-controller="Painel" asp-route-id="@grupos.Id"><i class="fa fa-trash" id="btn-exclude-group"></i></a>
                                             </div>
                                     </div>
-                                
                                 }
                             }
-                    </div>
+                               
+                            </div>
                    </div>
 
                             <div class="password-window-desktop">
 
                                 <div class="btn-create" id="btn-create-password">
                                     <h2 class="managing-title" id="Senhas">Senhas...</h2>
-                                <button onclick="createNewPasswordOn(this)" class="btn-style-mobile" id="new-group-pass">Nova Senha</button>
+                                <button onclick="createNewPasswordOn(this)" class="btn-style-mobile hidden" id="new-group-pass">Nova Senha</button>
                                 </div>
 
                                 <div class="group-zone" id="password-zone">
