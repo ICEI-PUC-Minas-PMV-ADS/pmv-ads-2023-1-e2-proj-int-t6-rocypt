@@ -33,23 +33,33 @@ A sessão individual teve duração aproximada de 20 a 30 minutos. Durante a ses
 Após cada tarefa, o facilitador solicitou aos participantes que classificassem a interface como sendo Ótima, Boa, Regular, Ruim. As medidas do cenário pós-tarefa analisadas foram:
 
 •	Como foi fácil encontrar as informações na página inicial.
+
 •	Capacidade de acompanhar sua localização no site.
+
 •	Precisão na previsão de qual seção do site continha as informações.
 
 Após a conclusão das tarefas, o facilitador do teste pediu aos participantes que classificassem o site como sendo Ótimo, Bom, Regular, Ruim para as medidas subjetivas abaixo:
 
 •	Facilidade de uso.
+
 •	Frequência de uso.
+
 •	Dificuldade para acompanhar a localização no site.
+
 •	Habilidade de aprendizado - como seria fácil para a maioria dos usuários aprender a usar o site.
+
 •	Facilitação da informação – a rapidez com que o participante pode encontrar informações.
+
 •	Conteúdo do site – o conteúdo do site me faria voltar.
+
 •	Organização do site.
 
 Além disso, o administrador do teste fez aos participantes as seguintes perguntas gerais do site:
 
 •	O que o participante mais gostou.
+
 •	O que o participante menos gostou.
+
 •	Recomendações de melhoria. 
 
 # 4. Participantes:
@@ -61,13 +71,17 @@ Todos os participantes foram selecionados tendo em vista utilização diária de
 Os participantes concluíram tarefas que tiveram como objetivo:
 
 •	Para determinar inconsistências de design e áreas problemáticas de usabilidade dentro da interface do usuário e áreas de conteúdo. As fontes potenciais de erro podem incluir:
+
 o	Erros de navegação – falha em localizar funções, pressionamentos de teclas excessivos para concluir uma função, falha em seguir o fluxo de tela recomendado.
+
 o	Erros de apresentação – falha em localizar e agir adequadamente sobre as informações desejadas nas telas, erros de seleção devido a ambiguidades de rotulagem.
+
 o	Problemas de uso de controle – uso inadequado da barra de ferramentas ou do campo de entrada.
 
 •	Exercite o aplicativo ou site sob condições de teste controladas com usuários representativos. Os dados serão usados para acessar se as metas de usabilidade em relação a uma interface de usuário eficaz, eficiente e bem recebida foram alcançadas.
 
 •	Estabeleça o desempenho do usuário de linha de base e os níveis de satisfação do usuário da interface do usuário para futuras avaliações de usabilidade.
+
 Os objetivos do presente teste de usabilidade incluem estabelecer um direcionamento em relação ao desempenho do usuário, bem como validar medidas de desempenho do usuário e identificar possíveis preocupações de design a serem melhoradas, a eficiência, a produtividade e a satisfação do usuário final.
 
 # 6. Resultados:
