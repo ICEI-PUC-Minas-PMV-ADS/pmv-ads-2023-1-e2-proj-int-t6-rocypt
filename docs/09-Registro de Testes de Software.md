@@ -9,9 +9,16 @@
 
 ![cadastro cel](https://user-images.githubusercontent.com/111783703/236650824-16b52cc8-9a5a-417c-98b3-f0b97255eb76.gif)
 
-## Caracteres Inválidos 
-
 ## Senhas diferentes
+- Ao tentarmanos nos cadastrar, as senhas nescessitam se iguais, caso não seja assim, o software emite um aviso, funcionando como o esperado.
+
+![senha incorreta CELULAR](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t6-rocypt/assets/111783703/a7b39b07-60ac-44f5-b339-a85b51b627ae)
+
+
+- Ao tentarmanos nos cadastrar no mobile, as senhas nescessitam se iguais, caso não seja assim, o software emite um aviso, funcionando como o esperado.
+
+ ![senhaincorreta CELULAR](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e2-proj-int-t6-rocypt/assets/111783703/9f9daca2-077e-46f9-aa1c-b9c1d4800a75)
+ 
 
 ## Login
 - Após inserir as informações que usamos para nos cadastras, o login funcionou devidamente.
