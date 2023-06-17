@@ -149,7 +149,7 @@ Os participantes consideraram o site limpo, organizado, fácil de usar e útil. 
 
 
 
-A Proof of Concept (PoC) do cadastro de usuário tem como objetivo demonstrar a viabilidade e funcionalidade do processo de registro e armazenamento de informações dos usuários em um sistema.
+
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Registro de Testes de Usabilidade”.
 
