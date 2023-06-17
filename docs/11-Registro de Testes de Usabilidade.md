@@ -94,7 +94,9 @@ O problema pontuado no primeiro teste de usabilidade aplicado em maio, qual seja
 Após a conclusão de cada tarefa, os participantes classificaram a facilidade ou dificuldade de completá-la levando em consideração dois fatores:
 
 •	Foi fácil encontrar o caminho para ação solicitada.
+
 •	Foi capaz de saber onde estava no site.
+
 •	Foi capaz de prever a sessão que continha a informação requerida.
 
 Assim, considerando a escala proposta de Ótimo, Bom, Regular e Ruim foi classificado que os usuários acharam ‘Ótimo’ o caminho para a informação a partir da página inicial, sendo inclusive capaz de saber onde estava no site.
@@ -106,12 +108,19 @@ Não houve erros não críticos apresentados pelos participantes, nem um demasia
 Após a conclusão das tarefas, os participantes classificaram o site para oito medidas gerais:
 
 •	Facilidade de uso
+
 •	Frequência de uso
+
 •	Dificuldade de acompanhar onde estavam no local
+
 •	Com que rapidez a maioria das pessoas aprenderia a usar o site
+
 •	Obtendo informações rapidamente 
+
 •	Exploração das instalações de conteúdo da página inicial 
+
 •	Relevância do conteúdo do site
+
 •	Organização do site
 
 A maioria dos participantes classificou como ‘Ótimo’ que o site é fácil de usar. Também houve maioria na afirmação de que o site seria usado com frequência e que o conteúdo os faria voltar a utilizar. Nesse mesmo sentido, concordaram que o conteúdo da página inicial os faria querer explorar o site.   
@@ -132,6 +141,10 @@ Pelo protótipo analisado em maio foi sugerido como melhoria um menu de retorno 
 # 7. Conclusão:
 
 Os participantes consideraram o site limpo, organizado, fácil de usar e útil. O Rocypt é fundamental para aqueles que precisam ter na memória inúmeras senhas de segurança de acesso. O protótipo final teve implementado todas as sugestões de melhoria, levando em consideração os resultados do teste de usabilidade apresentado em maio, garantindo um site centrado no usuário contínuo.
+
+
+
+
 
 
 
