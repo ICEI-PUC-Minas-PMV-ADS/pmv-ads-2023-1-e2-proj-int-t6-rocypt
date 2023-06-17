@@ -64,7 +64,19 @@ Além disso, o administrador do teste fez aos participantes as seguintes pergunt
 
 # 4. Participantes:
 
-Todos os participantes foram selecionados tendo em vista utilização diária de acesso a sites e sistemas que requeiram impute de login e senha. Todos os cincos usuários participaram dos testes realizados em maio e junho e relataram suas colocações.
+Todos os participantes foram selecionados tendo em vista utilização diária de acesso a sites e sistemas que requeiram impute de login e senha. São eles:
+
+Anderson Oliveira, 43 anos, graduado, analista de eventos, utiliza a internet diariamente pelo celular (pessoal) e computador (coorporativo). Possui conta em aplicativos como Facebook, Instagram, Linkedin, Twitter, Whatsapp, Canvas e sites que oferecem ferramentas de apoio profissional. Faz divulgação de eventos por meio das redes sociais, utilizando vários perfis em sites distintos, o que lhe rende uma lista longa de senhas para criar e administrar sem que possua um modo eficiente para armazená-las.
+
+Alexandra de Souza Maroca, 67 anos, ensino médio, aposentada, utiliza a internet pelo celular (pessoal) e computador (pessoal). Possui conta em aplicativos como Facebook, Instagram, Whatsapp, bem como páginas de supermercados e lojas em que faz compras online. Tendo isso em vista, a criação de novos perfis e a administração dos já existentes acaba dificultando o seu dia dia, pois não tem facilidade em consegue decorar os usuários e senhas, esquecendo-os com frequência e fazendo a usuária utilizar o processo de recuperação de senhas.
+
+Eleonora Silva Campos, 36 anos, pós-graduada, analista de marketing, utiliza a internet pelo celular (pessoal), computador (coorporativo) e tablet (pessoa). Possui conta em redes sociais, tais como Facebook, Instagram, Linkedin, Twitter, Whatsapp, entre outras. Como trabalha com marketing digital, precisa acessar cotidianamente várias redes sociais para gerenciar publicações. Muitas vezes, utiliza computadores diferentes dentro de sua empresa e mais de uma conta, precisando de um local organizado e de fácil acesso para guardar suas senhas.
+
+Tais Lopes Schneider, 26 anos, graduanda, estudante de ensino superior, utiliza a internet pelo celular (pessoal), computador (pessoal), tablet (pessoal). Possui contas em aplicativos como Facebook, Instagram, Linkedin, Twitter, Whatsapp, e em sites de revistas, jornais e outros semelhantes. Como usa a internet cotidianamente é ela que realiza os cadastros dos membros da família e por conta disso, precisa gerenciar, além de diferentes senhas dos parentes, dados específicos deles.
+
+William Sabino, 34 anos, graduado, jornalista utiliza a internet pelo celular (pessoal), computador (pessoal e coorporativo). Possui contas em redes sociais tais quais Linkedin, Twitter e Whatsapp, além de cadastros em portais de notícias como Uol, Estadão, Folha, Pública etc. Usa a internet cotidianamente no trabalho e em site pessoais. Contudo, preocupa-se profundamente com a própria segurança digital, não gostando de automatizar senhas em sites diversos, sobretudo ao usar o computador da empresa.
+
+Todos os cincos usuários participaram dos testes realizados em maio e junho e relataram suas colocações.
 
 # 5. Tarefas/cenários de avaliação:
 
