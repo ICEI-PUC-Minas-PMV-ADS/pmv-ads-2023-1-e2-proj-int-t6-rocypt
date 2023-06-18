@@ -2,7 +2,7 @@
 
 <span style="color:red">Pré-requisitos: Todos os demais artefatos</span>
 
-https://docs.google.com/presentation/d/1EPvjacjN2ZYPKDeBFqorjbYpzy7FPaQt/edit?usp=drive_link&ouid=108942035581859885862&rtpof=true&sd=true
+https://drive.google.com/file/d/1SmvZ2Z5JobT2ajKfkXUVe95IHoIO3AO-/view?usp=drive_link
 
 
 ## Título do Projeto
